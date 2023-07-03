@@ -1,0 +1,66 @@
+---
+title: Clustering
+subtitle: Ejercicios
+lang: es
+output:
+  html_notebook:
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+    highlight: tango
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(warning=F, message=F, echo=T, fig.width=15)
+library(tidyverse)
+library(glue)
+
+library(amap)
+library(clustertend)
+library(factoextra)
+```
+
+
+Cargar los datos del Banco Mundial usados en clase --o cualquier dataset que les sea de interés-- en un data.frame o tibble `df`. Las variables deben ser todas numéricas y no puede haber valores faltantes. 
+
+```{r}
+df = data.frame()
+### escribi tu codigo aca
+
+###
+
+```
+
+
+1) Evaluar si existe tendencia al clustering con Hopkins. En particular: correr `clustertend::hopkins()` 50 veces y usar el promedio como resultado final. Guardar el resultado en `hopkins_promedio`. En el _chunk_ sugerimos un camino posible pero hay muchísimas formas de hacerlo!
+
+```{r}
+# Sugerencias:
+#   - correr la funcion hopkins() una sola vez para conocer el output esperado
+#   - inicializar un vector vacio
+#   - usar un loop con for para correr la funcion 50 veces
+#     - en cada iteracion i, concatenar al vector de resultados el output de la corrida i
+#   - calcular el promedio del vector
+# Nota:
+#   - recordar hacer las transformaciones necesarias para que las distancias sean válidas!
+
+hopkins_promedio = c()
+### escribi tu codigo aca
+
+###
+
+```
+
+
+2) Usar `amap::Kmeans()` para correr el algoritmo de clustering K-medias. Guardar el resultado en un objeto `km` y explorar su contenido. Definan todos los aspectos relevantes (normalización de variables, métrica de distancia, cantidad de clusters, cantidad de iteraciones, etc.) según su propio criterio. Usen las configuraciones de `factoextra::fviz_nbclust` que consideren relevantes para evaluar cuál es un número de grupos razonable.
+
+
+```{r}
+km = c()
+
+### escribi tu codigo aca
+
+####
+
+```
+

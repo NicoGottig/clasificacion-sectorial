@@ -1,0 +1,3225 @@
+year	depto	letra	puestos
+2014	Colón	A	938
+2014	Colón	B	87
+2014	Colón	C	3158
+2014	Colón	D	20
+2014	Colón	E	12
+2014	Colón	F	356
+2014	Colón	G	1629
+2014	Colón	H	611
+2014	Colón	I	573
+2014	Colón	J	140
+2014	Colón	K	176
+2014	Colón	L	55
+2014	Colón	M	132
+2014	Colón	N	196
+2014	Colón	Otro	25
+2014	Colón	P	372
+2014	Colón	Q	188
+2014	Colón	R	89
+2014	Colón	S	316
+2014	Concordia	A	5918
+2014	Concordia	B	115
+2014	Concordia	C	2711
+2014	Concordia	D	213
+2014	Concordia	E	39
+2014	Concordia	F	1480
+2014	Concordia	G	4328
+2014	Concordia	H	874
+2014	Concordia	I	531
+2014	Concordia	J	262
+2014	Concordia	K	668
+2014	Concordia	L	264
+2014	Concordia	M	347
+2014	Concordia	N	1355
+2014	Concordia	Otro	175
+2014	Concordia	P	1558
+2014	Concordia	Q	656
+2014	Concordia	R	168
+2014	Concordia	S	595
+2014	Diamante	A	603
+2014	Diamante	B	27
+2014	Diamante	C	1220
+2014	Diamante	D	13
+2014	Diamante	E	22
+2014	Diamante	F	197
+2014	Diamante	G	1117
+2014	Diamante	H	286
+2014	Diamante	I	72
+2014	Diamante	J	67
+2014	Diamante	K	105
+2014	Diamante	L	69
+2014	Diamante	M	74
+2014	Diamante	N	102
+2014	Diamante	Otro	11
+2014	Diamante	P	1001
+2014	Diamante	Q	781
+2014	Diamante	R	30
+2014	Diamante	S	351
+2014	Federación	A	1651
+2014	Federación	B	28
+2014	Federación	C	1514
+2014	Federación	D	56
+2014	Federación	E	10
+2014	Federación	F	368
+2014	Federación	G	1674
+2014	Federación	H	280
+2014	Federación	I	401
+2014	Federación	J	91
+2014	Federación	K	142
+2014	Federación	L	103
+2014	Federación	M	159
+2014	Federación	N	136
+2014	Federación	Otro	13
+2014	Federación	P	542
+2014	Federación	Q	153
+2014	Federación	R	15
+2014	Federación	S	182
+2014	Federal	A	757
+2014	Federal	B	3
+2014	Federal	C	95
+2014	Federal	D	4
+2014	Federal	E	0
+2014	Federal	F	177
+2014	Federal	G	425
+2014	Federal	H	74
+2014	Federal	I	21
+2014	Federal	J	15
+2014	Federal	K	43
+2014	Federal	L	38
+2014	Federal	M	32
+2014	Federal	N	29
+2014	Federal	Otro	14
+2014	Federal	P	141
+2014	Federal	Q	40
+2014	Federal	R	11
+2014	Federal	S	72
+2014	Feliciano	A	339
+2014	Feliciano	B	0
+2014	Feliciano	C	30
+2014	Feliciano	D	0
+2014	Feliciano	E	10
+2014	Feliciano	F	93
+2014	Feliciano	G	165
+2014	Feliciano	H	12
+2014	Feliciano	I	31
+2014	Feliciano	J	4
+2014	Feliciano	K	21
+2014	Feliciano	L	21
+2014	Feliciano	M	18
+2014	Feliciano	N	22
+2014	Feliciano	Otro	7
+2014	Feliciano	P	70
+2014	Feliciano	Q	9
+2014	Feliciano	R	0
+2014	Feliciano	S	12
+2014	Gualeguay	A	1026
+2014	Gualeguay	B	13
+2014	Gualeguay	C	1672
+2014	Gualeguay	D	25
+2014	Gualeguay	E	51
+2014	Gualeguay	F	468
+2014	Gualeguay	G	1058
+2014	Gualeguay	H	307
+2014	Gualeguay	I	95
+2014	Gualeguay	J	80
+2014	Gualeguay	K	140
+2014	Gualeguay	L	70
+2014	Gualeguay	M	160
+2014	Gualeguay	N	122
+2014	Gualeguay	Otro	16
+2014	Gualeguay	P	392
+2014	Gualeguay	Q	189
+2014	Gualeguay	R	19
+2014	Gualeguay	S	135
+2014	Gualeguaychú	A	1601
+2014	Gualeguaychú	B	41
+2014	Gualeguaychú	C	3493
+2014	Gualeguaychú	D	126
+2014	Gualeguaychú	E	61
+2014	Gualeguaychú	F	930
+2014	Gualeguaychú	G	2718
+2014	Gualeguaychú	H	972
+2014	Gualeguaychú	I	563
+2014	Gualeguaychú	J	311
+2014	Gualeguaychú	K	400
+2014	Gualeguaychú	L	228
+2014	Gualeguaychú	M	349
+2014	Gualeguaychú	N	660
+2014	Gualeguaychú	Otro	37
+2014	Gualeguaychú	P	1488
+2014	Gualeguaychú	Q	477
+2014	Gualeguaychú	R	165
+2014	Gualeguaychú	S	566
+2014	Islas del Ibicuy	A	89
+2014	Islas del Ibicuy	B	28
+2014	Islas del Ibicuy	C	165
+2014	Islas del Ibicuy	D	4
+2014	Islas del Ibicuy	E	8
+2014	Islas del Ibicuy	F	56
+2014	Islas del Ibicuy	G	36
+2014	Islas del Ibicuy	H	232
+2014	Islas del Ibicuy	I	3
+2014	Islas del Ibicuy	J	4
+2014	Islas del Ibicuy	K	8
+2014	Islas del Ibicuy	L	7
+2014	Islas del Ibicuy	M	12
+2014	Islas del Ibicuy	N	32
+2014	Islas del Ibicuy	Otro	0
+2014	Islas del Ibicuy	P	46
+2014	Islas del Ibicuy	Q	3
+2014	Islas del Ibicuy	R	10
+2014	Islas del Ibicuy	S	24
+2014	La Paz	A	1512
+2014	La Paz	B	59
+2014	La Paz	C	841
+2014	La Paz	D	52
+2014	La Paz	E	11
+2014	La Paz	F	453
+2014	La Paz	G	1020
+2014	La Paz	H	217
+2014	La Paz	I	127
+2014	La Paz	J	46
+2014	La Paz	K	119
+2014	La Paz	L	116
+2014	La Paz	M	84
+2014	La Paz	N	198
+2014	La Paz	Otro	14
+2014	La Paz	P	632
+2014	La Paz	Q	150
+2014	La Paz	R	18
+2014	La Paz	S	261
+2014	Nogoyá	A	746
+2014	Nogoyá	B	0
+2014	Nogoyá	C	679
+2014	Nogoyá	D	29
+2014	Nogoyá	E	9
+2014	Nogoyá	F	159
+2014	Nogoyá	G	861
+2014	Nogoyá	H	209
+2014	Nogoyá	I	47
+2014	Nogoyá	J	39
+2014	Nogoyá	K	86
+2014	Nogoyá	L	58
+2014	Nogoyá	M	62
+2014	Nogoyá	N	109
+2014	Nogoyá	Otro	8
+2014	Nogoyá	P	549
+2014	Nogoyá	Q	82
+2014	Nogoyá	R	16
+2014	Nogoyá	S	94
+2014	Paraná	A	1724
+2014	Paraná	B	169
+2014	Paraná	C	8285
+2014	Paraná	D	462
+2014	Paraná	E	63
+2014	Paraná	F	3690
+2014	Paraná	G	9745
+2014	Paraná	H	2748
+2014	Paraná	I	1118
+2014	Paraná	J	1376
+2014	Paraná	K	1957
+2014	Paraná	L	974
+2014	Paraná	M	874
+2014	Paraná	N	1995
+2014	Paraná	Otro	151
+2014	Paraná	P	4376
+2014	Paraná	Q	2417
+2014	Paraná	R	746
+2014	Paraná	S	2666
+2014	San Salvador	A	529
+2014	San Salvador	B	0
+2014	San Salvador	C	470
+2014	San Salvador	D	11
+2014	San Salvador	E	4
+2014	San Salvador	F	199
+2014	San Salvador	G	241
+2014	San Salvador	H	101
+2014	San Salvador	I	20
+2014	San Salvador	J	24
+2014	San Salvador	K	56
+2014	San Salvador	L	35
+2014	San Salvador	M	34
+2014	San Salvador	N	37
+2014	San Salvador	Otro	9
+2014	San Salvador	P	56
+2014	San Salvador	Q	11
+2014	San Salvador	R	0
+2014	San Salvador	S	20
+2014	Tala	A	493
+2014	Tala	B	7
+2014	Tala	C	277
+2014	Tala	D	22
+2014	Tala	E	15
+2014	Tala	F	129
+2014	Tala	G	384
+2014	Tala	H	76
+2014	Tala	I	30
+2014	Tala	J	38
+2014	Tala	K	48
+2014	Tala	L	36
+2014	Tala	M	38
+2014	Tala	N	52
+2014	Tala	Otro	15
+2014	Tala	P	86
+2014	Tala	Q	40
+2014	Tala	R	5
+2014	Tala	S	137
+2014	Uruguay	A	622
+2014	Uruguay	B	78
+2014	Uruguay	C	3650
+2014	Uruguay	D	114
+2014	Uruguay	E	14
+2014	Uruguay	F	1119
+2014	Uruguay	G	2351
+2014	Uruguay	H	830
+2014	Uruguay	I	324
+2014	Uruguay	J	299
+2014	Uruguay	K	553
+2014	Uruguay	L	109
+2014	Uruguay	M	157
+2014	Uruguay	N	384
+2014	Uruguay	Otro	84
+2014	Uruguay	P	1416
+2014	Uruguay	Q	402
+2014	Uruguay	R	101
+2014	Uruguay	S	590
+2014	Victoria	A	487
+2014	Victoria	B	16
+2014	Victoria	C	536
+2014	Victoria	D	22
+2014	Victoria	E	3
+2014	Victoria	F	349
+2014	Victoria	G	813
+2014	Victoria	H	162
+2014	Victoria	I	300
+2014	Victoria	J	70
+2014	Victoria	K	94
+2014	Victoria	L	74
+2014	Victoria	M	86
+2014	Victoria	N	92
+2014	Victoria	Otro	8
+2014	Victoria	P	380
+2014	Victoria	Q	114
+2014	Victoria	R	407
+2014	Victoria	S	121
+2014	Villaguay	A	869
+2014	Villaguay	B	3
+2014	Villaguay	C	485
+2014	Villaguay	D	25
+2014	Villaguay	E	8
+2014	Villaguay	F	410
+2014	Villaguay	G	765
+2014	Villaguay	H	165
+2014	Villaguay	I	68
+2014	Villaguay	J	67
+2014	Villaguay	K	94
+2014	Villaguay	L	84
+2014	Villaguay	M	48
+2014	Villaguay	N	90
+2014	Villaguay	Otro	8
+2014	Villaguay	P	234
+2014	Villaguay	Q	107
+2014	Villaguay	R	19
+2014	Villaguay	S	79
+2015	Colón	A	898
+2015	Colón	B	97
+2015	Colón	C	3240
+2015	Colón	D	20
+2015	Colón	E	8
+2015	Colón	F	371
+2015	Colón	G	1639
+2015	Colón	H	636
+2015	Colón	I	592
+2015	Colón	J	139
+2015	Colón	K	178
+2015	Colón	L	51
+2015	Colón	M	121
+2015	Colón	N	174
+2015	Colón	Otro	21
+2015	Colón	P	398
+2015	Colón	Q	197
+2015	Colón	R	83
+2015	Colón	S	322
+2015	Concordia	A	6045
+2015	Concordia	B	111
+2015	Concordia	C	2743
+2015	Concordia	D	221
+2015	Concordia	E	42
+2015	Concordia	F	1533
+2015	Concordia	G	4413
+2015	Concordia	H	905
+2015	Concordia	I	525
+2015	Concordia	J	269
+2015	Concordia	K	674
+2015	Concordia	L	228
+2015	Concordia	M	304
+2015	Concordia	N	1382
+2015	Concordia	Otro	182
+2015	Concordia	P	1621
+2015	Concordia	Q	683
+2015	Concordia	R	74
+2015	Concordia	S	594
+2015	Diamante	A	597
+2015	Diamante	B	28
+2015	Diamante	C	1209
+2015	Diamante	D	15
+2015	Diamante	E	18
+2015	Diamante	F	262
+2015	Diamante	G	1117
+2015	Diamante	H	311
+2015	Diamante	I	81
+2015	Diamante	J	67
+2015	Diamante	K	107
+2015	Diamante	L	63
+2015	Diamante	M	82
+2015	Diamante	N	98
+2015	Diamante	Otro	8
+2015	Diamante	P	1047
+2015	Diamante	Q	806
+2015	Diamante	R	31
+2015	Diamante	S	366
+2015	Federación	A	1609
+2015	Federación	B	24
+2015	Federación	C	1546
+2015	Federación	D	61
+2015	Federación	E	9
+2015	Federación	F	299
+2015	Federación	G	1651
+2015	Federación	H	285
+2015	Federación	I	418
+2015	Federación	J	96
+2015	Federación	K	142
+2015	Federación	L	86
+2015	Federación	M	143
+2015	Federación	N	108
+2015	Federación	Otro	12
+2015	Federación	P	593
+2015	Federación	Q	156
+2015	Federación	R	14
+2015	Federación	S	195
+2015	Federal	A	717
+2015	Federal	B	0
+2015	Federal	C	100
+2015	Federal	D	4
+2015	Federal	E	0
+2015	Federal	F	177
+2015	Federal	G	423
+2015	Federal	H	79
+2015	Federal	I	20
+2015	Federal	J	14
+2015	Federal	K	41
+2015	Federal	L	30
+2015	Federal	M	32
+2015	Federal	N	32
+2015	Federal	Otro	11
+2015	Federal	P	153
+2015	Federal	Q	41
+2015	Federal	R	10
+2015	Federal	S	81
+2015	Feliciano	A	336
+2015	Feliciano	C	26
+2015	Feliciano	D	4
+2015	Feliciano	E	10
+2015	Feliciano	F	55
+2015	Feliciano	G	159
+2015	Feliciano	H	17
+2015	Feliciano	I	36
+2015	Feliciano	J	4
+2015	Feliciano	K	22
+2015	Feliciano	L	21
+2015	Feliciano	M	17
+2015	Feliciano	N	15
+2015	Feliciano	Otro	6
+2015	Feliciano	P	84
+2015	Feliciano	Q	8
+2015	Feliciano	R	0
+2015	Feliciano	S	12
+2015	Gualeguay	A	1008
+2015	Gualeguay	B	10
+2015	Gualeguay	C	1721
+2015	Gualeguay	D	30
+2015	Gualeguay	E	48
+2015	Gualeguay	F	481
+2015	Gualeguay	G	1066
+2015	Gualeguay	H	310
+2015	Gualeguay	I	108
+2015	Gualeguay	J	85
+2015	Gualeguay	K	138
+2015	Gualeguay	L	69
+2015	Gualeguay	M	141
+2015	Gualeguay	N	114
+2015	Gualeguay	Otro	16
+2015	Gualeguay	P	420
+2015	Gualeguay	Q	169
+2015	Gualeguay	R	20
+2015	Gualeguay	S	134
+2015	Gualeguaychú	A	1499
+2015	Gualeguaychú	B	43
+2015	Gualeguaychú	C	3518
+2015	Gualeguaychú	D	135
+2015	Gualeguaychú	E	51
+2015	Gualeguaychú	F	1160
+2015	Gualeguaychú	G	2711
+2015	Gualeguaychú	H	998
+2015	Gualeguaychú	I	519
+2015	Gualeguaychú	J	329
+2015	Gualeguaychú	K	433
+2015	Gualeguaychú	L	216
+2015	Gualeguaychú	M	349
+2015	Gualeguaychú	N	618
+2015	Gualeguaychú	Otro	38
+2015	Gualeguaychú	P	1573
+2015	Gualeguaychú	Q	493
+2015	Gualeguaychú	R	179
+2015	Gualeguaychú	S	566
+2015	Islas del Ibicuy	A	94
+2015	Islas del Ibicuy	B	27
+2015	Islas del Ibicuy	C	162
+2015	Islas del Ibicuy	D	5
+2015	Islas del Ibicuy	E	7
+2015	Islas del Ibicuy	F	50
+2015	Islas del Ibicuy	G	34
+2015	Islas del Ibicuy	H	167
+2015	Islas del Ibicuy	I	3
+2015	Islas del Ibicuy	J	4
+2015	Islas del Ibicuy	K	11
+2015	Islas del Ibicuy	L	9
+2015	Islas del Ibicuy	M	12
+2015	Islas del Ibicuy	N	30
+2015	Islas del Ibicuy	Otro	0
+2015	Islas del Ibicuy	P	52
+2015	Islas del Ibicuy	Q	3
+2015	Islas del Ibicuy	R	14
+2015	Islas del Ibicuy	S	21
+2015	La Paz	A	1466
+2015	La Paz	B	58
+2015	La Paz	C	901
+2015	La Paz	D	59
+2015	La Paz	E	8
+2015	La Paz	F	511
+2015	La Paz	G	1052
+2015	La Paz	H	242
+2015	La Paz	I	121
+2015	La Paz	J	44
+2015	La Paz	K	118
+2015	La Paz	L	75
+2015	La Paz	M	104
+2015	La Paz	N	162
+2015	La Paz	Otro	12
+2015	La Paz	P	664
+2015	La Paz	Q	151
+2015	La Paz	R	19
+2015	La Paz	S	270
+2015	Nogoyá	A	739
+2015	Nogoyá	B	0
+2015	Nogoyá	C	729
+2015	Nogoyá	D	37
+2015	Nogoyá	E	8
+2015	Nogoyá	F	165
+2015	Nogoyá	G	838
+2015	Nogoyá	H	216
+2015	Nogoyá	I	56
+2015	Nogoyá	J	39
+2015	Nogoyá	K	87
+2015	Nogoyá	L	44
+2015	Nogoyá	M	60
+2015	Nogoyá	N	130
+2015	Nogoyá	Otro	7
+2015	Nogoyá	P	586
+2015	Nogoyá	Q	88
+2015	Nogoyá	R	20
+2015	Nogoyá	S	95
+2015	Paraná	A	1694
+2015	Paraná	B	181
+2015	Paraná	C	8356
+2015	Paraná	D	556
+2015	Paraná	E	58
+2015	Paraná	F	3907
+2015	Paraná	G	9967
+2015	Paraná	H	2886
+2015	Paraná	I	1189
+2015	Paraná	J	1417
+2015	Paraná	K	1991
+2015	Paraná	L	865
+2015	Paraná	M	814
+2015	Paraná	N	1912
+2015	Paraná	Otro	146
+2015	Paraná	P	4576
+2015	Paraná	Q	2437
+2015	Paraná	R	741
+2015	Paraná	S	2786
+2015	San Salvador	A	507
+2015	San Salvador	B	0
+2015	San Salvador	C	462
+2015	San Salvador	D	16
+2015	San Salvador	E	4
+2015	San Salvador	F	199
+2015	San Salvador	G	249
+2015	San Salvador	H	106
+2015	San Salvador	I	21
+2015	San Salvador	J	28
+2015	San Salvador	K	57
+2015	San Salvador	L	31
+2015	San Salvador	M	33
+2015	San Salvador	N	40
+2015	San Salvador	Otro	8
+2015	San Salvador	P	64
+2015	San Salvador	Q	12
+2015	San Salvador	R	0
+2015	San Salvador	S	27
+2015	Tala	A	484
+2015	Tala	B	7
+2015	Tala	C	274
+2015	Tala	D	24
+2015	Tala	E	16
+2015	Tala	F	113
+2015	Tala	G	382
+2015	Tala	H	78
+2015	Tala	I	27
+2015	Tala	J	38
+2015	Tala	K	44
+2015	Tala	L	31
+2015	Tala	M	37
+2015	Tala	N	48
+2015	Tala	Otro	14
+2015	Tala	P	89
+2015	Tala	Q	44
+2015	Tala	R	7
+2015	Tala	S	142
+2015	Uruguay	A	607
+2015	Uruguay	B	85
+2015	Uruguay	C	3665
+2015	Uruguay	D	140
+2015	Uruguay	E	11
+2015	Uruguay	F	1078
+2015	Uruguay	G	2331
+2015	Uruguay	H	790
+2015	Uruguay	I	361
+2015	Uruguay	J	322
+2015	Uruguay	K	543
+2015	Uruguay	L	97
+2015	Uruguay	M	163
+2015	Uruguay	N	395
+2015	Uruguay	Otro	89
+2015	Uruguay	P	1460
+2015	Uruguay	Q	419
+2015	Uruguay	R	95
+2015	Uruguay	S	596
+2015	Victoria	A	475
+2015	Victoria	B	18
+2015	Victoria	C	550
+2015	Victoria	D	23
+2015	Victoria	E	5
+2015	Victoria	F	302
+2015	Victoria	G	797
+2015	Victoria	H	172
+2015	Victoria	I	305
+2015	Victoria	J	69
+2015	Victoria	K	93
+2015	Victoria	L	68
+2015	Victoria	M	82
+2015	Victoria	N	86
+2015	Victoria	Otro	10
+2015	Victoria	P	439
+2015	Victoria	Q	125
+2015	Victoria	R	411
+2015	Victoria	S	115
+2015	Villaguay	A	848
+2015	Villaguay	B	0
+2015	Villaguay	C	494
+2015	Villaguay	D	32
+2015	Villaguay	E	8
+2015	Villaguay	F	346
+2015	Villaguay	G	789
+2015	Villaguay	H	173
+2015	Villaguay	I	73
+2015	Villaguay	J	67
+2015	Villaguay	K	92
+2015	Villaguay	L	77
+2015	Villaguay	M	41
+2015	Villaguay	N	89
+2015	Villaguay	Otro	7
+2015	Villaguay	P	258
+2015	Villaguay	Q	107
+2015	Villaguay	R	19
+2015	Villaguay	S	85
+2016	Colón	A	882
+2016	Colón	B	88
+2016	Colón	C	3260
+2016	Colón	D	21
+2016	Colón	E	8
+2016	Colón	F	358
+2016	Colón	G	1604
+2016	Colón	H	610
+2016	Colón	I	577
+2016	Colón	J	136
+2016	Colón	K	174
+2016	Colón	L	42
+2016	Colón	M	102
+2016	Colón	N	168
+2016	Colón	Otro	19
+2016	Colón	P	407
+2016	Colón	Q	215
+2016	Colón	R	81
+2016	Colón	S	337
+2016	Concordia	A	5615
+2016	Concordia	B	108
+2016	Concordia	C	2800
+2016	Concordia	D	224
+2016	Concordia	E	39
+2016	Concordia	F	1484
+2016	Concordia	G	4421
+2016	Concordia	H	894
+2016	Concordia	I	530
+2016	Concordia	J	269
+2016	Concordia	K	683
+2016	Concordia	L	210
+2016	Concordia	M	286
+2016	Concordia	N	1240
+2016	Concordia	Otro	182
+2016	Concordia	P	1690
+2016	Concordia	Q	702
+2016	Concordia	R	79
+2016	Concordia	S	638
+2016	Diamante	A	561
+2016	Diamante	B	28
+2016	Diamante	C	1245
+2016	Diamante	D	16
+2016	Diamante	E	18
+2016	Diamante	F	208
+2016	Diamante	G	1106
+2016	Diamante	H	311
+2016	Diamante	I	84
+2016	Diamante	J	72
+2016	Diamante	K	107
+2016	Diamante	L	68
+2016	Diamante	M	82
+2016	Diamante	N	93
+2016	Diamante	Otro	6
+2016	Diamante	P	1102
+2016	Diamante	Q	827
+2016	Diamante	R	35
+2016	Diamante	S	370
+2016	Federación	A	1551
+2016	Federación	B	21
+2016	Federación	C	1612
+2016	Federación	D	70
+2016	Federación	E	9
+2016	Federación	F	215
+2016	Federación	G	1643
+2016	Federación	H	257
+2016	Federación	I	429
+2016	Federación	J	104
+2016	Federación	K	146
+2016	Federación	L	76
+2016	Federación	M	121
+2016	Federación	N	98
+2016	Federación	Otro	12
+2016	Federación	P	627
+2016	Federación	Q	168
+2016	Federación	R	14
+2016	Federación	S	203
+2016	Federal	A	728
+2016	Federal	B	0
+2016	Federal	C	86
+2016	Federal	D	4
+2016	Federal	E	0
+2016	Federal	F	132
+2016	Federal	G	407
+2016	Federal	H	64
+2016	Federal	I	25
+2016	Federal	J	14
+2016	Federal	K	42
+2016	Federal	L	26
+2016	Federal	M	30
+2016	Federal	N	28
+2016	Federal	Otro	12
+2016	Federal	P	157
+2016	Federal	Q	42
+2016	Federal	R	11
+2016	Federal	S	75
+2016	Feliciano	A	362
+2016	Feliciano	C	28
+2016	Feliciano	D	4
+2016	Feliciano	E	9
+2016	Feliciano	F	38
+2016	Feliciano	G	160
+2016	Feliciano	H	18
+2016	Feliciano	I	38
+2016	Feliciano	J	5
+2016	Feliciano	K	27
+2016	Feliciano	L	13
+2016	Feliciano	M	14
+2016	Feliciano	N	15
+2016	Feliciano	Otro	6
+2016	Feliciano	P	91
+2016	Feliciano	Q	8
+2016	Feliciano	R	4
+2016	Feliciano	S	13
+2016	Gualeguay	A	986
+2016	Gualeguay	B	8
+2016	Gualeguay	C	1719
+2016	Gualeguay	D	33
+2016	Gualeguay	E	44
+2016	Gualeguay	F	398
+2016	Gualeguay	G	1074
+2016	Gualeguay	H	294
+2016	Gualeguay	I	105
+2016	Gualeguay	J	86
+2016	Gualeguay	K	135
+2016	Gualeguay	L	67
+2016	Gualeguay	M	145
+2016	Gualeguay	N	107
+2016	Gualeguay	Otro	16
+2016	Gualeguay	P	441
+2016	Gualeguay	Q	167
+2016	Gualeguay	R	25
+2016	Gualeguay	S	138
+2016	Gualeguaychú	A	1408
+2016	Gualeguaychú	B	46
+2016	Gualeguaychú	C	3546
+2016	Gualeguaychú	D	144
+2016	Gualeguaychú	E	40
+2016	Gualeguaychú	F	759
+2016	Gualeguaychú	G	2760
+2016	Gualeguaychú	H	987
+2016	Gualeguaychú	I	473
+2016	Gualeguaychú	J	324
+2016	Gualeguaychú	K	441
+2016	Gualeguaychú	L	207
+2016	Gualeguaychú	M	325
+2016	Gualeguaychú	N	563
+2016	Gualeguaychú	Otro	36
+2016	Gualeguaychú	P	1634
+2016	Gualeguaychú	Q	485
+2016	Gualeguaychú	R	175
+2016	Gualeguaychú	S	560
+2016	Islas del Ibicuy	A	94
+2016	Islas del Ibicuy	B	29
+2016	Islas del Ibicuy	C	152
+2016	Islas del Ibicuy	D	6
+2016	Islas del Ibicuy	E	4
+2016	Islas del Ibicuy	F	35
+2016	Islas del Ibicuy	G	33
+2016	Islas del Ibicuy	H	120
+2016	Islas del Ibicuy	I	6
+2016	Islas del Ibicuy	J	4
+2016	Islas del Ibicuy	K	10
+2016	Islas del Ibicuy	L	10
+2016	Islas del Ibicuy	M	4
+2016	Islas del Ibicuy	N	20
+2016	Islas del Ibicuy	Otro	0
+2016	Islas del Ibicuy	P	58
+2016	Islas del Ibicuy	Q	3
+2016	Islas del Ibicuy	R	13
+2016	Islas del Ibicuy	S	21
+2016	La Paz	A	1482
+2016	La Paz	B	61
+2016	La Paz	C	851
+2016	La Paz	D	65
+2016	La Paz	E	8
+2016	La Paz	F	404
+2016	La Paz	G	1021
+2016	La Paz	H	251
+2016	La Paz	I	117
+2016	La Paz	J	44
+2016	La Paz	K	117
+2016	La Paz	L	72
+2016	La Paz	M	79
+2016	La Paz	N	145
+2016	La Paz	Otro	11
+2016	La Paz	P	704
+2016	La Paz	Q	156
+2016	La Paz	R	18
+2016	La Paz	S	272
+2016	Nogoyá	A	719
+2016	Nogoyá	B	0
+2016	Nogoyá	C	729
+2016	Nogoyá	D	47
+2016	Nogoyá	E	7
+2016	Nogoyá	F	125
+2016	Nogoyá	G	827
+2016	Nogoyá	H	209
+2016	Nogoyá	I	63
+2016	Nogoyá	J	44
+2016	Nogoyá	K	88
+2016	Nogoyá	L	36
+2016	Nogoyá	M	65
+2016	Nogoyá	N	109
+2016	Nogoyá	Otro	8
+2016	Nogoyá	P	600
+2016	Nogoyá	Q	89
+2016	Nogoyá	R	16
+2016	Nogoyá	S	99
+2016	Paraná	A	1648
+2016	Paraná	B	183
+2016	Paraná	C	8349
+2016	Paraná	D	640
+2016	Paraná	E	62
+2016	Paraná	F	3549
+2016	Paraná	G	10215
+2016	Paraná	H	2927
+2016	Paraná	I	1191
+2016	Paraná	J	1415
+2016	Paraná	K	1986
+2016	Paraná	L	678
+2016	Paraná	M	745
+2016	Paraná	N	1914
+2016	Paraná	Otro	156
+2016	Paraná	P	4786
+2016	Paraná	Q	2464
+2016	Paraná	R	760
+2016	Paraná	S	2865
+2016	San Salvador	A	480
+2016	San Salvador	B	0
+2016	San Salvador	C	505
+2016	San Salvador	D	21
+2016	San Salvador	E	4
+2016	San Salvador	F	151
+2016	San Salvador	G	259
+2016	San Salvador	H	113
+2016	San Salvador	I	25
+2016	San Salvador	J	30
+2016	San Salvador	K	55
+2016	San Salvador	L	28
+2016	San Salvador	M	34
+2016	San Salvador	N	35
+2016	San Salvador	Otro	8
+2016	San Salvador	P	73
+2016	San Salvador	Q	14
+2016	San Salvador	R	0
+2016	San Salvador	S	31
+2016	Tala	A	474
+2016	Tala	B	6
+2016	Tala	C	265
+2016	Tala	D	28
+2016	Tala	E	17
+2016	Tala	F	77
+2016	Tala	G	369
+2016	Tala	H	67
+2016	Tala	I	31
+2016	Tala	J	37
+2016	Tala	K	45
+2016	Tala	L	27
+2016	Tala	M	33
+2016	Tala	N	44
+2016	Tala	Otro	14
+2016	Tala	P	94
+2016	Tala	Q	47
+2016	Tala	R	3
+2016	Tala	S	145
+2016	Uruguay	A	611
+2016	Uruguay	B	87
+2016	Uruguay	C	3738
+2016	Uruguay	D	166
+2016	Uruguay	E	11
+2016	Uruguay	F	981
+2016	Uruguay	G	2325
+2016	Uruguay	H	742
+2016	Uruguay	I	352
+2016	Uruguay	J	325
+2016	Uruguay	K	537
+2016	Uruguay	L	82
+2016	Uruguay	M	155
+2016	Uruguay	N	361
+2016	Uruguay	Otro	88
+2016	Uruguay	P	1504
+2016	Uruguay	Q	437
+2016	Uruguay	R	97
+2016	Uruguay	S	594
+2016	Victoria	A	469
+2016	Victoria	B	16
+2016	Victoria	C	519
+2016	Victoria	D	26
+2016	Victoria	E	4
+2016	Victoria	F	176
+2016	Victoria	G	764
+2016	Victoria	H	160
+2016	Victoria	I	286
+2016	Victoria	J	72
+2016	Victoria	K	90
+2016	Victoria	L	62
+2016	Victoria	M	66
+2016	Victoria	N	86
+2016	Victoria	Otro	10
+2016	Victoria	P	434
+2016	Victoria	Q	120
+2016	Victoria	R	396
+2016	Victoria	S	124
+2016	Villaguay	A	821
+2016	Villaguay	B	6
+2016	Villaguay	C	484
+2016	Villaguay	D	32
+2016	Villaguay	E	8
+2016	Villaguay	F	264
+2016	Villaguay	G	828
+2016	Villaguay	H	162
+2016	Villaguay	I	75
+2016	Villaguay	J	68
+2016	Villaguay	K	96
+2016	Villaguay	L	64
+2016	Villaguay	M	45
+2016	Villaguay	N	85
+2016	Villaguay	Otro	8
+2016	Villaguay	P	267
+2016	Villaguay	Q	114
+2016	Villaguay	R	15
+2016	Villaguay	S	87
+2017	Colón	A	899
+2017	Colón	B	91
+2017	Colón	C	3147
+2017	Colón	D	20
+2017	Colón	E	4
+2017	Colón	F	325
+2017	Colón	G	1626
+2017	Colón	H	638
+2017	Colón	I	584
+2017	Colón	J	138
+2017	Colón	K	165
+2017	Colón	L	32
+2017	Colón	M	101
+2017	Colón	N	160
+2017	Colón	Otro	20
+2017	Colón	P	401
+2017	Colón	Q	224
+2017	Colón	R	81
+2017	Colón	S	336
+2017	Concordia	A	5358
+2017	Concordia	B	96
+2017	Concordia	C	2834
+2017	Concordia	D	229
+2017	Concordia	E	38
+2017	Concordia	F	1542
+2017	Concordia	G	4449
+2017	Concordia	H	913
+2017	Concordia	I	502
+2017	Concordia	J	283
+2017	Concordia	K	670
+2017	Concordia	L	200
+2017	Concordia	M	320
+2017	Concordia	N	1099
+2017	Concordia	Otro	180
+2017	Concordia	P	1736
+2017	Concordia	Q	730
+2017	Concordia	R	98
+2017	Concordia	S	635
+2017	Diamante	A	541
+2017	Diamante	B	27
+2017	Diamante	C	1228
+2017	Diamante	D	19
+2017	Diamante	E	20
+2017	Diamante	F	225
+2017	Diamante	G	1111
+2017	Diamante	H	342
+2017	Diamante	I	79
+2017	Diamante	J	77
+2017	Diamante	K	105
+2017	Diamante	L	60
+2017	Diamante	M	89
+2017	Diamante	N	87
+2017	Diamante	Otro	5
+2017	Diamante	P	1110
+2017	Diamante	Q	834
+2017	Diamante	R	35
+2017	Diamante	S	370
+2017	Federación	A	1523
+2017	Federación	B	17
+2017	Federación	C	1635
+2017	Federación	D	71
+2017	Federación	E	9
+2017	Federación	F	243
+2017	Federación	G	1644
+2017	Federación	H	247
+2017	Federación	I	453
+2017	Federación	J	104
+2017	Federación	K	140
+2017	Federación	L	59
+2017	Federación	M	121
+2017	Federación	N	97
+2017	Federación	Otro	12
+2017	Federación	P	646
+2017	Federación	Q	178
+2017	Federación	R	17
+2017	Federación	S	205
+2017	Federal	A	742
+2017	Federal	B	0
+2017	Federal	C	87
+2017	Federal	D	4
+2017	Federal	E	0
+2017	Federal	F	176
+2017	Federal	G	400
+2017	Federal	H	66
+2017	Federal	I	27
+2017	Federal	J	10
+2017	Federal	K	47
+2017	Federal	L	24
+2017	Federal	M	30
+2017	Federal	N	26
+2017	Federal	Otro	15
+2017	Federal	P	169
+2017	Federal	Q	45
+2017	Federal	R	10
+2017	Federal	S	72
+2017	Feliciano	A	362
+2017	Feliciano	B	0
+2017	Feliciano	C	30
+2017	Feliciano	D	4
+2017	Feliciano	E	8
+2017	Feliciano	F	55
+2017	Feliciano	G	178
+2017	Feliciano	H	18
+2017	Feliciano	I	39
+2017	Feliciano	J	5
+2017	Feliciano	K	29
+2017	Feliciano	L	11
+2017	Feliciano	M	13
+2017	Feliciano	N	13
+2017	Feliciano	Otro	5
+2017	Feliciano	P	105
+2017	Feliciano	Q	11
+2017	Feliciano	R	3
+2017	Feliciano	S	13
+2017	Gualeguay	A	983
+2017	Gualeguay	B	8
+2017	Gualeguay	C	1693
+2017	Gualeguay	D	34
+2017	Gualeguay	E	42
+2017	Gualeguay	F	447
+2017	Gualeguay	G	1089
+2017	Gualeguay	H	314
+2017	Gualeguay	I	95
+2017	Gualeguay	J	85
+2017	Gualeguay	K	136
+2017	Gualeguay	L	57
+2017	Gualeguay	M	134
+2017	Gualeguay	N	105
+2017	Gualeguay	Otro	16
+2017	Gualeguay	P	485
+2017	Gualeguay	Q	172
+2017	Gualeguay	R	23
+2017	Gualeguay	S	139
+2017	Gualeguaychú	A	1402
+2017	Gualeguaychú	B	48
+2017	Gualeguaychú	C	3416
+2017	Gualeguaychú	D	150
+2017	Gualeguaychú	E	38
+2017	Gualeguaychú	F	767
+2017	Gualeguaychú	G	2843
+2017	Gualeguaychú	H	1011
+2017	Gualeguaychú	I	531
+2017	Gualeguaychú	J	300
+2017	Gualeguaychú	K	435
+2017	Gualeguaychú	L	174
+2017	Gualeguaychú	M	276
+2017	Gualeguaychú	N	515
+2017	Gualeguaychú	Otro	37
+2017	Gualeguaychú	P	1688
+2017	Gualeguaychú	Q	470
+2017	Gualeguaychú	R	171
+2017	Gualeguaychú	S	561
+2017	Islas del Ibicuy	A	82
+2017	Islas del Ibicuy	B	30
+2017	Islas del Ibicuy	C	156
+2017	Islas del Ibicuy	D	5
+2017	Islas del Ibicuy	E	8
+2017	Islas del Ibicuy	F	36
+2017	Islas del Ibicuy	G	36
+2017	Islas del Ibicuy	H	243
+2017	Islas del Ibicuy	I	4
+2017	Islas del Ibicuy	J	4
+2017	Islas del Ibicuy	K	9
+2017	Islas del Ibicuy	L	8
+2017	Islas del Ibicuy	M	4
+2017	Islas del Ibicuy	N	28
+2017	Islas del Ibicuy	Otro	0
+2017	Islas del Ibicuy	P	59
+2017	Islas del Ibicuy	Q	0
+2017	Islas del Ibicuy	R	9
+2017	Islas del Ibicuy	S	22
+2017	La Paz	A	1486
+2017	La Paz	B	58
+2017	La Paz	C	844
+2017	La Paz	D	67
+2017	La Paz	E	7
+2017	La Paz	F	421
+2017	La Paz	G	1010
+2017	La Paz	H	246
+2017	La Paz	I	101
+2017	La Paz	J	46
+2017	La Paz	K	117
+2017	La Paz	L	63
+2017	La Paz	M	74
+2017	La Paz	N	151
+2017	La Paz	Otro	14
+2017	La Paz	P	736
+2017	La Paz	Q	160
+2017	La Paz	R	20
+2017	La Paz	S	267
+2017	Nogoyá	A	687
+2017	Nogoyá	B	0
+2017	Nogoyá	C	779
+2017	Nogoyá	D	48
+2017	Nogoyá	E	4
+2017	Nogoyá	F	127
+2017	Nogoyá	G	841
+2017	Nogoyá	H	225
+2017	Nogoyá	I	61
+2017	Nogoyá	J	47
+2017	Nogoyá	K	89
+2017	Nogoyá	L	33
+2017	Nogoyá	M	56
+2017	Nogoyá	N	99
+2017	Nogoyá	Otro	6
+2017	Nogoyá	P	602
+2017	Nogoyá	Q	87
+2017	Nogoyá	R	16
+2017	Nogoyá	S	102
+2017	Paraná	A	1611
+2017	Paraná	B	180
+2017	Paraná	C	8330
+2017	Paraná	D	652
+2017	Paraná	E	77
+2017	Paraná	F	3942
+2017	Paraná	G	10450
+2017	Paraná	H	3015
+2017	Paraná	I	1183
+2017	Paraná	J	1434
+2017	Paraná	K	1946
+2017	Paraná	L	541
+2017	Paraná	M	749
+2017	Paraná	N	1977
+2017	Paraná	Otro	179
+2017	Paraná	P	4935
+2017	Paraná	Q	2495
+2017	Paraná	R	777
+2017	Paraná	S	2879
+2017	San Salvador	A	478
+2017	San Salvador	B	0
+2017	San Salvador	C	524
+2017	San Salvador	D	21
+2017	San Salvador	E	4
+2017	San Salvador	F	156
+2017	San Salvador	G	261
+2017	San Salvador	H	115
+2017	San Salvador	I	25
+2017	San Salvador	J	26
+2017	San Salvador	K	53
+2017	San Salvador	L	20
+2017	San Salvador	M	33
+2017	San Salvador	N	33
+2017	San Salvador	Otro	9
+2017	San Salvador	P	76
+2017	San Salvador	Q	16
+2017	San Salvador	R	0
+2017	San Salvador	S	31
+2017	Tala	A	474
+2017	Tala	B	3
+2017	Tala	C	263
+2017	Tala	D	28
+2017	Tala	E	16
+2017	Tala	F	99
+2017	Tala	G	373
+2017	Tala	H	70
+2017	Tala	I	35
+2017	Tala	J	38
+2017	Tala	K	50
+2017	Tala	L	22
+2017	Tala	M	29
+2017	Tala	N	45
+2017	Tala	Otro	13
+2017	Tala	P	96
+2017	Tala	Q	46
+2017	Tala	R	6
+2017	Tala	S	143
+2017	Uruguay	A	686
+2017	Uruguay	B	76
+2017	Uruguay	C	3665
+2017	Uruguay	D	168
+2017	Uruguay	E	11
+2017	Uruguay	F	997
+2017	Uruguay	G	2304
+2017	Uruguay	H	755
+2017	Uruguay	I	341
+2017	Uruguay	J	328
+2017	Uruguay	K	534
+2017	Uruguay	L	73
+2017	Uruguay	M	145
+2017	Uruguay	N	361
+2017	Uruguay	Otro	82
+2017	Uruguay	P	1524
+2017	Uruguay	Q	449
+2017	Uruguay	R	90
+2017	Uruguay	S	606
+2017	Victoria	A	466
+2017	Victoria	B	14
+2017	Victoria	C	511
+2017	Victoria	D	25
+2017	Victoria	E	0
+2017	Victoria	F	185
+2017	Victoria	G	796
+2017	Victoria	H	167
+2017	Victoria	I	296
+2017	Victoria	J	69
+2017	Victoria	K	84
+2017	Victoria	L	49
+2017	Victoria	M	64
+2017	Victoria	N	79
+2017	Victoria	Otro	11
+2017	Victoria	P	433
+2017	Victoria	Q	118
+2017	Victoria	R	369
+2017	Victoria	S	122
+2017	Villaguay	A	800
+2017	Villaguay	B	6
+2017	Villaguay	C	485
+2017	Villaguay	D	32
+2017	Villaguay	E	9
+2017	Villaguay	F	271
+2017	Villaguay	G	841
+2017	Villaguay	H	175
+2017	Villaguay	I	77
+2017	Villaguay	J	77
+2017	Villaguay	K	96
+2017	Villaguay	L	55
+2017	Villaguay	M	47
+2017	Villaguay	N	83
+2017	Villaguay	Otro	8
+2017	Villaguay	P	281
+2017	Villaguay	Q	127
+2017	Villaguay	R	12
+2017	Villaguay	S	84
+2018	Colón	A	947
+2018	Colón	B	96
+2018	Colón	C	3112
+2018	Colón	D	20
+2018	Colón	E	4
+2018	Colón	F	257
+2018	Colón	G	1597
+2018	Colón	H	621
+2018	Colón	I	597
+2018	Colón	J	146
+2018	Colón	K	169
+2018	Colón	L	30
+2018	Colón	M	107
+2018	Colón	N	154
+2018	Colón	Otro	17
+2018	Colón	P	404
+2018	Colón	Q	235
+2018	Colón	R	85
+2018	Colón	S	348
+2018	Concordia	A	5405
+2018	Concordia	B	98
+2018	Concordia	C	2868
+2018	Concordia	D	229
+2018	Concordia	E	40
+2018	Concordia	F	1555
+2018	Concordia	G	4342
+2018	Concordia	H	904
+2018	Concordia	I	523
+2018	Concordia	J	281
+2018	Concordia	K	665
+2018	Concordia	L	187
+2018	Concordia	M	268
+2018	Concordia	N	1039
+2018	Concordia	Otro	170
+2018	Concordia	P	1780
+2018	Concordia	Q	762
+2018	Concordia	R	100
+2018	Concordia	S	646
+2018	Diamante	A	538
+2018	Diamante	B	23
+2018	Diamante	C	1276
+2018	Diamante	D	21
+2018	Diamante	E	20
+2018	Diamante	F	200
+2018	Diamante	G	1098
+2018	Diamante	H	324
+2018	Diamante	I	92
+2018	Diamante	J	77
+2018	Diamante	K	105
+2018	Diamante	L	44
+2018	Diamante	M	76
+2018	Diamante	N	89
+2018	Diamante	Otro	5
+2018	Diamante	P	1103
+2018	Diamante	Q	855
+2018	Diamante	R	34
+2018	Diamante	S	390
+2018	Federación	A	1519
+2018	Federación	B	15
+2018	Federación	C	1671
+2018	Federación	D	71
+2018	Federación	E	10
+2018	Federación	F	190
+2018	Federación	G	1635
+2018	Federación	H	219
+2018	Federación	I	472
+2018	Federación	J	104
+2018	Federación	K	137
+2018	Federación	L	49
+2018	Federación	M	119
+2018	Federación	N	97
+2018	Federación	Otro	15
+2018	Federación	P	623
+2018	Federación	Q	189
+2018	Federación	R	22
+2018	Federación	S	204
+2018	Federal	A	719
+2018	Federal	B	0
+2018	Federal	C	75
+2018	Federal	D	4
+2018	Federal	E	0
+2018	Federal	F	187
+2018	Federal	G	418
+2018	Federal	H	71
+2018	Federal	I	28
+2018	Federal	J	10
+2018	Federal	K	43
+2018	Federal	L	19
+2018	Federal	M	29
+2018	Federal	N	35
+2018	Federal	Otro	13
+2018	Federal	P	185
+2018	Federal	Q	43
+2018	Federal	R	11
+2018	Federal	S	75
+2018	Feliciano	A	379
+2018	Feliciano	B	0
+2018	Feliciano	C	36
+2018	Feliciano	D	4
+2018	Feliciano	E	8
+2018	Feliciano	F	55
+2018	Feliciano	G	173
+2018	Feliciano	H	23
+2018	Feliciano	I	34
+2018	Feliciano	J	5
+2018	Feliciano	K	29
+2018	Feliciano	L	11
+2018	Feliciano	M	12
+2018	Feliciano	N	17
+2018	Feliciano	Otro	3
+2018	Feliciano	P	102
+2018	Feliciano	Q	12
+2018	Feliciano	R	4
+2018	Feliciano	S	13
+2018	Gualeguay	A	975
+2018	Gualeguay	B	4
+2018	Gualeguay	C	1651
+2018	Gualeguay	D	34
+2018	Gualeguay	E	45
+2018	Gualeguay	F	485
+2018	Gualeguay	G	1098
+2018	Gualeguay	H	297
+2018	Gualeguay	I	100
+2018	Gualeguay	J	93
+2018	Gualeguay	K	130
+2018	Gualeguay	L	52
+2018	Gualeguay	M	124
+2018	Gualeguay	N	98
+2018	Gualeguay	Otro	15
+2018	Gualeguay	P	506
+2018	Gualeguay	Q	177
+2018	Gualeguay	R	25
+2018	Gualeguay	S	134
+2018	Gualeguaychú	A	1400
+2018	Gualeguaychú	B	49
+2018	Gualeguaychú	C	3359
+2018	Gualeguaychú	D	152
+2018	Gualeguaychú	E	41
+2018	Gualeguaychú	F	750
+2018	Gualeguaychú	G	2849
+2018	Gualeguaychú	H	985
+2018	Gualeguaychú	I	529
+2018	Gualeguaychú	J	298
+2018	Gualeguaychú	K	437
+2018	Gualeguaychú	L	142
+2018	Gualeguaychú	M	299
+2018	Gualeguaychú	N	504
+2018	Gualeguaychú	Otro	37
+2018	Gualeguaychú	P	1758
+2018	Gualeguaychú	Q	486
+2018	Gualeguaychú	R	184
+2018	Gualeguaychú	S	542
+2018	Islas del Ibicuy	A	77
+2018	Islas del Ibicuy	B	36
+2018	Islas del Ibicuy	C	166
+2018	Islas del Ibicuy	D	6
+2018	Islas del Ibicuy	E	10
+2018	Islas del Ibicuy	F	40
+2018	Islas del Ibicuy	G	39
+2018	Islas del Ibicuy	H	180
+2018	Islas del Ibicuy	I	3
+2018	Islas del Ibicuy	J	4
+2018	Islas del Ibicuy	K	10
+2018	Islas del Ibicuy	L	6
+2018	Islas del Ibicuy	M	5
+2018	Islas del Ibicuy	N	31
+2018	Islas del Ibicuy	Otro	0
+2018	Islas del Ibicuy	P	65
+2018	Islas del Ibicuy	Q	4
+2018	Islas del Ibicuy	R	12
+2018	Islas del Ibicuy	S	26
+2018	La Paz	A	1556
+2018	La Paz	B	66
+2018	La Paz	C	867
+2018	La Paz	D	63
+2018	La Paz	E	7
+2018	La Paz	F	434
+2018	La Paz	G	1026
+2018	La Paz	H	218
+2018	La Paz	I	100
+2018	La Paz	J	48
+2018	La Paz	K	110
+2018	La Paz	L	60
+2018	La Paz	M	77
+2018	La Paz	N	150
+2018	La Paz	Otro	13
+2018	La Paz	P	782
+2018	La Paz	Q	163
+2018	La Paz	R	22
+2018	La Paz	S	278
+2018	Nogoyá	A	679
+2018	Nogoyá	B	0
+2018	Nogoyá	C	797
+2018	Nogoyá	D	48
+2018	Nogoyá	E	4
+2018	Nogoyá	F	126
+2018	Nogoyá	G	836
+2018	Nogoyá	H	217
+2018	Nogoyá	I	58
+2018	Nogoyá	J	43
+2018	Nogoyá	K	85
+2018	Nogoyá	L	30
+2018	Nogoyá	M	57
+2018	Nogoyá	N	94
+2018	Nogoyá	Otro	5
+2018	Nogoyá	P	610
+2018	Nogoyá	Q	86
+2018	Nogoyá	R	20
+2018	Nogoyá	S	108
+2018	Paraná	A	1562
+2018	Paraná	B	181
+2018	Paraná	C	8306
+2018	Paraná	D	658
+2018	Paraná	E	75
+2018	Paraná	F	3618
+2018	Paraná	G	10591
+2018	Paraná	H	2970
+2018	Paraná	I	1159
+2018	Paraná	J	1357
+2018	Paraná	K	1910
+2018	Paraná	L	388
+2018	Paraná	M	754
+2018	Paraná	N	2004
+2018	Paraná	Otro	168
+2018	Paraná	P	5046
+2018	Paraná	Q	2565
+2018	Paraná	R	791
+2018	Paraná	S	2912
+2018	San Salvador	A	503
+2018	San Salvador	B	0
+2018	San Salvador	C	545
+2018	San Salvador	D	21
+2018	San Salvador	E	5
+2018	San Salvador	F	167
+2018	San Salvador	G	262
+2018	San Salvador	H	115
+2018	San Salvador	I	24
+2018	San Salvador	J	30
+2018	San Salvador	K	55
+2018	San Salvador	L	15
+2018	San Salvador	M	32
+2018	San Salvador	N	36
+2018	San Salvador	Otro	9
+2018	San Salvador	P	79
+2018	San Salvador	Q	17
+2018	San Salvador	R	0
+2018	San Salvador	S	27
+2018	Tala	A	463
+2018	Tala	B	7
+2018	Tala	C	260
+2018	Tala	D	28
+2018	Tala	E	16
+2018	Tala	F	90
+2018	Tala	G	378
+2018	Tala	H	75
+2018	Tala	I	37
+2018	Tala	J	39
+2018	Tala	K	51
+2018	Tala	L	22
+2018	Tala	M	34
+2018	Tala	N	47
+2018	Tala	Otro	10
+2018	Tala	P	104
+2018	Tala	Q	50
+2018	Tala	R	8
+2018	Tala	S	134
+2018	Uruguay	A	688
+2018	Uruguay	B	82
+2018	Uruguay	C	3656
+2018	Uruguay	D	163
+2018	Uruguay	E	11
+2018	Uruguay	F	879
+2018	Uruguay	G	2308
+2018	Uruguay	H	726
+2018	Uruguay	I	362
+2018	Uruguay	J	335
+2018	Uruguay	K	532
+2018	Uruguay	L	62
+2018	Uruguay	M	162
+2018	Uruguay	N	345
+2018	Uruguay	Otro	70
+2018	Uruguay	P	1558
+2018	Uruguay	Q	450
+2018	Uruguay	R	91
+2018	Uruguay	S	578
+2018	Victoria	A	474
+2018	Victoria	B	12
+2018	Victoria	C	569
+2018	Victoria	D	25
+2018	Victoria	E	0
+2018	Victoria	F	167
+2018	Victoria	G	796
+2018	Victoria	H	150
+2018	Victoria	I	285
+2018	Victoria	J	71
+2018	Victoria	K	84
+2018	Victoria	L	32
+2018	Victoria	M	62
+2018	Victoria	N	69
+2018	Victoria	Otro	12
+2018	Victoria	P	426
+2018	Victoria	Q	122
+2018	Victoria	R	367
+2018	Victoria	S	114
+2018	Villaguay	A	809
+2018	Villaguay	B	6
+2018	Villaguay	C	481
+2018	Villaguay	D	31
+2018	Villaguay	E	9
+2018	Villaguay	F	283
+2018	Villaguay	G	833
+2018	Villaguay	H	166
+2018	Villaguay	I	72
+2018	Villaguay	J	77
+2018	Villaguay	K	94
+2018	Villaguay	L	53
+2018	Villaguay	M	58
+2018	Villaguay	N	83
+2018	Villaguay	Otro	7
+2018	Villaguay	P	298
+2018	Villaguay	Q	134
+2018	Villaguay	R	16
+2018	Villaguay	S	92
+2019	Colón	A	941
+2019	Colón	B	91
+2019	Colón	C	3150
+2019	Colón	D	18
+2019	Colón	E	4
+2019	Colón	F	217
+2019	Colón	G	1584
+2019	Colón	H	632
+2019	Colón	I	550
+2019	Colón	J	137
+2019	Colón	K	164
+2019	Colón	L	24
+2019	Colón	M	104
+2019	Colón	N	153
+2019	Colón	Otro	19
+2019	Colón	P	397
+2019	Colón	Q	236
+2019	Colón	R	85
+2019	Colón	S	354
+2019	Concordia	A	5897
+2019	Concordia	B	98
+2019	Concordia	C	2798
+2019	Concordia	D	237
+2019	Concordia	E	41
+2019	Concordia	F	1644
+2019	Concordia	G	3960
+2019	Concordia	H	927
+2019	Concordia	I	517
+2019	Concordia	J	298
+2019	Concordia	K	659
+2019	Concordia	L	170
+2019	Concordia	M	242
+2019	Concordia	N	789
+2019	Concordia	Otro	154
+2019	Concordia	P	1816
+2019	Concordia	Q	791
+2019	Concordia	R	85
+2019	Concordia	S	632
+2019	Diamante	A	548
+2019	Diamante	B	23
+2019	Diamante	C	1311
+2019	Diamante	D	22
+2019	Diamante	E	22
+2019	Diamante	F	186
+2019	Diamante	G	1064
+2019	Diamante	H	322
+2019	Diamante	I	95
+2019	Diamante	J	81
+2019	Diamante	K	100
+2019	Diamante	L	30
+2019	Diamante	M	72
+2019	Diamante	N	83
+2019	Diamante	Otro	3
+2019	Diamante	P	1122
+2019	Diamante	Q	864
+2019	Diamante	R	30
+2019	Diamante	S	398
+2019	Federación	A	1454
+2019	Federación	B	11
+2019	Federación	C	1530
+2019	Federación	D	74
+2019	Federación	E	12
+2019	Federación	F	220
+2019	Federación	G	1578
+2019	Federación	H	225
+2019	Federación	I	461
+2019	Federación	J	113
+2019	Federación	K	126
+2019	Federación	L	34
+2019	Federación	M	147
+2019	Federación	N	96
+2019	Federación	Otro	15
+2019	Federación	P	583
+2019	Federación	Q	176
+2019	Federación	R	23
+2019	Federación	S	200
+2019	Federal	A	700
+2019	Federal	B	0
+2019	Federal	C	73
+2019	Federal	D	5
+2019	Federal	E	0
+2019	Federal	F	191
+2019	Federal	G	393
+2019	Federal	H	82
+2019	Federal	I	23
+2019	Federal	J	10
+2019	Federal	K	40
+2019	Federal	L	11
+2019	Federal	M	30
+2019	Federal	N	32
+2019	Federal	Otro	11
+2019	Federal	P	188
+2019	Federal	Q	40
+2019	Federal	R	11
+2019	Federal	S	82
+2019	Feliciano	A	376
+2019	Feliciano	B	0
+2019	Feliciano	C	45
+2019	Feliciano	D	4
+2019	Feliciano	E	8
+2019	Feliciano	F	60
+2019	Feliciano	G	162
+2019	Feliciano	H	26
+2019	Feliciano	I	28
+2019	Feliciano	J	6
+2019	Feliciano	K	30
+2019	Feliciano	L	10
+2019	Feliciano	M	13
+2019	Feliciano	N	14
+2019	Feliciano	Otro	3
+2019	Feliciano	P	77
+2019	Feliciano	Q	14
+2019	Feliciano	R	0
+2019	Feliciano	S	14
+2019	Gualeguay	A	992
+2019	Gualeguay	B	5
+2019	Gualeguay	C	1640
+2019	Gualeguay	D	32
+2019	Gualeguay	E	45
+2019	Gualeguay	F	424
+2019	Gualeguay	G	1069
+2019	Gualeguay	H	292
+2019	Gualeguay	I	101
+2019	Gualeguay	J	91
+2019	Gualeguay	K	129
+2019	Gualeguay	L	50
+2019	Gualeguay	M	105
+2019	Gualeguay	N	97
+2019	Gualeguay	Otro	15
+2019	Gualeguay	P	528
+2019	Gualeguay	Q	180
+2019	Gualeguay	R	28
+2019	Gualeguay	S	123
+2019	Gualeguaychú	A	1404
+2019	Gualeguaychú	B	58
+2019	Gualeguaychú	C	3147
+2019	Gualeguaychú	D	151
+2019	Gualeguaychú	E	40
+2019	Gualeguaychú	F	749
+2019	Gualeguaychú	G	2713
+2019	Gualeguaychú	H	988
+2019	Gualeguaychú	I	495
+2019	Gualeguaychú	J	311
+2019	Gualeguaychú	K	428
+2019	Gualeguaychú	L	127
+2019	Gualeguaychú	M	301
+2019	Gualeguaychú	N	488
+2019	Gualeguaychú	Otro	35
+2019	Gualeguaychú	P	1770
+2019	Gualeguaychú	Q	462
+2019	Gualeguaychú	R	189
+2019	Gualeguaychú	S	504
+2019	Islas del Ibicuy	A	75
+2019	Islas del Ibicuy	B	40
+2019	Islas del Ibicuy	C	167
+2019	Islas del Ibicuy	D	8
+2019	Islas del Ibicuy	E	9
+2019	Islas del Ibicuy	F	41
+2019	Islas del Ibicuy	G	108
+2019	Islas del Ibicuy	H	132
+2019	Islas del Ibicuy	I	8
+2019	Islas del Ibicuy	J	4
+2019	Islas del Ibicuy	K	10
+2019	Islas del Ibicuy	L	5
+2019	Islas del Ibicuy	M	5
+2019	Islas del Ibicuy	N	33
+2019	Islas del Ibicuy	P	69
+2019	Islas del Ibicuy	Q	7
+2019	Islas del Ibicuy	R	8
+2019	Islas del Ibicuy	S	28
+2019	La Paz	A	1609
+2019	La Paz	B	67
+2019	La Paz	C	866
+2019	La Paz	D	61
+2019	La Paz	E	6
+2019	La Paz	F	379
+2019	La Paz	G	1019
+2019	La Paz	H	230
+2019	La Paz	I	93
+2019	La Paz	J	49
+2019	La Paz	K	109
+2019	La Paz	L	50
+2019	La Paz	M	83
+2019	La Paz	N	143
+2019	La Paz	Otro	12
+2019	La Paz	P	811
+2019	La Paz	Q	173
+2019	La Paz	R	22
+2019	La Paz	S	281
+2019	Nogoyá	A	662
+2019	Nogoyá	B	0
+2019	Nogoyá	C	769
+2019	Nogoyá	D	50
+2019	Nogoyá	E	4
+2019	Nogoyá	F	124
+2019	Nogoyá	G	822
+2019	Nogoyá	H	227
+2019	Nogoyá	I	57
+2019	Nogoyá	J	37
+2019	Nogoyá	K	77
+2019	Nogoyá	L	29
+2019	Nogoyá	M	57
+2019	Nogoyá	N	89
+2019	Nogoyá	Otro	0
+2019	Nogoyá	P	624
+2019	Nogoyá	Q	91
+2019	Nogoyá	R	10
+2019	Nogoyá	S	108
+2019	Paraná	A	1565
+2019	Paraná	B	181
+2019	Paraná	C	8154
+2019	Paraná	D	665
+2019	Paraná	E	79
+2019	Paraná	F	2902
+2019	Paraná	G	10310
+2019	Paraná	H	2937
+2019	Paraná	I	1178
+2019	Paraná	J	1288
+2019	Paraná	K	1869
+2019	Paraná	L	292
+2019	Paraná	M	736
+2019	Paraná	N	2033
+2019	Paraná	Otro	127
+2019	Paraná	P	5156
+2019	Paraná	Q	2586
+2019	Paraná	R	794
+2019	Paraná	S	2849
+2019	San Salvador	A	457
+2019	San Salvador	B	0
+2019	San Salvador	C	555
+2019	San Salvador	D	20
+2019	San Salvador	E	5
+2019	San Salvador	F	126
+2019	San Salvador	G	253
+2019	San Salvador	H	119
+2019	San Salvador	I	23
+2019	San Salvador	J	32
+2019	San Salvador	K	55
+2019	San Salvador	L	13
+2019	San Salvador	M	37
+2019	San Salvador	N	39
+2019	San Salvador	Otro	10
+2019	San Salvador	P	72
+2019	San Salvador	Q	17
+2019	San Salvador	R	4
+2019	San Salvador	S	27
+2019	Tala	A	457
+2019	Tala	B	8
+2019	Tala	C	244
+2019	Tala	D	27
+2019	Tala	E	17
+2019	Tala	F	69
+2019	Tala	G	365
+2019	Tala	H	85
+2019	Tala	I	34
+2019	Tala	J	38
+2019	Tala	K	50
+2019	Tala	L	24
+2019	Tala	M	30
+2019	Tala	N	51
+2019	Tala	Otro	8
+2019	Tala	P	112
+2019	Tala	Q	49
+2019	Tala	R	9
+2019	Tala	S	133
+2019	Uruguay	A	696
+2019	Uruguay	B	77
+2019	Uruguay	C	3676
+2019	Uruguay	D	155
+2019	Uruguay	E	11
+2019	Uruguay	F	832
+2019	Uruguay	G	2347
+2019	Uruguay	H	739
+2019	Uruguay	I	363
+2019	Uruguay	J	343
+2019	Uruguay	K	525
+2019	Uruguay	L	63
+2019	Uruguay	M	171
+2019	Uruguay	N	343
+2019	Uruguay	Otro	55
+2019	Uruguay	P	1557
+2019	Uruguay	Q	431
+2019	Uruguay	R	99
+2019	Uruguay	S	560
+2019	Victoria	A	459
+2019	Victoria	B	14
+2019	Victoria	C	547
+2019	Victoria	D	27
+2019	Victoria	E	0
+2019	Victoria	F	148
+2019	Victoria	G	787
+2019	Victoria	H	158
+2019	Victoria	I	290
+2019	Victoria	J	78
+2019	Victoria	K	80
+2019	Victoria	L	28
+2019	Victoria	M	63
+2019	Victoria	N	68
+2019	Victoria	Otro	11
+2019	Victoria	P	429
+2019	Victoria	Q	120
+2019	Victoria	R	361
+2019	Victoria	S	108
+2019	Villaguay	A	813
+2019	Villaguay	B	5
+2019	Villaguay	C	488
+2019	Villaguay	D	32
+2019	Villaguay	E	9
+2019	Villaguay	F	244
+2019	Villaguay	G	837
+2019	Villaguay	H	183
+2019	Villaguay	I	72
+2019	Villaguay	J	81
+2019	Villaguay	K	89
+2019	Villaguay	L	39
+2019	Villaguay	M	58
+2019	Villaguay	N	84
+2019	Villaguay	Otro	6
+2019	Villaguay	P	300
+2019	Villaguay	Q	133
+2019	Villaguay	R	18
+2019	Villaguay	S	89
+2020	Colón	A	934
+2020	Colón	B	89
+2020	Colón	C	3257
+2020	Colón	D	18
+2020	Colón	E	11
+2020	Colón	F	161
+2020	Colón	G	1532
+2020	Colón	H	598
+2020	Colón	I	505
+2020	Colón	J	141
+2020	Colón	K	163
+2020	Colón	L	20
+2020	Colón	M	94
+2020	Colón	N	147
+2020	Colón	Otro	17
+2020	Colón	P	389
+2020	Colón	Q	223
+2020	Colón	R	79
+2020	Colón	S	354
+2020	Concordia	A	4892
+2020	Concordia	B	81
+2020	Concordia	C	2796
+2020	Concordia	D	236
+2020	Concordia	E	38
+2020	Concordia	F	1236
+2020	Concordia	G	3837
+2020	Concordia	H	966
+2020	Concordia	I	494
+2020	Concordia	J	306
+2020	Concordia	K	634
+2020	Concordia	L	148
+2020	Concordia	M	219
+2020	Concordia	N	732
+2020	Concordia	Otro	59
+2020	Concordia	P	1785
+2020	Concordia	Q	809
+2020	Concordia	R	84
+2020	Concordia	S	583
+2020	Diamante	A	563
+2020	Diamante	B	25
+2020	Diamante	C	1371
+2020	Diamante	D	24
+2020	Diamante	E	19
+2020	Diamante	F	152
+2020	Diamante	G	1060
+2020	Diamante	H	299
+2020	Diamante	I	86
+2020	Diamante	J	89
+2020	Diamante	K	102
+2020	Diamante	L	22
+2020	Diamante	M	74
+2020	Diamante	N	69
+2020	Diamante	Otro	3
+2020	Diamante	P	1098
+2020	Diamante	Q	848
+2020	Diamante	R	30
+2020	Diamante	S	383
+2020	Federación	A	1435
+2020	Federación	B	11
+2020	Federación	C	1498
+2020	Federación	D	75
+2020	Federación	E	11
+2020	Federación	F	191
+2020	Federación	G	1514
+2020	Federación	H	190
+2020	Federación	I	428
+2020	Federación	J	114
+2020	Federación	K	122
+2020	Federación	L	30
+2020	Federación	M	121
+2020	Federación	N	90
+2020	Federación	Otro	14
+2020	Federación	P	575
+2020	Federación	Q	179
+2020	Federación	R	21
+2020	Federación	S	182
+2020	Federal	A	709
+2020	Federal	B	3
+2020	Federal	C	83
+2020	Federal	D	5
+2020	Federal	E	0
+2020	Federal	F	171
+2020	Federal	G	383
+2020	Federal	H	69
+2020	Federal	I	21
+2020	Federal	J	9
+2020	Federal	K	39
+2020	Federal	L	14
+2020	Federal	M	29
+2020	Federal	N	30
+2020	Federal	Otro	7
+2020	Federal	P	183
+2020	Federal	Q	43
+2020	Federal	R	11
+2020	Federal	S	81
+2020	Feliciano	A	367
+2020	Feliciano	B	0
+2020	Feliciano	C	37
+2020	Feliciano	D	4
+2020	Feliciano	E	8
+2020	Feliciano	F	80
+2020	Feliciano	G	156
+2020	Feliciano	H	22
+2020	Feliciano	I	28
+2020	Feliciano	J	4
+2020	Feliciano	K	31
+2020	Feliciano	L	13
+2020	Feliciano	M	14
+2020	Feliciano	N	11
+2020	Feliciano	Otro	3
+2020	Feliciano	P	72
+2020	Feliciano	Q	14
+2020	Feliciano	R	0
+2020	Feliciano	S	18
+2020	Gualeguay	A	979
+2020	Gualeguay	B	12
+2020	Gualeguay	C	1702
+2020	Gualeguay	D	31
+2020	Gualeguay	E	46
+2020	Gualeguay	F	352
+2020	Gualeguay	G	1068
+2020	Gualeguay	H	271
+2020	Gualeguay	I	97
+2020	Gualeguay	J	85
+2020	Gualeguay	K	119
+2020	Gualeguay	L	48
+2020	Gualeguay	M	100
+2020	Gualeguay	N	93
+2020	Gualeguay	Otro	12
+2020	Gualeguay	P	539
+2020	Gualeguay	Q	176
+2020	Gualeguay	R	28
+2020	Gualeguay	S	121
+2020	Gualeguaychú	A	1427
+2020	Gualeguaychú	B	55
+2020	Gualeguaychú	C	3219
+2020	Gualeguaychú	D	152
+2020	Gualeguaychú	E	42
+2020	Gualeguaychú	F	673
+2020	Gualeguaychú	G	2662
+2020	Gualeguaychú	H	932
+2020	Gualeguaychú	I	444
+2020	Gualeguaychú	J	321
+2020	Gualeguaychú	K	413
+2020	Gualeguaychú	L	111
+2020	Gualeguaychú	M	288
+2020	Gualeguaychú	N	495
+2020	Gualeguaychú	Otro	32
+2020	Gualeguaychú	P	1758
+2020	Gualeguaychú	Q	476
+2020	Gualeguaychú	R	178
+2020	Gualeguaychú	S	501
+2020	Islas del Ibicuy	A	78
+2020	Islas del Ibicuy	B	45
+2020	Islas del Ibicuy	C	158
+2020	Islas del Ibicuy	D	8
+2020	Islas del Ibicuy	E	8
+2020	Islas del Ibicuy	F	39
+2020	Islas del Ibicuy	G	114
+2020	Islas del Ibicuy	H	132
+2020	Islas del Ibicuy	I	4
+2020	Islas del Ibicuy	J	3
+2020	Islas del Ibicuy	K	9
+2020	Islas del Ibicuy	L	9
+2020	Islas del Ibicuy	M	0
+2020	Islas del Ibicuy	N	31
+2020	Islas del Ibicuy	P	66
+2020	Islas del Ibicuy	Q	6
+2020	Islas del Ibicuy	R	4
+2020	Islas del Ibicuy	S	28
+2020	La Paz	A	1625
+2020	La Paz	B	60
+2020	La Paz	C	874
+2020	La Paz	D	61
+2020	La Paz	E	6
+2020	La Paz	F	294
+2020	La Paz	G	1019
+2020	La Paz	H	208
+2020	La Paz	I	87
+2020	La Paz	J	48
+2020	La Paz	K	106
+2020	La Paz	L	41
+2020	La Paz	M	71
+2020	La Paz	N	133
+2020	La Paz	Otro	10
+2020	La Paz	P	795
+2020	La Paz	Q	177
+2020	La Paz	R	19
+2020	La Paz	S	273
+2020	Nogoyá	A	664
+2020	Nogoyá	B	0
+2020	Nogoyá	C	785
+2020	Nogoyá	D	52
+2020	Nogoyá	E	4
+2020	Nogoyá	F	99
+2020	Nogoyá	G	827
+2020	Nogoyá	H	207
+2020	Nogoyá	I	52
+2020	Nogoyá	J	39
+2020	Nogoyá	K	74
+2020	Nogoyá	L	28
+2020	Nogoyá	M	45
+2020	Nogoyá	N	97
+2020	Nogoyá	Otro	0
+2020	Nogoyá	P	621
+2020	Nogoyá	Q	94
+2020	Nogoyá	R	9
+2020	Nogoyá	S	108
+2020	Paraná	A	1593
+2020	Paraná	B	175
+2020	Paraná	C	8209
+2020	Paraná	D	673
+2020	Paraná	E	77
+2020	Paraná	F	2307
+2020	Paraná	G	10226
+2020	Paraná	H	2725
+2020	Paraná	I	1011
+2020	Paraná	J	1310
+2020	Paraná	K	1827
+2020	Paraná	L	243
+2020	Paraná	M	681
+2020	Paraná	N	1996
+2020	Paraná	Otro	118
+2020	Paraná	P	4977
+2020	Paraná	Q	2612
+2020	Paraná	R	733
+2020	Paraná	S	2749
+2020	San Salvador	A	461
+2020	San Salvador	B	0
+2020	San Salvador	C	557
+2020	San Salvador	D	22
+2020	San Salvador	E	5
+2020	San Salvador	F	113
+2020	San Salvador	G	265
+2020	San Salvador	H	115
+2020	San Salvador	I	22
+2020	San Salvador	J	33
+2020	San Salvador	K	55
+2020	San Salvador	L	11
+2020	San Salvador	M	29
+2020	San Salvador	N	37
+2020	San Salvador	Otro	7
+2020	San Salvador	P	73
+2020	San Salvador	Q	16
+2020	San Salvador	R	4
+2020	San Salvador	S	27
+2020	Tala	A	453
+2020	Tala	B	9
+2020	Tala	C	230
+2020	Tala	D	28
+2020	Tala	E	13
+2020	Tala	F	44
+2020	Tala	G	358
+2020	Tala	H	72
+2020	Tala	I	28
+2020	Tala	J	40
+2020	Tala	K	50
+2020	Tala	L	25
+2020	Tala	M	31
+2020	Tala	N	41
+2020	Tala	Otro	5
+2020	Tala	P	115
+2020	Tala	Q	48
+2020	Tala	R	8
+2020	Tala	S	127
+2020	Uruguay	A	704
+2020	Uruguay	B	72
+2020	Uruguay	C	3765
+2020	Uruguay	D	145
+2020	Uruguay	E	11
+2020	Uruguay	F	681
+2020	Uruguay	G	2279
+2020	Uruguay	H	725
+2020	Uruguay	I	330
+2020	Uruguay	J	350
+2020	Uruguay	K	514
+2020	Uruguay	L	53
+2020	Uruguay	M	157
+2020	Uruguay	N	340
+2020	Uruguay	Otro	24
+2020	Uruguay	P	1546
+2020	Uruguay	Q	433
+2020	Uruguay	R	89
+2020	Uruguay	S	514
+2020	Victoria	A	460
+2020	Victoria	B	15
+2020	Victoria	C	574
+2020	Victoria	D	30
+2020	Victoria	E	0
+2020	Victoria	F	113
+2020	Victoria	G	819
+2020	Victoria	H	150
+2020	Victoria	I	261
+2020	Victoria	J	75
+2020	Victoria	K	74
+2020	Victoria	L	26
+2020	Victoria	M	50
+2020	Victoria	N	68
+2020	Victoria	Otro	8
+2020	Victoria	P	421
+2020	Victoria	Q	119
+2020	Victoria	R	341
+2020	Victoria	S	101
+2020	Villaguay	A	869
+2020	Villaguay	B	4
+2020	Villaguay	C	489
+2020	Villaguay	D	31
+2020	Villaguay	E	9
+2020	Villaguay	F	250
+2020	Villaguay	G	844
+2020	Villaguay	H	161
+2020	Villaguay	I	66
+2020	Villaguay	J	88
+2020	Villaguay	K	86
+2020	Villaguay	L	28
+2020	Villaguay	M	43
+2020	Villaguay	N	85
+2020	Villaguay	Otro	5
+2020	Villaguay	P	253
+2020	Villaguay	Q	133
+2020	Villaguay	R	15
+2020	Villaguay	S	89
+2021	Colón	A	931
+2021	Colón	B	97
+2021	Colón	C	3372
+2021	Colón	D	19
+2021	Colón	E	12
+2021	Colón	F	176
+2021	Colón	G	1532
+2021	Colón	H	639
+2021	Colón	I	437
+2021	Colón	J	143
+2021	Colón	K	156
+2021	Colón	L	24
+2021	Colón	M	87
+2021	Colón	N	136
+2021	Colón	Otro	16
+2021	Colón	P	398
+2021	Colón	Q	220
+2021	Colón	R	65
+2021	Colón	S	332
+2021	Concordia	A	4602
+2021	Concordia	B	76
+2021	Concordia	C	3003
+2021	Concordia	D	231
+2021	Concordia	E	41
+2021	Concordia	F	1580
+2021	Concordia	G	3871
+2021	Concordia	H	1061
+2021	Concordia	I	462
+2021	Concordia	J	336
+2021	Concordia	K	615
+2021	Concordia	L	96
+2021	Concordia	M	250
+2021	Concordia	N	783
+2021	Concordia	Otro	35
+2021	Concordia	P	1859
+2021	Concordia	Q	837
+2021	Concordia	R	85
+2021	Concordia	S	588
+2021	Diamante	A	574
+2021	Diamante	B	27
+2021	Diamante	C	1463
+2021	Diamante	D	24
+2021	Diamante	E	17
+2021	Diamante	F	181
+2021	Diamante	G	1111
+2021	Diamante	H	319
+2021	Diamante	I	83
+2021	Diamante	J	90
+2021	Diamante	K	102
+2021	Diamante	L	18
+2021	Diamante	M	77
+2021	Diamante	N	77
+2021	Diamante	Otro	3
+2021	Diamante	P	1084
+2021	Diamante	Q	847
+2021	Diamante	R	27
+2021	Diamante	S	387
+2021	Federación	A	1358
+2021	Federación	B	12
+2021	Federación	C	1611
+2021	Federación	D	80
+2021	Federación	E	12
+2021	Federación	F	170
+2021	Federación	G	1469
+2021	Federación	H	220
+2021	Federación	I	395
+2021	Federación	J	120
+2021	Federación	K	122
+2021	Federación	L	24
+2021	Federación	M	110
+2021	Federación	N	95
+2021	Federación	Otro	13
+2021	Federación	P	601
+2021	Federación	Q	179
+2021	Federación	R	19
+2021	Federación	S	189
+2021	Federal	A	766
+2021	Federal	B	6
+2021	Federal	C	93
+2021	Federal	D	5
+2021	Federal	E	3
+2021	Federal	F	220
+2021	Federal	G	367
+2021	Federal	H	83
+2021	Federal	I	19
+2021	Federal	J	12
+2021	Federal	K	38
+2021	Federal	L	16
+2021	Federal	M	32
+2021	Federal	N	31
+2021	Federal	Otro	6
+2021	Federal	P	192
+2021	Federal	Q	46
+2021	Federal	R	11
+2021	Federal	S	65
+2021	Feliciano	A	383
+2021	Feliciano	B	0
+2021	Feliciano	C	58
+2021	Feliciano	D	4
+2021	Feliciano	E	8
+2021	Feliciano	F	93
+2021	Feliciano	G	134
+2021	Feliciano	H	26
+2021	Feliciano	I	28
+2021	Feliciano	J	4
+2021	Feliciano	K	29
+2021	Feliciano	L	11
+2021	Feliciano	M	10
+2021	Feliciano	N	15
+2021	Feliciano	Otro	0
+2021	Feliciano	P	76
+2021	Feliciano	Q	17
+2021	Feliciano	R	3
+2021	Feliciano	S	19
+2021	Gualeguay	A	988
+2021	Gualeguay	B	13
+2021	Gualeguay	C	1788
+2021	Gualeguay	D	33
+2021	Gualeguay	E	45
+2021	Gualeguay	F	344
+2021	Gualeguay	G	1118
+2021	Gualeguay	H	299
+2021	Gualeguay	I	95
+2021	Gualeguay	J	92
+2021	Gualeguay	K	115
+2021	Gualeguay	L	47
+2021	Gualeguay	M	95
+2021	Gualeguay	N	101
+2021	Gualeguay	Otro	10
+2021	Gualeguay	P	562
+2021	Gualeguay	Q	182
+2021	Gualeguay	R	24
+2021	Gualeguay	S	121
+2021	Gualeguaychú	A	1409
+2021	Gualeguaychú	B	57
+2021	Gualeguaychú	C	3406
+2021	Gualeguaychú	D	156
+2021	Gualeguaychú	E	41
+2021	Gualeguaychú	F	603
+2021	Gualeguaychú	G	2691
+2021	Gualeguaychú	H	963
+2021	Gualeguaychú	I	389
+2021	Gualeguaychú	J	343
+2021	Gualeguaychú	K	398
+2021	Gualeguaychú	L	115
+2021	Gualeguaychú	M	290
+2021	Gualeguaychú	N	512
+2021	Gualeguaychú	Otro	34
+2021	Gualeguaychú	P	1781
+2021	Gualeguaychú	Q	485
+2021	Gualeguaychú	R	186
+2021	Gualeguaychú	S	498
+2021	Islas del Ibicuy	A	77
+2021	Islas del Ibicuy	B	46
+2021	Islas del Ibicuy	C	159
+2021	Islas del Ibicuy	D	8
+2021	Islas del Ibicuy	E	9
+2021	Islas del Ibicuy	F	41
+2021	Islas del Ibicuy	G	98
+2021	Islas del Ibicuy	H	159
+2021	Islas del Ibicuy	I	4
+2021	Islas del Ibicuy	J	3
+2021	Islas del Ibicuy	K	7
+2021	Islas del Ibicuy	L	7
+2021	Islas del Ibicuy	M	3
+2021	Islas del Ibicuy	N	52
+2021	Islas del Ibicuy	P	65
+2021	Islas del Ibicuy	Q	7
+2021	Islas del Ibicuy	R	4
+2021	Islas del Ibicuy	S	28
+2021	La Paz	A	1636
+2021	La Paz	B	64
+2021	La Paz	C	917
+2021	La Paz	D	64
+2021	La Paz	E	6
+2021	La Paz	F	368
+2021	La Paz	G	1000
+2021	La Paz	H	230
+2021	La Paz	I	81
+2021	La Paz	J	53
+2021	La Paz	K	106
+2021	La Paz	L	40
+2021	La Paz	M	87
+2021	La Paz	N	139
+2021	La Paz	Otro	11
+2021	La Paz	P	837
+2021	La Paz	Q	175
+2021	La Paz	R	19
+2021	La Paz	S	281
+2021	Nogoyá	A	655
+2021	Nogoyá	B	0
+2021	Nogoyá	C	812
+2021	Nogoyá	D	55
+2021	Nogoyá	E	4
+2021	Nogoyá	F	85
+2021	Nogoyá	G	829
+2021	Nogoyá	H	233
+2021	Nogoyá	I	49
+2021	Nogoyá	J	42
+2021	Nogoyá	K	77
+2021	Nogoyá	L	28
+2021	Nogoyá	M	45
+2021	Nogoyá	N	97
+2021	Nogoyá	P	633
+2021	Nogoyá	Q	104
+2021	Nogoyá	R	9
+2021	Nogoyá	S	108
+2021	Paraná	A	1655
+2021	Paraná	B	183
+2021	Paraná	C	8565
+2021	Paraná	D	688
+2021	Paraná	E	74
+2021	Paraná	F	2602
+2021	Paraná	G	10246
+2021	Paraná	H	2851
+2021	Paraná	I	931
+2021	Paraná	J	1366
+2021	Paraná	K	1790
+2021	Paraná	L	206
+2021	Paraná	M	710
+2021	Paraná	N	2033
+2021	Paraná	Otro	120
+2021	Paraná	P	5098
+2021	Paraná	Q	2633
+2021	Paraná	R	732
+2021	Paraná	S	2747
+2021	San Salvador	A	469
+2021	San Salvador	B	0
+2021	San Salvador	C	575
+2021	San Salvador	D	22
+2021	San Salvador	E	5
+2021	San Salvador	F	120
+2021	San Salvador	G	283
+2021	San Salvador	H	119
+2021	San Salvador	I	16
+2021	San Salvador	J	39
+2021	San Salvador	K	57
+2021	San Salvador	L	6
+2021	San Salvador	M	29
+2021	San Salvador	N	35
+2021	San Salvador	Otro	6
+2021	San Salvador	P	85
+2021	San Salvador	Q	17
+2021	San Salvador	R	4
+2021	San Salvador	S	27
+2021	Tala	A	454
+2021	Tala	B	8
+2021	Tala	C	243
+2021	Tala	D	27
+2021	Tala	E	13
+2021	Tala	F	61
+2021	Tala	G	359
+2021	Tala	H	92
+2021	Tala	I	27
+2021	Tala	J	43
+2021	Tala	K	45
+2021	Tala	L	24
+2021	Tala	M	31
+2021	Tala	N	47
+2021	Tala	Otro	5
+2021	Tala	P	117
+2021	Tala	Q	50
+2021	Tala	R	8
+2021	Tala	S	133
+2021	Uruguay	A	719
+2021	Uruguay	B	70
+2021	Uruguay	C	3840
+2021	Uruguay	D	136
+2021	Uruguay	E	10
+2021	Uruguay	F	764
+2021	Uruguay	G	2345
+2021	Uruguay	H	869
+2021	Uruguay	I	280
+2021	Uruguay	J	395
+2021	Uruguay	K	515
+2021	Uruguay	L	47
+2021	Uruguay	M	152
+2021	Uruguay	N	353
+2021	Uruguay	Otro	16
+2021	Uruguay	P	1588
+2021	Uruguay	Q	423
+2021	Uruguay	R	86
+2021	Uruguay	S	517
+2021	Victoria	A	473
+2021	Victoria	B	14
+2021	Victoria	C	614
+2021	Victoria	D	31
+2021	Victoria	E	3
+2021	Victoria	F	169
+2021	Victoria	G	818
+2021	Victoria	H	167
+2021	Victoria	I	239
+2021	Victoria	J	73
+2021	Victoria	K	76
+2021	Victoria	L	20
+2021	Victoria	M	56
+2021	Victoria	N	67
+2021	Victoria	Otro	9
+2021	Victoria	P	443
+2021	Victoria	Q	117
+2021	Victoria	R	329
+2021	Victoria	S	102
+2021	Villaguay	A	904
+2021	Villaguay	B	5
+2021	Villaguay	C	504
+2021	Villaguay	D	32
+2021	Villaguay	E	9
+2021	Villaguay	F	339
+2021	Villaguay	G	893
+2021	Villaguay	H	186
+2021	Villaguay	I	63
+2021	Villaguay	J	92
+2021	Villaguay	K	86
+2021	Villaguay	L	27
+2021	Villaguay	M	47
+2021	Villaguay	N	105
+2021	Villaguay	Otro	5
+2021	Villaguay	P	291
+2021	Villaguay	Q	132
+2021	Villaguay	R	13
+2021	Villaguay	S	102
+2022	Colón	A	975
+2022	Colón	B	103
+2022	Colón	C	3501
+2022	Colón	D	19
+2022	Colón	E	13
+2022	Colón	F	207
+2022	Colón	G	1668
+2022	Colón	H	628
+2022	Colón	I	566
+2022	Colón	J	149
+2022	Colón	K	150
+2022	Colón	L	22
+2022	Colón	M	90
+2022	Colón	N	152
+2022	Colón	Otro	15
+2022	Colón	P	429
+2022	Colón	Q	229
+2022	Colón	R	78
+2022	Colón	S	340
+2022	Concordia	A	3706
+2022	Concordia	B	90
+2022	Concordia	C	3186
+2022	Concordia	D	229
+2022	Concordia	E	43
+2022	Concordia	F	1600
+2022	Concordia	G	4075
+2022	Concordia	H	1041
+2022	Concordia	I	550
+2022	Concordia	J	375
+2022	Concordia	K	619
+2022	Concordia	L	103
+2022	Concordia	M	292
+2022	Concordia	N	771
+2022	Concordia	Otro	35
+2022	Concordia	P	1909
+2022	Concordia	Q	844
+2022	Concordia	R	101
+2022	Concordia	S	598
+2022	Diamante	A	574
+2022	Diamante	B	26
+2022	Diamante	C	1503
+2022	Diamante	D	25
+2022	Diamante	E	20
+2022	Diamante	F	208
+2022	Diamante	G	1160
+2022	Diamante	H	325
+2022	Diamante	I	93
+2022	Diamante	J	94
+2022	Diamante	K	101
+2022	Diamante	L	18
+2022	Diamante	M	85
+2022	Diamante	N	79
+2022	Diamante	Otro	4
+2022	Diamante	P	1121
+2022	Diamante	Q	833
+2022	Diamante	R	26
+2022	Diamante	S	402
+2022	Federación	A	1333
+2022	Federación	B	15
+2022	Federación	C	1652
+2022	Federación	D	80
+2022	Federación	E	11
+2022	Federación	F	195
+2022	Federación	G	1486
+2022	Federación	H	235
+2022	Federación	I	500
+2022	Federación	J	133
+2022	Federación	K	125
+2022	Federación	L	24
+2022	Federación	M	104
+2022	Federación	N	109
+2022	Federación	Otro	12
+2022	Federación	P	624
+2022	Federación	Q	187
+2022	Federación	R	20
+2022	Federación	S	192
+2022	Federal	A	770
+2022	Federal	B	7
+2022	Federal	C	107
+2022	Federal	D	6
+2022	Federal	E	3
+2022	Federal	F	191
+2022	Federal	G	373
+2022	Federal	H	86
+2022	Federal	I	26
+2022	Federal	J	13
+2022	Federal	K	37
+2022	Federal	L	17
+2022	Federal	M	39
+2022	Federal	N	34
+2022	Federal	Otro	7
+2022	Federal	P	193
+2022	Federal	Q	42
+2022	Federal	R	10
+2022	Federal	S	69
+2022	Feliciano	A	421
+2022	Feliciano	B	0
+2022	Feliciano	C	65
+2022	Feliciano	D	4
+2022	Feliciano	E	8
+2022	Feliciano	F	94
+2022	Feliciano	G	133
+2022	Feliciano	H	26
+2022	Feliciano	I	34
+2022	Feliciano	J	3
+2022	Feliciano	K	28
+2022	Feliciano	L	13
+2022	Feliciano	M	17
+2022	Feliciano	N	23
+2022	Feliciano	Otro	0
+2022	Feliciano	P	78
+2022	Feliciano	Q	18
+2022	Feliciano	R	0
+2022	Feliciano	S	18
+2022	Gualeguay	A	1009
+2022	Gualeguay	B	17
+2022	Gualeguay	C	1794
+2022	Gualeguay	D	32
+2022	Gualeguay	E	44
+2022	Gualeguay	F	405
+2022	Gualeguay	G	1211
+2022	Gualeguay	H	301
+2022	Gualeguay	I	120
+2022	Gualeguay	J	100
+2022	Gualeguay	K	114
+2022	Gualeguay	L	47
+2022	Gualeguay	M	98
+2022	Gualeguay	N	112
+2022	Gualeguay	Otro	11
+2022	Gualeguay	P	579
+2022	Gualeguay	Q	172
+2022	Gualeguay	R	26
+2022	Gualeguay	S	126
+2022	Gualeguaychú	A	1418
+2022	Gualeguaychú	B	63
+2022	Gualeguaychú	C	3582
+2022	Gualeguaychú	D	160
+2022	Gualeguaychú	E	41
+2022	Gualeguaychú	F	706
+2022	Gualeguaychú	G	2939
+2022	Gualeguaychú	H	912
+2022	Gualeguaychú	I	487
+2022	Gualeguaychú	J	368
+2022	Gualeguaychú	K	392
+2022	Gualeguaychú	L	112
+2022	Gualeguaychú	M	296
+2022	Gualeguaychú	N	549
+2022	Gualeguaychú	Otro	35
+2022	Gualeguaychú	P	1841
+2022	Gualeguaychú	Q	497
+2022	Gualeguaychú	R	213
+2022	Gualeguaychú	S	512
+2022	Islas del Ibicuy	A	77
+2022	Islas del Ibicuy	B	50
+2022	Islas del Ibicuy	C	165
+2022	Islas del Ibicuy	D	8
+2022	Islas del Ibicuy	E	10
+2022	Islas del Ibicuy	F	39
+2022	Islas del Ibicuy	G	101
+2022	Islas del Ibicuy	H	153
+2022	Islas del Ibicuy	I	3
+2022	Islas del Ibicuy	J	3
+2022	Islas del Ibicuy	K	7
+2022	Islas del Ibicuy	L	7
+2022	Islas del Ibicuy	M	7
+2022	Islas del Ibicuy	N	69
+2022	Islas del Ibicuy	Otro	0
+2022	Islas del Ibicuy	P	66
+2022	Islas del Ibicuy	Q	8
+2022	Islas del Ibicuy	R	4
+2022	Islas del Ibicuy	S	24
+2022	La Paz	A	1691
+2022	La Paz	B	73
+2022	La Paz	C	968
+2022	La Paz	D	64
+2022	La Paz	E	6
+2022	La Paz	F	446
+2022	La Paz	G	1073
+2022	La Paz	H	227
+2022	La Paz	I	90
+2022	La Paz	J	59
+2022	La Paz	K	107
+2022	La Paz	L	38
+2022	La Paz	M	99
+2022	La Paz	N	177
+2022	La Paz	Otro	13
+2022	La Paz	P	890
+2022	La Paz	Q	189
+2022	La Paz	R	24
+2022	La Paz	S	304
+2022	Nogoyá	A	678
+2022	Nogoyá	B	3
+2022	Nogoyá	C	853
+2022	Nogoyá	D	53
+2022	Nogoyá	E	4
+2022	Nogoyá	F	108
+2022	Nogoyá	G	837
+2022	Nogoyá	H	220
+2022	Nogoyá	I	59
+2022	Nogoyá	J	48
+2022	Nogoyá	K	77
+2022	Nogoyá	L	28
+2022	Nogoyá	M	55
+2022	Nogoyá	N	89
+2022	Nogoyá	Otro	0
+2022	Nogoyá	P	664
+2022	Nogoyá	Q	103
+2022	Nogoyá	R	11
+2022	Nogoyá	S	109
+2022	Paraná	A	1684
+2022	Paraná	B	186
+2022	Paraná	C	8930
+2022	Paraná	D	693
+2022	Paraná	E	73
+2022	Paraná	F	3284
+2022	Paraná	G	10644
+2022	Paraná	H	2745
+2022	Paraná	I	1162
+2022	Paraná	J	1435
+2022	Paraná	K	1766
+2022	Paraná	L	206
+2022	Paraná	M	776
+2022	Paraná	N	2120
+2022	Paraná	Otro	119
+2022	Paraná	P	5315
+2022	Paraná	Q	2661
+2022	Paraná	R	787
+2022	Paraná	S	2763
+2022	San Salvador	A	498
+2022	San Salvador	B	0
+2022	San Salvador	C	583
+2022	San Salvador	D	20
+2022	San Salvador	E	5
+2022	San Salvador	F	154
+2022	San Salvador	G	304
+2022	San Salvador	H	111
+2022	San Salvador	I	19
+2022	San Salvador	J	41
+2022	San Salvador	K	59
+2022	San Salvador	L	6
+2022	San Salvador	M	34
+2022	San Salvador	N	37
+2022	San Salvador	Otro	6
+2022	San Salvador	P	97
+2022	San Salvador	Q	17
+2022	San Salvador	R	5
+2022	San Salvador	S	29
+2022	Tala	A	456
+2022	Tala	B	12
+2022	Tala	C	253
+2022	Tala	D	26
+2022	Tala	E	12
+2022	Tala	F	117
+2022	Tala	G	369
+2022	Tala	H	93
+2022	Tala	I	32
+2022	Tala	J	45
+2022	Tala	K	45
+2022	Tala	L	24
+2022	Tala	M	24
+2022	Tala	N	58
+2022	Tala	Otro	6
+2022	Tala	P	118
+2022	Tala	Q	55
+2022	Tala	R	9
+2022	Tala	S	141
+2022	Uruguay	A	708
+2022	Uruguay	B	68
+2022	Uruguay	C	4095
+2022	Uruguay	D	139
+2022	Uruguay	E	13
+2022	Uruguay	F	886
+2022	Uruguay	G	2397
+2022	Uruguay	H	873
+2022	Uruguay	I	335
+2022	Uruguay	J	428
+2022	Uruguay	K	511
+2022	Uruguay	L	43
+2022	Uruguay	M	150
+2022	Uruguay	N	394
+2022	Uruguay	Otro	17
+2022	Uruguay	P	1642
+2022	Uruguay	Q	436
+2022	Uruguay	R	88
+2022	Uruguay	S	521
+2022	Victoria	A	470
+2022	Victoria	B	14
+2022	Victoria	C	612
+2022	Victoria	D	32
+2022	Victoria	E	3
+2022	Victoria	F	207
+2022	Victoria	G	848
+2022	Victoria	H	162
+2022	Victoria	I	287
+2022	Victoria	J	76
+2022	Victoria	K	75
+2022	Victoria	L	20
+2022	Victoria	M	67
+2022	Victoria	N	69
+2022	Victoria	Otro	7
+2022	Victoria	P	462
+2022	Victoria	Q	125
+2022	Victoria	R	344
+2022	Victoria	S	106
+2022	Villaguay	A	943
+2022	Villaguay	B	5
+2022	Villaguay	C	510
+2022	Villaguay	D	32
+2022	Villaguay	E	10
+2022	Villaguay	F	407
+2022	Villaguay	G	915
+2022	Villaguay	H	185
+2022	Villaguay	I	79
+2022	Villaguay	J	94
+2022	Villaguay	K	88
+2022	Villaguay	L	27
+2022	Villaguay	M	56
+2022	Villaguay	N	119
+2022	Villaguay	Otro	5
+2022	Villaguay	P	307
+2022	Villaguay	Q	136
+2022	Villaguay	R	14
+2022	Villaguay	S	104
+2023	Colón	A	963
+2023	Colón	B	98
+2023	Colón	C	3555
+2023	Colón	D	19
+2023	Colón	E	16
+2023	Colón	F	230
+2023	Colón	G	1852
+2023	Colón	H	643
+2023	Colón	I	687
+2023	Colón	J	147
+2023	Colón	K	155
+2023	Colón	L	24
+2023	Colón	M	95
+2023	Colón	N	152
+2023	Colón	Otro	15
+2023	Colón	P	436
+2023	Colón	Q	245
+2023	Colón	R	89
+2023	Colón	S	354
+2023	Concordia	A	3302
+2023	Concordia	B	94
+2023	Concordia	C	3263
+2023	Concordia	D	231
+2023	Concordia	E	42
+2023	Concordia	F	1559
+2023	Concordia	G	4263
+2023	Concordia	H	1098
+2023	Concordia	I	655
+2023	Concordia	J	391
+2023	Concordia	K	626
+2023	Concordia	L	110
+2023	Concordia	M	286
+2023	Concordia	N	750
+2023	Concordia	Otro	40
+2023	Concordia	P	1838
+2023	Concordia	Q	865
+2023	Concordia	R	103
+2023	Concordia	S	625
+2023	Diamante	A	581
+2023	Diamante	B	27
+2023	Diamante	C	1525
+2023	Diamante	D	26
+2023	Diamante	E	17
+2023	Diamante	F	218
+2023	Diamante	G	1192
+2023	Diamante	H	332
+2023	Diamante	I	108
+2023	Diamante	J	97
+2023	Diamante	K	98
+2023	Diamante	L	23
+2023	Diamante	M	84
+2023	Diamante	N	74
+2023	Diamante	Otro	12
+2023	Diamante	P	1076
+2023	Diamante	Q	836
+2023	Diamante	R	34
+2023	Diamante	S	404
+2023	Federación	A	1319
+2023	Federación	B	9
+2023	Federación	C	1658
+2023	Federación	D	85
+2023	Federación	E	11
+2023	Federación	F	208
+2023	Federación	G	1574
+2023	Federación	H	260
+2023	Federación	I	583
+2023	Federación	J	133
+2023	Federación	K	126
+2023	Federación	L	23
+2023	Federación	M	107
+2023	Federación	N	111
+2023	Federación	Otro	20
+2023	Federación	P	608
+2023	Federación	Q	188
+2023	Federación	R	18
+2023	Federación	S	202
+2023	Federal	A	785
+2023	Federal	B	6
+2023	Federal	C	116
+2023	Federal	D	6
+2023	Federal	E	3
+2023	Federal	F	200
+2023	Federal	G	380
+2023	Federal	H	88
+2023	Federal	I	35
+2023	Federal	J	13
+2023	Federal	K	40
+2023	Federal	L	15
+2023	Federal	M	37
+2023	Federal	N	32
+2023	Federal	Otro	7
+2023	Federal	P	202
+2023	Federal	Q	41
+2023	Federal	R	12
+2023	Federal	S	74
+2023	Feliciano	A	450
+2023	Feliciano	B	0
+2023	Feliciano	C	66
+2023	Feliciano	D	4
+2023	Feliciano	E	8
+2023	Feliciano	F	68
+2023	Feliciano	G	132
+2023	Feliciano	H	31
+2023	Feliciano	I	38
+2023	Feliciano	J	3
+2023	Feliciano	K	26
+2023	Feliciano	L	15
+2023	Feliciano	M	11
+2023	Feliciano	N	24
+2023	Feliciano	Otro	4
+2023	Feliciano	P	80
+2023	Feliciano	Q	17
+2023	Feliciano	R	0
+2023	Feliciano	S	18
+2023	Gualeguay	A	1041
+2023	Gualeguay	B	15
+2023	Gualeguay	C	1810
+2023	Gualeguay	D	31
+2023	Gualeguay	E	44
+2023	Gualeguay	F	466
+2023	Gualeguay	G	1270
+2023	Gualeguay	H	311
+2023	Gualeguay	I	132
+2023	Gualeguay	J	102
+2023	Gualeguay	K	114
+2023	Gualeguay	L	51
+2023	Gualeguay	M	102
+2023	Gualeguay	N	108
+2023	Gualeguay	Otro	12
+2023	Gualeguay	P	583
+2023	Gualeguay	Q	176
+2023	Gualeguay	R	24
+2023	Gualeguay	S	123
+2023	Gualeguaychú	A	1435
+2023	Gualeguaychú	B	67
+2023	Gualeguaychú	C	3676
+2023	Gualeguaychú	D	165
+2023	Gualeguaychú	E	42
+2023	Gualeguaychú	F	815
+2023	Gualeguaychú	G	3101
+2023	Gualeguaychú	H	944
+2023	Gualeguaychú	I	632
+2023	Gualeguaychú	J	372
+2023	Gualeguaychú	K	391
+2023	Gualeguaychú	L	113
+2023	Gualeguaychú	M	309
+2023	Gualeguaychú	N	595
+2023	Gualeguaychú	Otro	39
+2023	Gualeguaychú	P	1828
+2023	Gualeguaychú	Q	495
+2023	Gualeguaychú	R	215
+2023	Gualeguaychú	S	501
+2023	Islas del Ibicuy	A	75
+2023	Islas del Ibicuy	B	49
+2023	Islas del Ibicuy	C	171
+2023	Islas del Ibicuy	D	9
+2023	Islas del Ibicuy	E	6
+2023	Islas del Ibicuy	F	49
+2023	Islas del Ibicuy	G	161
+2023	Islas del Ibicuy	H	166
+2023	Islas del Ibicuy	I	3
+2023	Islas del Ibicuy	J	3
+2023	Islas del Ibicuy	K	6
+2023	Islas del Ibicuy	L	7
+2023	Islas del Ibicuy	M	6
+2023	Islas del Ibicuy	N	77
+2023	Islas del Ibicuy	Otro	0
+2023	Islas del Ibicuy	P	63
+2023	Islas del Ibicuy	Q	8
+2023	Islas del Ibicuy	R	3
+2023	Islas del Ibicuy	S	22
+2023	La Paz	A	1680
+2023	La Paz	B	83
+2023	La Paz	C	1010
+2023	La Paz	D	63
+2023	La Paz	E	6
+2023	La Paz	F	464
+2023	La Paz	G	1180
+2023	La Paz	H	235
+2023	La Paz	I	119
+2023	La Paz	J	60
+2023	La Paz	K	117
+2023	La Paz	L	38
+2023	La Paz	M	91
+2023	La Paz	N	196
+2023	La Paz	Otro	19
+2023	La Paz	P	887
+2023	La Paz	Q	198
+2023	La Paz	R	34
+2023	La Paz	S	323
+2023	Nogoyá	A	695
+2023	Nogoyá	B	3
+2023	Nogoyá	C	875
+2023	Nogoyá	D	53
+2023	Nogoyá	E	4
+2023	Nogoyá	F	105
+2023	Nogoyá	G	876
+2023	Nogoyá	H	231
+2023	Nogoyá	I	63
+2023	Nogoyá	J	52
+2023	Nogoyá	K	77
+2023	Nogoyá	L	26
+2023	Nogoyá	M	60
+2023	Nogoyá	N	90
+2023	Nogoyá	Otro	5
+2023	Nogoyá	P	673
+2023	Nogoyá	Q	104
+2023	Nogoyá	R	12
+2023	Nogoyá	S	117
+2023	Paraná	A	1688
+2023	Paraná	B	193
+2023	Paraná	C	9116
+2023	Paraná	D	689
+2023	Paraná	E	76
+2023	Paraná	F	3304
+2023	Paraná	G	11053
+2023	Paraná	H	2749
+2023	Paraná	I	1301
+2023	Paraná	J	1467
+2023	Paraná	K	1763
+2023	Paraná	L	218
+2023	Paraná	M	785
+2023	Paraná	N	2185
+2023	Paraná	Otro	139
+2023	Paraná	P	5198
+2023	Paraná	Q	2687
+2023	Paraná	R	776
+2023	Paraná	S	2755
+2023	San Salvador	A	513
+2023	San Salvador	B	0
+2023	San Salvador	C	569
+2023	San Salvador	D	20
+2023	San Salvador	E	6
+2023	San Salvador	F	159
+2023	San Salvador	G	314
+2023	San Salvador	H	114
+2023	San Salvador	I	22
+2023	San Salvador	J	44
+2023	San Salvador	K	54
+2023	San Salvador	L	5
+2023	San Salvador	M	33
+2023	San Salvador	N	37
+2023	San Salvador	Otro	6
+2023	San Salvador	P	96
+2023	San Salvador	Q	17
+2023	San Salvador	R	5
+2023	San Salvador	S	30
+2023	Tala	A	449
+2023	Tala	B	15
+2023	Tala	C	247
+2023	Tala	D	25
+2023	Tala	E	12
+2023	Tala	F	201
+2023	Tala	G	383
+2023	Tala	H	89
+2023	Tala	I	33
+2023	Tala	J	46
+2023	Tala	K	45
+2023	Tala	L	26
+2023	Tala	M	27
+2023	Tala	N	63
+2023	Tala	Otro	6
+2023	Tala	P	117
+2023	Tala	Q	56
+2023	Tala	R	9
+2023	Tala	S	139
+2023	Uruguay	A	714
+2023	Uruguay	B	76
+2023	Uruguay	C	4181
+2023	Uruguay	D	137
+2023	Uruguay	E	9
+2023	Uruguay	F	985
+2023	Uruguay	G	2534
+2023	Uruguay	H	918
+2023	Uruguay	I	425
+2023	Uruguay	J	422
+2023	Uruguay	K	514
+2023	Uruguay	L	45
+2023	Uruguay	M	154
+2023	Uruguay	N	400
+2023	Uruguay	Otro	18
+2023	Uruguay	P	1616
+2023	Uruguay	Q	445
+2023	Uruguay	R	84
+2023	Uruguay	S	525
+2023	Victoria	A	456
+2023	Victoria	B	15
+2023	Victoria	C	605
+2023	Victoria	D	35
+2023	Victoria	E	4
+2023	Victoria	F	196
+2023	Victoria	G	886
+2023	Victoria	H	162
+2023	Victoria	I	320
+2023	Victoria	J	72
+2023	Victoria	K	77
+2023	Victoria	L	21
+2023	Victoria	M	75
+2023	Victoria	N	68
+2023	Victoria	Otro	8
+2023	Victoria	P	451
+2023	Victoria	Q	130
+2023	Victoria	R	355
+2023	Victoria	S	105
+2023	Villaguay	A	950
+2023	Villaguay	B	5
+2023	Villaguay	C	519
+2023	Villaguay	D	31
+2023	Villaguay	E	10
+2023	Villaguay	F	404
+2023	Villaguay	G	955
+2023	Villaguay	H	195
+2023	Villaguay	I	93
+2023	Villaguay	J	92
+2023	Villaguay	K	88
+2023	Villaguay	L	26
+2023	Villaguay	M	51
+2023	Villaguay	N	121
+2023	Villaguay	Otro	5
+2023	Villaguay	P	239
+2023	Villaguay	Q	138
+2023	Villaguay	R	13
+2023	Villaguay	S	105

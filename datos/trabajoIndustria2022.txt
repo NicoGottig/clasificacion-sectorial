@@ -1,0 +1,350 @@
+depto	desc_clae	puestos
+Colón	Farm	9
+Colón	Bebi	12
+Colón	Vest	24
+Colón	Alim	2915
+Colón	Cuercalz	7
+Colón	Made	332
+Colón	Pape	9
+Colón	Text	7
+Colón	EquiElec	6
+Colón	Maqu	102
+Colón	MetCom	0
+Colón	Mueb	9
+Colón	EquiTran	6
+Colón	CauVid	26
+Colón	InfoElecOpt	0
+Colón	VidOtrMin	8
+Colón	MetalExcMaqEq	73
+Colón	SustQuim	8
+Colón	AutoRemSemi	22
+Colón	ImpEdit	3
+Colón	Otr	3
+Colón	RepInstalMaq	0
+Concordia	Farm	26
+Concordia	Bebi	199
+Concordia	Vest	19
+Concordia	Alim	1058
+Concordia	Cuercalz	3
+Concordia	Made	1393
+Concordia	Pape	15
+Concordia	Text	15
+Concordia	EquiElec	19
+Concordia	Maqu	33
+Concordia	MetCom	23
+Concordia	Mueb	14
+Concordia	EquiTran	6
+Concordia	CauVid	36
+Concordia	InfoElecOpt	27
+Concordia	VidOtrMin	58
+Concordia	MetalExcMaqEq	132
+Concordia	SustQuim	131
+Concordia	AutoRemSemi	24
+Concordia	ImpEdit	30
+Concordia	Otr	33
+Concordia	RepInstalMaq	29
+Diamante	Farm	17
+Diamante	Bebi	52
+Diamante	Vest	0
+Diamante	Alim	865
+Diamante	Cuercalz	122
+Diamante	Made	9
+Diamante	Pape	10
+Diamante	Text	8
+Diamante	EquiElec	4
+Diamante	Maqu	22
+Diamante	MetCom	11
+Diamante	Mueb	29
+Diamante	EquiTran	13
+Diamante	CauVid	126
+Diamante	InfoElecOpt	4
+Diamante	VidOtrMin	42
+Diamante	MetalExcMaqEq	107
+Diamante	SustQuim	30
+Diamante	AutoRemSemi	81
+Diamante	ImpEdit	4
+Diamante	Otr	15
+Diamante	RepInstalMaq	5
+Federación	Farm	3
+Federación	Bebi	24
+Federación	Vest	5
+Federación	Alim	439
+Federación	Made	930
+Federación	Pape	5
+Federación	ProdTab	0
+Federación	Text	3
+Federación	EquiElec	15
+Federación	Maqu	21
+Federación	MetCom	0
+Federación	Mueb	75
+Federación	EquiTran	3
+Federación	CauVid	7
+Federación	InfoElecOpt	0
+Federación	VidOtrMin	25
+Federación	MetalExcMaqEq	64
+Federación	SustQuim	53
+Federación	AutoRemSemi	13
+Federación	ImpEdit	7
+Federación	Otr	0
+Federación	RepInstalMaq	12
+Federal	Bebi	5
+Federal	Vest	3
+Federal	Alim	42
+Federal	Made	17
+Federal	Pape	0
+Federal	Text	0
+Federal	EquiElec	3
+Federal	Maqu	0
+Federal	MetCom	0
+Federal	Mueb	3
+Federal	CauVid	4
+Federal	VidOtrMin	6
+Federal	MetalExcMaqEq	14
+Federal	SustQuim	4
+Federal	AutoRemSemi	19
+Federal	Otr	0
+Feliciano	Farm	4
+Feliciano	Alim	45
+Feliciano	Cuercalz	0
+Feliciano	Made	8
+Feliciano	Pape	0
+Feliciano	EquiElec	0
+Feliciano	Maqu	4
+Feliciano	Mueb	0
+Feliciano	EquiTran	0
+Feliciano	CauVid	0
+Feliciano	InfoElecOpt	0
+Feliciano	VidOtrMin	4
+Feliciano	MetalExcMaqEq	5
+Gualeguay	Farm	5
+Gualeguay	Bebi	20
+Gualeguay	Vest	4
+Gualeguay	Alim	1579
+Gualeguay	Cuercalz	17
+Gualeguay	Made	8
+Gualeguay	Pape	3
+Gualeguay	Text	4
+Gualeguay	EquiElec	8
+Gualeguay	Maqu	4
+Gualeguay	MetCom	7
+Gualeguay	Mueb	0
+Gualeguay	EquiTran	5
+Gualeguay	CauVid	11
+Gualeguay	InfoElecOpt	0
+Gualeguay	RefPet	0
+Gualeguay	VidOtrMin	4
+Gualeguay	MetalExcMaqEq	140
+Gualeguay	SustQuim	14
+Gualeguay	AutoRemSemi	24
+Gualeguay	ImpEdit	7
+Gualeguay	Otr	6
+Gualeguay	RepInstalMaq	3
+Gualeguaychú	Farm	26
+Gualeguaychú	Bebi	548
+Gualeguaychú	Vest	22
+Gualeguaychú	Alim	968
+Gualeguaychú	Cuercalz	9
+Gualeguaychú	Made	83
+Gualeguaychú	Pape	69
+Gualeguaychú	ProdTab	0
+Gualeguaychú	Text	116
+Gualeguaychú	EquiElec	233
+Gualeguaychú	Maqu	96
+Gualeguaychú	MetCom	53
+Gualeguaychú	Mueb	9
+Gualeguaychú	EquiTran	18
+Gualeguaychú	CauVid	194
+Gualeguaychú	InfoElecOpt	6
+Gualeguaychú	RefPet	4
+Gualeguaychú	VidOtrMin	49
+Gualeguaychú	MetalExcMaqEq	284
+Gualeguaychú	SustQuim	348
+Gualeguaychú	AutoRemSemi	561
+Gualeguaychú	ImpEdit	25
+Gualeguaychú	Otr	11
+Gualeguaychú	RepInstalMaq	22
+Islas del Ibicuy	Farm	0
+Islas del Ibicuy	Bebi	8
+Islas del Ibicuy	Alim	17
+Islas del Ibicuy	Made	0
+Islas del Ibicuy	Pape	71
+Islas del Ibicuy	EquiElec	0
+Islas del Ibicuy	MetCom	12
+Islas del Ibicuy	Mueb	0
+Islas del Ibicuy	CauVid	0
+Islas del Ibicuy	InfoElecOpt	0
+Islas del Ibicuy	VidOtrMin	0
+Islas del Ibicuy	MetalExcMaqEq	6
+Islas del Ibicuy	SustQuim	0
+Islas del Ibicuy	AutoRemSemi	59
+Islas del Ibicuy	Otr	5
+Islas del Ibicuy	RepInstalMaq	0
+La Paz	Farm	13
+La Paz	Bebi	14
+La Paz	Vest	8
+La Paz	Alim	634
+La Paz	Cuercalz	5
+La Paz	Made	50
+La Paz	Pape	12
+La Paz	Text	4
+La Paz	EquiElec	5
+La Paz	Maqu	27
+La Paz	MetCom	20
+La Paz	Mueb	22
+La Paz	EquiTran	3
+La Paz	CauVid	29
+La Paz	InfoElecOpt	5
+La Paz	VidOtrMin	91
+La Paz	MetalExcMaqEq	51
+La Paz	SustQuim	11
+La Paz	AutoRemSemi	25
+La Paz	ImpEdit	0
+La Paz	Otr	7
+La Paz	RepInstalMaq	5
+Nogoyá	Farm	0
+Nogoyá	Bebi	10
+Nogoyá	Alim	596
+Nogoyá	Cuercalz	10
+Nogoyá	Made	0
+Nogoyá	Pape	3
+Nogoyá	ProdTab	0
+Nogoyá	Text	7
+Nogoyá	EquiElec	4
+Nogoyá	Maqu	10
+Nogoyá	MetCom	73
+Nogoyá	Mueb	0
+Nogoyá	EquiTran	0
+Nogoyá	CauVid	10
+Nogoyá	InfoElecOpt	3
+Nogoyá	VidOtrMin	25
+Nogoyá	MetalExcMaqEq	71
+Nogoyá	SustQuim	42
+Nogoyá	AutoRemSemi	8
+Nogoyá	ImpEdit	0
+Nogoyá	Otr	13
+Nogoyá	RepInstalMaq	5
+Paraná	Farm	539
+Paraná	Bebi	191
+Paraná	Vest	78
+Paraná	Alim	4199
+Paraná	Cuercalz	34
+Paraná	Made	162
+Paraná	Pape	501
+Paraná	ProdTab	6
+Paraná	Text	77
+Paraná	EquiElec	335
+Paraná	Maqu	251
+Paraná	MetCom	163
+Paraná	Mueb	590
+Paraná	EquiTran	43
+Paraná	CauVid	634
+Paraná	InfoElecOpt	62
+Paraná	RefPet	3
+Paraná	VidOtrMin	233
+Paraná	MetalExcMaqEq	614
+Paraná	SustQuim	128
+Paraná	AutoRemSemi	238
+Paraná	ImpEdit	40
+Paraná	Otr	185
+Paraná	RepInstalMaq	30
+San Salvador	Farm	0
+San Salvador	Bebi	4
+San Salvador	Alim	520
+San Salvador	Cuercalz	0
+San Salvador	Made	21
+San Salvador	Text	5
+San Salvador	EquiElec	0
+San Salvador	Maqu	21
+San Salvador	Mueb	3
+San Salvador	EquiTran	0
+San Salvador	CauVid	3
+San Salvador	InfoElecOpt	0
+San Salvador	VidOtrMin	0
+San Salvador	MetalExcMaqEq	21
+San Salvador	SustQuim	9
+San Salvador	AutoRemSemi	9
+San Salvador	Otr	0
+San Salvador	RepInstalMaq	6
+Tala	Farm	0
+Tala	Bebi	5
+Tala	Vest	3
+Tala	Alim	151
+Tala	Cuercalz	0
+Tala	Made	34
+Tala	Pape	0
+Tala	EquiElec	3
+Tala	Maqu	9
+Tala	MetCom	4
+Tala	Mueb	3
+Tala	CauVid	14
+Tala	InfoElecOpt	3
+Tala	VidOtrMin	0
+Tala	MetalExcMaqEq	18
+Tala	SustQuim	5
+Tala	AutoRemSemi	16
+Tala	Otr	0
+Tala	RepInstalMaq	0
+Uruguay	Farm	50
+Uruguay	Bebi	37
+Uruguay	Vest	7
+Uruguay	Alim	3282
+Uruguay	Cuercalz	5
+Uruguay	Made	149
+Uruguay	Pape	58
+Uruguay	Text	30
+Uruguay	EquiElec	18
+Uruguay	Maqu	98
+Uruguay	MetCom	27
+Uruguay	Mueb	5
+Uruguay	EquiTran	6
+Uruguay	CauVid	36
+Uruguay	InfoElecOpt	7
+Uruguay	VidOtrMin	31
+Uruguay	MetalExcMaqEq	109
+Uruguay	SustQuim	18
+Uruguay	AutoRemSemi	239
+Uruguay	ImpEdit	11
+Uruguay	Otr	11
+Uruguay	RepInstalMaq	3
+Victoria	Farm	6
+Victoria	Bebi	12
+Victoria	Vest	0
+Victoria	Alim	389
+Victoria	Cuercalz	4
+Victoria	Made	0
+Victoria	Pape	0
+Victoria	Text	0
+Victoria	EquiElec	6
+Victoria	Maqu	14
+Victoria	MetCom	5
+Victoria	Mueb	0
+Victoria	EquiTran	3
+Victoria	CauVid	9
+Victoria	InfoElecOpt	6
+Victoria	VidOtrMin	160
+Victoria	MetalExcMaqEq	13
+Victoria	SustQuim	16
+Victoria	AutoRemSemi	20
+Victoria	ImpEdit	4
+Victoria	Otr	5
+Victoria	RepInstalMaq	4
+Villaguay	Farm	3
+Villaguay	Bebi	6
+Villaguay	Vest	0
+Villaguay	Alim	434
+Villaguay	Cuercalz	0
+Villaguay	Made	0
+Villaguay	Pape	0
+Villaguay	Text	4
+Villaguay	EquiElec	3
+Villaguay	Maqu	18
+Villaguay	MetCom	5
+Villaguay	Mueb	5
+Villaguay	CauVid	8
+Villaguay	InfoElecOpt	0
+Villaguay	VidOtrMin	0
+Villaguay	MetalExcMaqEq	19
+Villaguay	SustQuim	15
+Villaguay	AutoRemSemi	7
+Villaguay	ImpEdit	0
+Villaguay	RepInstalMaq	0
