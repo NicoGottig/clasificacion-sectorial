@@ -1,0 +1,937 @@
+clae1	sector	anio	VAB
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2004	2329.3170327543535
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2005	2803.235185384757
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2006	2696.584813905535
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2007	3109.6412833350264
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2008	2913.8600598825797
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2009	2069.5543069340415
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2010	3286.1138523827735
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2011	3027.4975484911174
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2012	2802.8246824068333
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2013	3074.70897454311
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2014	3059.90403690544
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2015	3235.5476854564095
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2016	2734.2195301450556
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2017	3201.119545807431
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2018	2565.9357649761773
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2019	3181.126755245295
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2020	2948.282266025905
+PRIM	Agricultura, ganaderia, caza y servicios conexos	2021	2768.7388540729407
+PRIM	Silvicultura, extracción de madera y servicios conexos	2004	33.602097898816346
+PRIM	Silvicultura, extracción de madera y servicios conexos	2005	34.82266338578717
+PRIM	Silvicultura, extracción de madera y servicios conexos	2006	51.84004692459241
+PRIM	Silvicultura, extracción de madera y servicios conexos	2007	51.74007583791623
+PRIM	Silvicultura, extracción de madera y servicios conexos	2008	45.42470596352218
+PRIM	Silvicultura, extracción de madera y servicios conexos	2009	39.03268103371431
+PRIM	Silvicultura, extracción de madera y servicios conexos	2010	43.852666700413884
+PRIM	Silvicultura, extracción de madera y servicios conexos	2011	55.87481075906147
+PRIM	Silvicultura, extracción de madera y servicios conexos	2012	59.06965987924366
+PRIM	Silvicultura, extracción de madera y servicios conexos	2013	57.84174580530457
+PRIM	Silvicultura, extracción de madera y servicios conexos	2014	58.36137913630077
+PRIM	Silvicultura, extracción de madera y servicios conexos	2015	60.79962647764965
+PRIM	Silvicultura, extracción de madera y servicios conexos	2016	58.724015970078455
+PRIM	Silvicultura, extracción de madera y servicios conexos	2017	63.69963581377647
+PRIM	Silvicultura, extracción de madera y servicios conexos	2018	63.925787911915855
+PRIM	Silvicultura, extracción de madera y servicios conexos	2019	58.69734699294071
+PRIM	Silvicultura, extracción de madera y servicios conexos	2020	58.87456394471104
+PRIM	Silvicultura, extracción de madera y servicios conexos	2021	67.45149862670932
+PRIM	Pesca	2004	10.28415569041519
+PRIM	Pesca	2005	9.251494522425803
+PRIM	Pesca	2006	18.915147059082702
+PRIM	Pesca	2007	16.15559138813675
+PRIM	Pesca	2008	17.814747725298638
+PRIM	Pesca	2009	11.982300976616031
+PRIM	Pesca	2010	12.47073946965089
+PRIM	Pesca	2011	13.257241759804726
+PRIM	Pesca	2012	14.174341335831029
+PRIM	Pesca	2013	20.32836161731176
+PRIM	Pesca	2014	20.76745470304174
+PRIM	Pesca	2015	21.178575926688755
+PRIM	Pesca	2016	21.110429380319445
+PRIM	Pesca	2017	26.294789072896315
+PRIM	Pesca	2018	28.456238678857762
+PRIM	Pesca	2019	24.125343570748647
+PRIM	Pesca	2020	16.69823020239091
+PRIM	Pesca	2021	20.75161249997593
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2004	0.8528271762317113
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2005	0.8483885493671406
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2006	0.9283459634871302
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2007	0.8951005533709906
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2008	0.8793497967625571
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2009	0.8670167737611827
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2010	0.8813269085400749
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2011	0.8335037506420695
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2012	0.8128717555577487
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2013	0.8056075706643884
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2014	0.8156188568911308
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2015	0.8254697913222364
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2016	0.7587747065709128
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2017	0.723755999288543
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2018	0.7396676840580905
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2019	0.7612402793375399
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2020	0.6392408166117508
+PRIM	Extracción de carbón y lignito; extracción de turba. Extracción de petróleo crudo y gas natural; actividades de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección.	2021	0.7347315078606299
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2004	27.24342342144329
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2005	29.79707274222077
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2006	28.747495277143912
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2007	27.293069429597143
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2008	26.599691577399028
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2009	29.6024625866909
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2010	32.22008069868041
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2011	26.89771540093865
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2012	26.007540540374997
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2013	23.651299472389113
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2014	28.046342608865153
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2015	28.989513192896627
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2016	28.39920925935024
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2017	27.62446832866911
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2018	30.603681582278387
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2019	29.972909929518092
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2020	27.233331233310256
+PRIM	Extracción de minerales metalíferos. Explotación de  minas y canteras n.c.p.	2021	28.676701172160758
+MANUF	Elaboración de productos alimenticios y bebidas	2004	760.963574646105
+MANUF	Elaboración de productos alimenticios y bebidas	2005	861.3539321504066
+MANUF	Elaboración de productos alimenticios y bebidas	2006	961.2820569078076
+MANUF	Elaboración de productos alimenticios y bebidas	2007	1042.0362891471555
+MANUF	Elaboración de productos alimenticios y bebidas	2008	1103.874809077467
+MANUF	Elaboración de productos alimenticios y bebidas	2009	1178.007249128974
+MANUF	Elaboración de productos alimenticios y bebidas	2010	1174.3924956086273
+MANUF	Elaboración de productos alimenticios y bebidas	2011	1241.726757989181
+MANUF	Elaboración de productos alimenticios y bebidas	2012	1292.880683918971
+MANUF	Elaboración de productos alimenticios y bebidas	2013	1279.4387486893042
+MANUF	Elaboración de productos alimenticios y bebidas	2014	1282.6039106938326
+MANUF	Elaboración de productos alimenticios y bebidas	2015	1326.4101914734747
+MANUF	Elaboración de productos alimenticios y bebidas	2016	1283.446404911781
+MANUF	Elaboración de productos alimenticios y bebidas	2017	1266.7446351085048
+MANUF	Elaboración de productos alimenticios y bebidas	2018	1270.9787734714394
+MANUF	Elaboración de productos alimenticios y bebidas	2019	1292.9143230750792
+MANUF	Elaboración de productos alimenticios y bebidas	2020	1309.6788061967295
+MANUF	Elaboración de productos alimenticios y bebidas	2021	1404.6539402081964
+MANUF	Elaboración de productos de tabaco	2004	1.3443834404120463
+MANUF	Elaboración de productos de tabaco	2005	1.1509024264245986
+MANUF	Elaboración de productos de tabaco	2006	1.2920202099307798
+MANUF	Elaboración de productos de tabaco	2007	1.3560943201362172
+MANUF	Elaboración de productos de tabaco	2008	1.5090902270642437
+MANUF	Elaboración de productos de tabaco	2009	1.4530812471646077
+MANUF	Elaboración de productos de tabaco	2010	1.4659519151372913
+MANUF	Elaboración de productos de tabaco	2011	1.4496879309231232
+MANUF	Elaboración de productos de tabaco	2012	1.5134564909450843
+MANUF	Elaboración de productos de tabaco	2013	1.3964057438401705
+MANUF	Elaboración de productos de tabaco	2014	1.450663489320507
+MANUF	Elaboración de productos de tabaco	2015	1.3005613115905459
+MANUF	Elaboración de productos de tabaco	2016	0.9949340299414867
+MANUF	Elaboración de productos de tabaco	2017	1.1055040609138664
+MANUF	Elaboración de productos de tabaco	2018	0.9849496687918353
+MANUF	Elaboración de productos de tabaco	2019	0.9819670651404118
+MANUF	Elaboración de productos de tabaco	2020	1.083840583112523
+MANUF	Elaboración de productos de tabaco	2021	1.0972920626650151
+MANUF	Fabricación de productos textiles	2004	13.148296877932998
+MANUF	Fabricación de productos textiles	2005	17.280622761063697
+MANUF	Fabricación de productos textiles	2006	18.385444279237053
+MANUF	Fabricación de productos textiles	2007	20.011697172948626
+MANUF	Fabricación de productos textiles	2008	18.725093766303946
+MANUF	Fabricación de productos textiles	2009	19.335727611850988
+MANUF	Fabricación de productos textiles	2010	22.739984068423425
+MANUF	Fabricación de productos textiles	2011	23.11991371119999
+MANUF	Fabricación de productos textiles	2012	21.934646768990593
+MANUF	Fabricación de productos textiles	2013	21.702750219642397
+MANUF	Fabricación de productos textiles	2014	22.17284686932308
+MANUF	Fabricación de productos textiles	2015	21.795367509929758
+MANUF	Fabricación de productos textiles	2016	19.42841498419089
+MANUF	Fabricación de productos textiles	2017	19.542471117730962
+MANUF	Fabricación de productos textiles	2018	17.47677862601132
+MANUF	Fabricación de productos textiles	2019	16.799581291531695
+MANUF	Fabricación de productos textiles	2020	12.02311958932684
+MANUF	Fabricación de productos textiles	2021	12.354805582091194
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2004	30.305500793824088
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2005	39.22813684891378
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2006	36.10812926830574
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2007	36.501894738077524
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2008	37.042619262546836
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2009	36.52069375597074
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2010	44.34746350800855
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2011	52.35083394107357
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2012	44.018920361697475
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2013	46.88742946810151
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2014	36.73635812932245
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2015	39.227037721719235
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2016	30.89893621122589
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2017	26.475943252401162
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2018	23.82412528146135
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2019	20.215098098191014
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2020	9.884590273415485
+MANUF	Fabricación de prendas de vestir; terminación y teñido de pieles	2021	24.195804654468308
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2004	11.02995299386096
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2005	11.201961008359492
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2006	12.43159926925844
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2007	14.152798348222056
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2008	12.58798483696991
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2009	10.69253306715841
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2010	11.923950361209531
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2011	12.27280740303178
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2012	11.882448645245177
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2013	12.794993223485221
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2014	13.16114704758815
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2015	12.011340038099734
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2016	11.016661669949478
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2017	9.715101069908394
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2018	10.517839188625116
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2019	11.261948339891818
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2020	7.956141419683067
+MANUF	Curtido y terminación de cueros; fabricación de artículos de marroquinería, talabartería y calzado y de sus partes	2021	12.579471494640435
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2004	160.40288397282308
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2005	160.77141686278236
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2006	188.00110688786884
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2007	214.79755998787292
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2008	208.29359176424202
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2009	177.68039554730296
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2010	203.55035406861774
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2011	232.49633136207834
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2012	216.46628190584894
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2013	236.58650512931519
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2014	198.3265044996854
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2015	202.13095852772307
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2016	192.5214646327673
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2017	209.3199387713262
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2018	211.60383843761565
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2019	200.11546019144896
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2020	206.8965948565301
+MANUF	Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables	2021	213.99361595980477
+MANUF	Fabricación de papel y de  productos de papel	2004	65.48985186578228
+MANUF	Fabricación de papel y de  productos de papel	2005	79.59273757980569
+MANUF	Fabricación de papel y de  productos de papel	2006	88.96117590946686
+MANUF	Fabricación de papel y de  productos de papel	2007	93.40615043687717
+MANUF	Fabricación de papel y de  productos de papel	2008	87.94917597114278
+MANUF	Fabricación de papel y de  productos de papel	2009	74.2164995988011
+MANUF	Fabricación de papel y de  productos de papel	2010	85.680472637228
+MANUF	Fabricación de papel y de  productos de papel	2011	89.03090927515498
+MANUF	Fabricación de papel y de  productos de papel	2012	84.51541340090557
+MANUF	Fabricación de papel y de  productos de papel	2013	86.9640011346956
+MANUF	Fabricación de papel y de  productos de papel	2014	92.74546286453794
+MANUF	Fabricación de papel y de  productos de papel	2015	90.59095723036508
+MANUF	Fabricación de papel y de  productos de papel	2016	84.78040694682248
+MANUF	Fabricación de papel y de  productos de papel	2017	88.08380327410892
+MANUF	Fabricación de papel y de  productos de papel	2018	86.20058937610713
+MANUF	Fabricación de papel y de  productos de papel	2019	83.73454065193009
+MANUF	Fabricación de papel y de  productos de papel	2020	81.43002543637368
+MANUF	Fabricación de papel y de  productos de papel	2021	87.77225989346157
+MANUF	Edición e impresión; reproducción de grabaciones	2004	33.21275793644126
+MANUF	Edición e impresión; reproducción de grabaciones	2005	36.78399772488366
+MANUF	Edición e impresión; reproducción de grabaciones	2006	46.40551881634183
+MANUF	Edición e impresión; reproducción de grabaciones	2007	50.6331614719956
+MANUF	Edición e impresión; reproducción de grabaciones	2008	51.79505103704589
+MANUF	Edición e impresión; reproducción de grabaciones	2009	47.731480877491684
+MANUF	Edición e impresión; reproducción de grabaciones	2010	41.32538063674465
+MANUF	Edición e impresión; reproducción de grabaciones	2011	44.328875285542566
+MANUF	Edición e impresión; reproducción de grabaciones	2012	43.20641559955224
+MANUF	Edición e impresión; reproducción de grabaciones	2013	42.44555871285458
+MANUF	Edición e impresión; reproducción de grabaciones	2014	37.82516613709358
+MANUF	Edición e impresión; reproducción de grabaciones	2015	43.33436740529053
+MANUF	Edición e impresión; reproducción de grabaciones	2016	42.90262323173857
+MANUF	Edición e impresión; reproducción de grabaciones	2017	43.996128280984735
+MANUF	Edición e impresión; reproducción de grabaciones	2018	38.38168358958232
+MANUF	Edición e impresión; reproducción de grabaciones	2019	35.967110344249065
+MANUF	Edición e impresión; reproducción de grabaciones	2020	34.66089270080399
+MANUF	Edición e impresión; reproducción de grabaciones	2021	35.83584669102016
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2004	0.8148600855167588
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2005	0.7649229733267531
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2006	0.7763227899170326
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2007	0.891148877516195
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2008	0.811511407840016
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2009	0.7684010300391071
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2010	0.8963288384013662
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2011	0.893538877246824
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2012	0.9261438246896534
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2013	0.8742770002489741
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2014	0.894228698365488
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2015	0.969566882925434
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2016	0.9352355886843035
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2017	1.1883230021199533
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2018	1.4520769380592482
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2019	1.7914099698125492
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2020	1.3203520258884844
+MANUF	Fabricación de coque, productos de la refinación del petróleo y combustible nuclear	2021	1.632267760105627
+MANUF	Fabricación de sustancias y productos químicos	2004	124.71305015705366
+MANUF	Fabricación de sustancias y productos químicos	2005	127.61059089828713
+MANUF	Fabricación de sustancias y productos químicos	2006	150.33108820598937
+MANUF	Fabricación de sustancias y productos químicos	2007	190.59135558581644
+MANUF	Fabricación de sustancias y productos químicos	2008	205.103114173451
+MANUF	Fabricación de sustancias y productos químicos	2009	198.7254903816823
+MANUF	Fabricación de sustancias y productos químicos	2010	202.8418297368471
+MANUF	Fabricación de sustancias y productos químicos	2011	218.25491830349867
+MANUF	Fabricación de sustancias y productos químicos	2012	231.4671519453595
+MANUF	Fabricación de sustancias y productos químicos	2013	252.2042905942121
+MANUF	Fabricación de sustancias y productos químicos	2014	255.47164991014444
+MANUF	Fabricación de sustancias y productos químicos	2015	282.65127373998223
+MANUF	Fabricación de sustancias y productos químicos	2016	277.79086867312344
+MANUF	Fabricación de sustancias y productos químicos	2017	285.1009810992469
+MANUF	Fabricación de sustancias y productos químicos	2018	263.97738582342265
+MANUF	Fabricación de sustancias y productos químicos	2019	243.48482575703133
+MANUF	Fabricación de sustancias y productos químicos	2020	244.73668488198481
+MANUF	Fabricación de sustancias y productos químicos	2021	251.05891679651427
+MANUF	Fabricación de productos de caucho y plástico	2004	26.55512021306699
+MANUF	Fabricación de productos de caucho y plástico	2005	28.878035823631134
+MANUF	Fabricación de productos de caucho y plástico	2006	30.717579369937866
+MANUF	Fabricación de productos de caucho y plástico	2007	34.65520960675511
+MANUF	Fabricación de productos de caucho y plástico	2008	31.760649721181142
+MANUF	Fabricación de productos de caucho y plástico	2009	31.941847589488347
+MANUF	Fabricación de productos de caucho y plástico	2010	38.64387890440714
+MANUF	Fabricación de productos de caucho y plástico	2011	39.500141823982716
+MANUF	Fabricación de productos de caucho y plástico	2012	39.612722102321165
+MANUF	Fabricación de productos de caucho y plástico	2013	39.873416714868846
+MANUF	Fabricación de productos de caucho y plástico	2014	39.573697509549376
+MANUF	Fabricación de productos de caucho y plástico	2015	43.222522476437554
+MANUF	Fabricación de productos de caucho y plástico	2016	38.18762774541763
+MANUF	Fabricación de productos de caucho y plástico	2017	38.44931635986035
+MANUF	Fabricación de productos de caucho y plástico	2018	35.885632837896836
+MANUF	Fabricación de productos de caucho y plástico	2019	33.97731701953797
+MANUF	Fabricación de productos de caucho y plástico	2020	34.17554559585229
+MANUF	Fabricación de productos de caucho y plástico	2021	40.431976945385124
+MANUF	Fabricación de productos minerales no metálicos	2004	37.77597481815538
+MANUF	Fabricación de productos minerales no metálicos	2005	44.448909211974446
+MANUF	Fabricación de productos minerales no metálicos	2006	58.53214134575801
+MANUF	Fabricación de productos minerales no metálicos	2007	60.84919081670153
+MANUF	Fabricación de productos minerales no metálicos	2008	66.65677856545472
+MANUF	Fabricación de productos minerales no metálicos	2009	60.11097553371777
+MANUF	Fabricación de productos minerales no metálicos	2010	71.30384588603881
+MANUF	Fabricación de productos minerales no metálicos	2011	80.80269802109422
+MANUF	Fabricación de productos minerales no metálicos	2012	79.15036295596626
+MANUF	Fabricación de productos minerales no metálicos	2013	86.27811130790465
+MANUF	Fabricación de productos minerales no metálicos	2014	81.3352003356202
+MANUF	Fabricación de productos minerales no metálicos	2015	84.7411072354107
+MANUF	Fabricación de productos minerales no metálicos	2016	80.58107923318887
+MANUF	Fabricación de productos minerales no metálicos	2017	88.27365770567856
+MANUF	Fabricación de productos minerales no metálicos	2018	94.95144203935246
+MANUF	Fabricación de productos minerales no metálicos	2019	86.06012461521884
+MANUF	Fabricación de productos minerales no metálicos	2020	77.20628819507218
+MANUF	Fabricación de productos minerales no metálicos	2021	105.20259151864309
+MANUF	Fabricación de metales comunes	2004	33.40620826838767
+MANUF	Fabricación de metales comunes	2005	35.49449271161255
+MANUF	Fabricación de metales comunes	2006	37.65297679900718
+MANUF	Fabricación de metales comunes	2007	42.67156576815737
+MANUF	Fabricación de metales comunes	2008	51.31957302001247
+MANUF	Fabricación de metales comunes	2009	45.84876503657783
+MANUF	Fabricación de metales comunes	2010	61.2383438206265
+MANUF	Fabricación de metales comunes	2011	71.93881778272572
+MANUF	Fabricación de metales comunes	2012	66.92800320167261
+MANUF	Fabricación de metales comunes	2013	69.65661551618395
+MANUF	Fabricación de metales comunes	2014	66.56275193000228
+MANUF	Fabricación de metales comunes	2015	58.2740142469021
+MANUF	Fabricación de metales comunes	2016	52.467293790366476
+MANUF	Fabricación de metales comunes	2017	68.93656892818291
+MANUF	Fabricación de metales comunes	2018	78.84716009452616
+MANUF	Fabricación de metales comunes	2019	75.80589846612094
+MANUF	Fabricación de metales comunes	2020	55.93772267465867
+MANUF	Fabricación de metales comunes	2021	77.11564789561679
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2004	51.23552258986113
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2005	55.84092612622271
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2006	63.90811611140977
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2007	74.50598943376487
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2008	79.2326634676495
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2009	66.62071979180627
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2010	77.67659897189445
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2011	91.15220797261541
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2012	86.81803408382821
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2013	81.09949131536015
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2014	81.54252608268855
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2015	79.96526946023003
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2016	69.94589057346997
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2017	69.55263333778893
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2018	73.41900426645762
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2019	68.27312411310618
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2020	54.61521633211282
+MANUF	Fabricación de productos elaborados de metal, excepto maquinaria y equipo	2021	70.70671171323353
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2004	24.907725970228643
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2005	24.075542502339914
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2006	28.19642139689449
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2007	35.402976199481216
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2008	38.90884202291176
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2009	33.02543249732189
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2010	42.33199965166276
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2011	54.11158483479499
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2012	50.18111738839447
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2013	51.41663375953745
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2014	46.12748258404035
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2015	49.572679938360956
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2016	52.958493895837144
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2017	59.84678149636788
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2018	48.095705665047795
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2019	41.368516820506436
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2020	44.74062499430329
+MANUF	Fabricación de maquinaria y equipo n.c.p.	2021	62.95994047221434
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2004	0.37601244831584407
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2005	0.3405086848587112
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2006	0.24813553664699026
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2007	0.36131666038437316
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2008	0.7322192388552905
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2009	0.8265436041076004
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2010	0.6019157703576691
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2011	0.5305029922495227
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2012	0.436906203396199
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2013	0.3084071526435227
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2014	0.3876403008315903
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2015	0.5482600389764792
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2016	0.32977969422376774
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2017	0.23046554105994774
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2018	0.2004748482009791
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2019	0.163013783939244
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2020	0.11934257384913052
+MANUF	Fabricación de maquinaria de oficina, contabilidad e informática	2021	0.16842742098526717
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2004	3.147729879730843
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2005	5.990762751833574
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2006	7.052703698769981
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2007	9.356584986221542
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2008	9.396501688992851
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2009	8.727125318272192
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2010	9.2511484897228
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2011	9.489959672457898
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2012	8.25308283397187
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2013	9.194515065770307
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2014	10.650830133778156
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2015	10.607944109571594
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2016	9.377928174512798
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2017	9.636930057070924
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2018	9.127411313460303
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2019	7.921916236053473
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2020	6.31685176069737
+MANUF	Fabricación de maquinaria y aparatos eléctricos  n.c.p.	2021	7.516100981058737
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2004	0.6498133403762165
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2005	0.9853111244670852
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2006	1.5007853474686201
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2007	1.3974522063808574
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2008	0.8587530884894575
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2009	0.5100587051072363
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2010	4.20493124209285
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2011	9.685383593931169
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2012	11.573498754321083
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2013	10.048796653579874
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2014	7.14435052191781
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2015	7.935671054483125
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2016	7.512088401873684
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2017	8.92087503686097
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2018	8.13688119375636
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2019	6.552334559560326
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2020	7.4250886971028764
+MANUF	Fabricación de equipos y aparatos de radio, televisión y comunicaciones	2021	8.413356695540939
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2004	5.388929100398671
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2005	6.9105840003886225
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2006	7.380647778446204
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2007	9.952324559318983
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2008	10.745327506396734
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2009	10.003372449347149
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2010	10.13355595488689
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2011	8.477491639519569
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2012	8.972688443043198
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2013	7.672362220459454
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2014	6.1635849441971375
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2015	7.586300142475747
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2016	4.910966232517382
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2017	5.274522360103626
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2018	5.099581806153881
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2019	5.074931923506153
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2020	4.0881483579469595
+MANUF	Fabricación de instrumentos médicos, ópticos y de precisión; fabricación de relojes	2021	5.052805578545421
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2004	17.620310511046785
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2005	22.159917241730742
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2006	27.058673393612505
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2007	31.283430428168344
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2008	32.73026990124032
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2009	27.355991189091878
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2010	34.29598534612804
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2011	35.92721676122527
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2012	31.65233181563463
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2013	34.125675504976726
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2014	28.83939974934852
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2015	28.062501122534496
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2016	25.9643874619515
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2017	30.312330896677608
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2018	30.862686304512483
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2019	25.427723077440938
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2020	21.70247915193156
+MANUF	Fabricación de vehículos automotores, remolques y semirremolques	2021	34.457356917311586
+MANUF	Fabricación de equipo de transporte n.c.p.	2004	1.3107226406306536
+MANUF	Fabricación de equipo de transporte n.c.p.	2005	1.5650059253692699
+MANUF	Fabricación de equipo de transporte n.c.p.	2006	1.2300465751859802
+MANUF	Fabricación de equipo de transporte n.c.p.	2007	1.0771161489523595
+MANUF	Fabricación de equipo de transporte n.c.p.	2008	0.9178644668913767
+MANUF	Fabricación de equipo de transporte n.c.p.	2009	0.6472627795699192
+MANUF	Fabricación de equipo de transporte n.c.p.	2010	0.9320081434151025
+MANUF	Fabricación de equipo de transporte n.c.p.	2011	0.7896880765742489
+MANUF	Fabricación de equipo de transporte n.c.p.	2012	0.4564401982759429
+MANUF	Fabricación de equipo de transporte n.c.p.	2013	0.7423932429389445
+MANUF	Fabricación de equipo de transporte n.c.p.	2014	0.3486001101175811
+MANUF	Fabricación de equipo de transporte n.c.p.	2015	0.48966582718123314
+MANUF	Fabricación de equipo de transporte n.c.p.	2016	0.3535745548029909
+MANUF	Fabricación de equipo de transporte n.c.p.	2017	0.5051226340228969
+MANUF	Fabricación de equipo de transporte n.c.p.	2018	0.28226863338640007
+MANUF	Fabricación de equipo de transporte n.c.p.	2019	0.14034687677816501
+MANUF	Fabricación de equipo de transporte n.c.p.	2020	0.06461503526498515
+MANUF	Fabricación de equipo de transporte n.c.p.	2021	0.14925868722690455
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2004	39.06005820834763
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2005	39.42909539748849
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2006	43.18775191746428
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2007	45.74472814470768
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2008	42.21309020718887
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2009	37.834373671491505
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2010	41.59777485930892
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2011	43.56624550206503
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2012	45.63697801391075
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2013	44.88143290777586
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2014	41.91564590270442
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2015	44.39438484456524
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2016	41.26207154165414
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2017	44.26142755107054
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2018	37.49944277653474
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2019	35.56440899373949
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2020	29.43560998462387
+MANUF	Fabricación de muebles y colchones; industrias manufactureras n.c.p.	2021	31.176641587328284
+MANUF	Reciclamiento	2004	0.5477006087185784
+MANUF	Reciclamiento	2005	0.5269708508541519
+MANUF	Reciclamiento	2006	0.4673825965638838
+MANUF	Reciclamiento	2007	0.44587566237864684
+MANUF	Reciclamiento	2008	0.3713978861740156
+MANUF	Reciclamiento	2009	0.3367958660555428
+MANUF	Reciclamiento	2010	0.3969830137885255
+MANUF	Reciclamiento	2011	0.41950162431299665
+MANUF	Reciclamiento	2012	0.36900635603391563
+MANUF	Reciclamiento	2013	0.3435239428371511
+MANUF	Reciclamiento	2014	0.31951661144885063
+MANUF	Reciclamiento	2015	0.35329045368294637
+MANUF	Reciclamiento	2016	0.3431001757457426
+MANUF	Reciclamiento	2017	0.39357697371944095
+MANUF	Reciclamiento	2018	0.3628893703022635
+MANUF	Reciclamiento	2019	0.3259314476545137
+MANUF	Reciclamiento	2020	0.28172972700566157
+MANUF	Reciclamiento	2021	0.3819019697835664
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2004	9.689277787685052
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2005	9.913251675197378
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2006	11.111803760377324
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2007	14.0581474980888
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2008	15.949088706376235
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2009	14.252229475525752
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2010	16.510450683657243
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2011	20.98755351984306
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2012	19.985303378468416
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2013	20.537260314398424
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2014	19.521732408161416
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2015	20.0167108149341
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2016	19.94194708125742
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2017	20.948454068503313
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2018	19.977166393223992
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2019	18.316425213039267
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2020	17.847902385834384
+MANUF	Reparación, mantenimiento e instalación de maquinas y equipos	2021	22.172711064818124
+CONST	Generación captación y distribución de energía eléctrica	2004	112.33940307730707
+CONST	Generación captación y distribución de energía eléctrica	2005	125.98557951022394
+CONST	Generación captación y distribución de energía eléctrica	2006	136.99398532989952
+CONST	Generación captación y distribución de energía eléctrica	2007	146.54946734404552
+CONST	Generación captación y distribución de energía eléctrica	2008	161.9376398713041
+CONST	Generación captación y distribución de energía eléctrica	2009	162.2423320806776
+CONST	Generación captación y distribución de energía eléctrica	2010	169.35252747435098
+CONST	Generación captación y distribución de energía eléctrica	2011	181.9614359499245
+CONST	Generación captación y distribución de energía eléctrica	2012	195.3683966352101
+CONST	Generación captación y distribución de energía eléctrica	2013	193.382677906472
+CONST	Generación captación y distribución de energía eléctrica	2014	204.91600712711835
+CONST	Generación captación y distribución de energía eléctrica	2015	217.99947071218904
+CONST	Generación captación y distribución de energía eléctrica	2016	223.4037072208939
+CONST	Generación captación y distribución de energía eléctrica	2017	216.04342463370267
+CONST	Generación captación y distribución de energía eléctrica	2018	216.28445633768683
+CONST	Generación captación y distribución de energía eléctrica	2019	200.2879825384184
+CONST	Generación captación y distribución de energía eléctrica	2020	208.23260867274425
+CONST	Generación captación y distribución de energía eléctrica	2021	220.18559903854535
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2004	4.765397852292026
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2005	5.320979071252705
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2006	5.761241406492598
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2007	6.333558894970229
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2008	6.028036275507499
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2009	6.3247298763004665
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2010	6.838731951191271
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2011	7.353934565377953
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2012	7.693578829997815
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2013	7.680039617933062
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2014	8.380946627472744
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2015	8.476261679064802
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2016	9.75793356746805
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2017	8.340591185294018
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2018	8.286822796906792
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2019	7.7898233842916085
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2020	7.8624233833728745
+CONST	Fabricación de gas ; distribución de combustibles gaseosos por tuberías	2021	8.552377974742484
+CONST	Captación , depuración y distribución de agua	2004	10.009502454152965
+CONST	Captación , depuración y distribución de agua	2005	10.168192841188622
+CONST	Captación , depuración y distribución de agua	2006	9.994682625011297
+CONST	Captación , depuración y distribución de agua	2007	9.936209829737939
+CONST	Captación , depuración y distribución de agua	2008	10.370479376682551
+CONST	Captación , depuración y distribución de agua	2009	10.855081566956773
+CONST	Captación , depuración y distribución de agua	2010	10.999917829344676
+CONST	Captación , depuración y distribución de agua	2011	11.36717817220733
+CONST	Captación , depuración y distribución de agua	2012	11.153177557217417
+CONST	Captación , depuración y distribución de agua	2013	10.871127101521342
+CONST	Captación , depuración y distribución de agua	2014	10.6084930321509
+CONST	Captación , depuración y distribución de agua	2015	10.535935220809757
+CONST	Captación , depuración y distribución de agua	2016	10.386761730149717
+CONST	Captación , depuración y distribución de agua	2017	9.908995270590829
+CONST	Captación , depuración y distribución de agua	2018	9.936365944777556
+CONST	Captación , depuración y distribución de agua	2019	10.23679371365129
+CONST	Captación , depuración y distribución de agua	2020	10.69801855621434
+CONST	Captación , depuración y distribución de agua	2021	10.713059126496438
+CONST	Construcción	2004	333.4915818542538
+CONST	Construcción	2005	391.8924517344229
+CONST	Construcción	2006	388.98775657444156
+CONST	Construcción	2007	423.4037928752791
+CONST	Construcción	2008	442.7415617017602
+CONST	Construcción	2009	424.5762695121036
+CONST	Construcción	2010	454.2710890883637
+CONST	Construcción	2011	528.5387985450908
+CONST	Construcción	2012	560.9480512650363
+CONST	Construcción	2013	559.1768033039718
+CONST	Construcción	2014	516.6696549423378
+CONST	Construcción	2015	522.8446574235488
+CONST	Construcción	2016	439.0779292031511
+CONST	Construcción	2017	475.82964690231523
+CONST	Construcción	2018	438.82483435961797
+CONST	Construcción	2019	387.49758130891917
+CONST	Construcción	2020	306.718163432672
+CONST	Construcción	2021	407.2659047963648
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2004	1926.119273265579
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2005	2190.848706525296
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2006	2503.233488571484
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2007	2852.636509535563
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2008	2998.3529004007396
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2009	2890.859122065531
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2010	3173.4403469373156
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2011	3524.2301662040027
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2012	3555.6661694632967
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2013	3643.61731760535
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2014	3448.243028274538
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2015	3642.5156159388844
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2016	3504.387106894893
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2017	3643.916650430695
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2018	3605.5622864025017
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2019	3439.7647072472178
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2020	3455.3206343502693
+COMHOTREST	Comercio mayorista, minorista y reparaciones	2021	3775.585929201754
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2004	37.79616565930839
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2005	41.95817384922659
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2006	63.78617095186613
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2007	57.18934483864623
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2008	54.211587045742384
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2009	60.97873792319648
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2010	60.08360054829715
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2011	60.09902000799217
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2012	61.081662955196734
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2013	51.67190404978008
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2014	51.4066703447066
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2015	47.77885181973216
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2016	44.280012412752555
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2017	47.892707078766556
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2018	47.20416357682555
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2019	45.13930778530217
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2020	15.556597128966109
+COMHOTREST	Hoteles; campamentos y otros tipos de hospedaje temporal	2021	38.86052392175375
+COMHOTREST	Restaurantes, bares y cantinas	2004	73.59459505421229
+COMHOTREST	Restaurantes, bares y cantinas	2005	98.51614562441858
+COMHOTREST	Restaurantes, bares y cantinas	2006	116.77794077443973
+COMHOTREST	Restaurantes, bares y cantinas	2007	135.9825957042082
+COMHOTREST	Restaurantes, bares y cantinas	2008	142.37375548098305
+COMHOTREST	Restaurantes, bares y cantinas	2009	136.17890192532334
+COMHOTREST	Restaurantes, bares y cantinas	2010	145.0754913845459
+COMHOTREST	Restaurantes, bares y cantinas	2011	150.49644250130083
+COMHOTREST	Restaurantes, bares y cantinas	2012	154.04809442753853
+COMHOTREST	Restaurantes, bares y cantinas	2013	154.64462942045722
+COMHOTREST	Restaurantes, bares y cantinas	2014	155.60659055606018
+COMHOTREST	Restaurantes, bares y cantinas	2015	161.9558076792072
+COMHOTREST	Restaurantes, bares y cantinas	2016	162.92757233539047
+COMHOTREST	Restaurantes, bares y cantinas	2017	167.407592532276
+COMHOTREST	Restaurantes, bares y cantinas	2018	165.78427284600724
+COMHOTREST	Restaurantes, bares y cantinas	2019	160.94846011470045
+COMHOTREST	Restaurantes, bares y cantinas	2020	89.61197105885113
+COMHOTREST	Restaurantes, bares y cantinas	2021	104.20736488769165
+SERVEMP	Transporte	2004	387.59722966362904
+SERVEMP	Transporte	2005	433.2257228172059
+SERVEMP	Transporte	2006	468.1976205938836
+SERVEMP	Transporte	2007	521.6022307174228
+SERVEMP	Transporte	2008	521.5675836597413
+SERVEMP	Transporte	2009	484.573968239008
+SERVEMP	Transporte	2010	523.3025371871612
+SERVEMP	Transporte	2011	560.7484715787033
+SERVEMP	Transporte	2012	526.5996709430611
+SERVEMP	Transporte	2013	542.7826600754836
+SERVEMP	Transporte	2014	515.293657849701
+SERVEMP	Transporte	2015	498.2342709507056
+SERVEMP	Transporte	2016	496.9512926031771
+SERVEMP	Transporte	2017	523.5731579749548
+SERVEMP	Transporte	2018	495.1658823119571
+SERVEMP	Transporte	2019	482.45927338159515
+SERVEMP	Transporte	2020	333.7779221501951
+SERVEMP	Transporte	2021	401.4393707499513
+SERVEMP	Comunicaciones	2004	210.1503587211019
+SERVEMP	Comunicaciones	2005	251.04297932121221
+SERVEMP	Comunicaciones	2006	294.34974809502876
+SERVEMP	Comunicaciones	2007	330.4559480792655
+SERVEMP	Comunicaciones	2008	392.8192749612096
+SERVEMP	Comunicaciones	2009	438.129073862214
+SERVEMP	Comunicaciones	2010	467.3540681283094
+SERVEMP	Comunicaciones	2011	510.12114333920147
+SERVEMP	Comunicaciones	2012	547.9182111532571
+SERVEMP	Comunicaciones	2013	562.4000185896425
+SERVEMP	Comunicaciones	2014	569.0662321625382
+SERVEMP	Comunicaciones	2015	589.7195136161424
+SERVEMP	Comunicaciones	2016	628.1739220366223
+SERVEMP	Comunicaciones	2017	649.2165832525117
+SERVEMP	Comunicaciones	2018	634.0608113037661
+SERVEMP	Comunicaciones	2019	632.9392097102007
+SERVEMP	Comunicaciones	2020	634.2929151827344
+SERVEMP	Comunicaciones	2021	634.1261635271733
+SERVEMP	Intermediación financiera y otros servicios financieros	2004	182.05677502300333
+SERVEMP	Intermediación financiera y otros servicios financieros	2005	199.60617563568286
+SERVEMP	Intermediación financiera y otros servicios financieros	2006	228.79250413275162
+SERVEMP	Intermediación financiera y otros servicios financieros	2007	251.12235895262086
+SERVEMP	Intermediación financiera y otros servicios financieros	2008	269.14077277015593
+SERVEMP	Intermediación financiera y otros servicios financieros	2009	267.7485800369041
+SERVEMP	Intermediación financiera y otros servicios financieros	2010	275.59468973875715
+SERVEMP	Intermediación financiera y otros servicios financieros	2011	295.80243700929407
+SERVEMP	Intermediación financiera y otros servicios financieros	2012	320.2278223670572
+SERVEMP	Intermediación financiera y otros servicios financieros	2013	329.69560912381854
+SERVEMP	Intermediación financiera y otros servicios financieros	2014	314.5476709627752
+SERVEMP	Intermediación financiera y otros servicios financieros	2015	313.6932365771299
+SERVEMP	Intermediación financiera y otros servicios financieros	2016	288.2264476634955
+SERVEMP	Intermediación financiera y otros servicios financieros	2017	296.7631519384219
+SERVEMP	Intermediación financiera y otros servicios financieros	2018	300.99928033112667
+SERVEMP	Intermediación financiera y otros servicios financieros	2019	242.73913584401174
+SERVEMP	Intermediación financiera y otros servicios financieros	2020	225.61554090567554
+SERVEMP	Intermediación financiera y otros servicios financieros	2021	221.5560244450953
+SERVEMP	Servicios de seguros	2004	74.38598025143978
+SERVEMP	Servicios de seguros	2005	78.5458178693716
+SERVEMP	Servicios de seguros	2006	88.46319006076615
+SERVEMP	Servicios de seguros	2007	92.83083039880894
+SERVEMP	Servicios de seguros	2008	91.69635427999843
+SERVEMP	Servicios de seguros	2009	86.85860518160963
+SERVEMP	Servicios de seguros	2010	90.38599413133194
+SERVEMP	Servicios de seguros	2011	108.52611846398572
+SERVEMP	Servicios de seguros	2012	133.2840721115546
+SERVEMP	Servicios de seguros	2013	139.50865320853026
+SERVEMP	Servicios de seguros	2014	144.336010433696
+SERVEMP	Servicios de seguros	2015	156.6795712672913
+SERVEMP	Servicios de seguros	2016	153.485212107801
+SERVEMP	Servicios de seguros	2017	154.3498096603725
+SERVEMP	Servicios de seguros	2018	161.35628147129717
+SERVEMP	Servicios de seguros	2019	162.22911233041933
+SERVEMP	Servicios de seguros	2020	169.0134041863334
+SERVEMP	Servicios de seguros	2021	167.12812316441037
+SERVEMP	Servicios auxiliares a la actividad financiera	2004	15.781757796851185
+SERVEMP	Servicios auxiliares a la actividad financiera	2005	18.698749733295898
+SERVEMP	Servicios auxiliares a la actividad financiera	2006	20.39559934770819
+SERVEMP	Servicios auxiliares a la actividad financiera	2007	21.577380245228888
+SERVEMP	Servicios auxiliares a la actividad financiera	2008	22.80217355797288
+SERVEMP	Servicios auxiliares a la actividad financiera	2009	25.007966996713915
+SERVEMP	Servicios auxiliares a la actividad financiera	2010	28.418632845729462
+SERVEMP	Servicios auxiliares a la actividad financiera	2011	31.59409756100735
+SERVEMP	Servicios auxiliares a la actividad financiera	2012	29.870696084231398
+SERVEMP	Servicios auxiliares a la actividad financiera	2013	33.077460176642845
+SERVEMP	Servicios auxiliares a la actividad financiera	2014	31.569290931945815
+SERVEMP	Servicios auxiliares a la actividad financiera	2015	34.50969967268124
+SERVEMP	Servicios auxiliares a la actividad financiera	2016	34.032429046117315
+SERVEMP	Servicios auxiliares a la actividad financiera	2017	35.87295698235176
+SERVEMP	Servicios auxiliares a la actividad financiera	2018	33.80155944634256
+SERVEMP	Servicios auxiliares a la actividad financiera	2019	29.953511892968077
+SERVEMP	Servicios auxiliares a la actividad financiera	2020	33.09946660061502
+SERVEMP	Servicios auxiliares a la actividad financiera	2021	34.9056797985172
+SERVEMP	Propiedad de la vivienda	2004	701.8710099953757
+SERVEMP	Propiedad de la vivienda	2005	712.0445571019299
+SERVEMP	Propiedad de la vivienda	2006	728.2795755311125
+SERVEMP	Propiedad de la vivienda	2007	741.3049200365612
+SERVEMP	Propiedad de la vivienda	2008	757.6411278494586
+SERVEMP	Propiedad de la vivienda	2009	770.8240091803543
+SERVEMP	Propiedad de la vivienda	2010	788.1287388879564
+SERVEMP	Propiedad de la vivienda	2011	801.0070202903312
+SERVEMP	Propiedad de la vivienda	2012	818.73401862153
+SERVEMP	Propiedad de la vivienda	2013	833.1234236745489
+SERVEMP	Propiedad de la vivienda	2014	847.9666827277721
+SERVEMP	Propiedad de la vivienda	2015	860.1055423913901
+SERVEMP	Propiedad de la vivienda	2016	873.6239745148317
+SERVEMP	Propiedad de la vivienda	2017	887.0498633206756
+SERVEMP	Propiedad de la vivienda	2018	900.6673117960147
+SERVEMP	Propiedad de la vivienda	2019	917.099062744935
+SERVEMP	Propiedad de la vivienda	2020	928.0520932698885
+SERVEMP	Propiedad de la vivienda	2021	942.8649609767451
+SERVEMP	Resto	2004	474.23000404755254
+SERVEMP	Resto	2005	532.3375144139488
+SERVEMP	Resto	2006	535.4124331018916
+SERVEMP	Resto	2007	528.3508277265074
+SERVEMP	Resto	2008	591.1717439509874
+SERVEMP	Resto	2009	538.7373674580584
+SERVEMP	Resto	2010	569.3433840000096
+SERVEMP	Resto	2011	607.2802695368913
+SERVEMP	Resto	2012	569.4653085300871
+SERVEMP	Resto	2013	565.7161832072952
+SERVEMP	Resto	2014	564.0888056790768
+SERVEMP	Resto	2015	576.2479043343451
+SERVEMP	Resto	2016	523.8381736795324
+SERVEMP	Resto	2017	525.9712307635987
+SERVEMP	Resto	2018	515.0919192753965
+SERVEMP	Resto	2019	460.33688987754306
+SERVEMP	Resto	2020	434.1257192718551
+SERVEMP	Resto	2021	504.8652666537793
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2004	719.1185082790595
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2005	752.0342341371872
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2006	798.9168067875607
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2007	854.0759546215269
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2008	894.3563917689826
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2009	840.6037396974286
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2010	878.4446979713293
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2011	902.4414165421356
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2012	898.7869113230429
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2013	953.3255335552024
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2014	1005.7961938132831
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2015	1016.6362989491971
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2016	1059.830856856293
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2017	1061.6130148756404
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2018	1100.4155719775115
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2019	1138.5435585784592
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2020	1029.702271081906
+SOCADMIN	Administración pública y defensa; Planes de seguridad social de afiliación obligatoria	2021	1093.4792233372302
+ENSESALUD	Enseñanza pública	2004	441.3249577352936
+ENSESALUD	Enseñanza pública	2005	428.7524820583861
+ENSESALUD	Enseñanza pública	2006	431.1138250885338
+ENSESALUD	Enseñanza pública	2007	462.16936076139433
+ENSESALUD	Enseñanza pública	2008	473.7284616051657
+ENSESALUD	Enseñanza pública	2009	477.04431702670286
+ENSESALUD	Enseñanza pública	2010	500.61533746689634
+ENSESALUD	Enseñanza pública	2011	531.0585797978124
+ENSESALUD	Enseñanza pública	2012	545.7158667742575
+ENSESALUD	Enseñanza pública	2013	558.2263461346407
+ENSESALUD	Enseñanza pública	2014	594.7867502280375
+ENSESALUD	Enseñanza pública	2015	617.1477867852817
+ENSESALUD	Enseñanza pública	2016	641.9971660281807
+ENSESALUD	Enseñanza pública	2017	637.586200506317
+ENSESALUD	Enseñanza pública	2018	678.4802277285365
+ENSESALUD	Enseñanza pública	2019	680.067559177284
+ENSESALUD	Enseñanza pública	2020	617.1504427116437
+ENSESALUD	Enseñanza pública	2021	622.4140241421675
+ENSESALUD	Enseñanza privada	2004	76.01754795319141
+ENSESALUD	Enseñanza privada	2005	84.57025256948371
+ENSESALUD	Enseñanza privada	2006	92.18399186785409
+ENSESALUD	Enseñanza privada	2007	98.46676739599353
+ENSESALUD	Enseñanza privada	2008	104.91656586779757
+ENSESALUD	Enseñanza privada	2009	109.61723540730358
+ENSESALUD	Enseñanza privada	2010	125.36414767652131
+ENSESALUD	Enseñanza privada	2011	137.27107243117982
+ENSESALUD	Enseñanza privada	2012	141.36481061165213
+ENSESALUD	Enseñanza privada	2013	145.8656328943391
+ENSESALUD	Enseñanza privada	2014	149.34552830120694
+ENSESALUD	Enseñanza privada	2015	156.3283423167345
+ENSESALUD	Enseñanza privada	2016	163.05762947176544
+ENSESALUD	Enseñanza privada	2017	167.5831336533721
+ENSESALUD	Enseñanza privada	2018	172.28072857871882
+ENSESALUD	Enseñanza privada	2019	173.54990870867857
+ENSESALUD	Enseñanza privada	2020	162.36818734265012
+ENSESALUD	Enseñanza privada	2021	174.0272337191687
+ENSESALUD	Salud pública	2004	183.8430158282337
+ENSESALUD	Salud pública	2005	189.6965709040419
+ENSESALUD	Salud pública	2006	198.7785061026328
+ENSESALUD	Salud pública	2007	212.6623407329848
+ENSESALUD	Salud pública	2008	228.53305918276513
+ENSESALUD	Salud pública	2009	201.24789354638594
+ENSESALUD	Salud pública	2010	217.16797265666685
+ENSESALUD	Salud pública	2011	246.35396620845802
+ENSESALUD	Salud pública	2012	259.4954251948277
+ENSESALUD	Salud pública	2013	261.52637183681924
+ENSESALUD	Salud pública	2014	267.0978491799935
+ENSESALUD	Salud pública	2015	262.4079420601488
+ENSESALUD	Salud pública	2016	282.1154959400193
+ENSESALUD	Salud pública	2017	283.2189338845125
+ENSESALUD	Salud pública	2018	300.4700892427122
+ENSESALUD	Salud pública	2019	316.3425889805535
+ENSESALUD	Salud pública	2020	312.8782285681878
+ENSESALUD	Salud pública	2021	324.5740546551051
+ENSESALUD	Salud privada	2004	205.25501823233395
+ENSESALUD	Salud privada	2005	221.5911115190566
+ENSESALUD	Salud privada	2006	226.18037814523612
+ENSESALUD	Salud privada	2007	236.77095306889848
+ENSESALUD	Salud privada	2008	252.513422393146
+ENSESALUD	Salud privada	2009	270.6845316910795
+ENSESALUD	Salud privada	2010	281.5578346572863
+ENSESALUD	Salud privada	2011	300.75086065764214
+ENSESALUD	Salud privada	2012	306.2687477765392
+ENSESALUD	Salud privada	2013	316.1569331601749
+ENSESALUD	Salud privada	2014	314.0968569845617
+ENSESALUD	Salud privada	2015	316.2356182690672
+ENSESALUD	Salud privada	2016	323.98571850116707
+ENSESALUD	Salud privada	2017	325.08612820695134
+ENSESALUD	Salud privada	2018	333.3075127219041
+ENSESALUD	Salud privada	2019	332.5063450395129
+ENSESALUD	Salud privada	2020	288.65655822631567
+ENSESALUD	Salud privada	2021	315.5145855992125
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2004	15.04431149457302
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2005	14.476365770317525
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2006	15.698159878013259
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2007	16.289213766293518
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2008	18.397700689013362
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2009	19.87263295792169
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2010	21.902235675403823
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2011	23.451981526661527
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2012	22.1927139238593
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2013	19.043473713323518
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2014	19.61278991832916
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2015	19.795275531377996
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2016	20.38289944917999
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2017	23.43131457388494
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2018	24.102623957246305
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2019	21.45895403266268
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2020	18.377522980059304
+CONST	Eliminación de desperdicios y aguas residuales, saneamiento y servicios similares	2021	19.10122323016962
+SOCADMIN	Asociaciones	2004	92.16369078324513
+SOCADMIN	Asociaciones	2005	95.11643099101966
+SOCADMIN	Asociaciones	2006	96.31105899474099
+SOCADMIN	Asociaciones	2007	102.83111063542452
+SOCADMIN	Asociaciones	2008	110.45867846020774
+SOCADMIN	Asociaciones	2009	113.9651345000001
+SOCADMIN	Asociaciones	2010	125.11133239350048
+SOCADMIN	Asociaciones	2011	132.4357479008229
+SOCADMIN	Asociaciones	2012	137.06043791337166
+SOCADMIN	Asociaciones	2013	140.4864248617339
+SOCADMIN	Asociaciones	2014	144.2050721238319
+SOCADMIN	Asociaciones	2015	152.21837967444603
+SOCADMIN	Asociaciones	2016	158.2133228851066
+SOCADMIN	Asociaciones	2017	159.42357309372827
+SOCADMIN	Asociaciones	2018	161.98886866808064
+SOCADMIN	Asociaciones	2019	161.56961946128663
+SOCADMIN	Asociaciones	2020	113.61937683794947
+SOCADMIN	Asociaciones	2021	148.52636962806824
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2004	227.2922110899562
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2005	253.98054023606994
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2006	298.47235726532847
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2007	338.8995466121148
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2008	346.59555057322075
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2009	343.5157160493582
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2010	364.8796378240905
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2011	385.90373185064345
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2012	376.72853766934145
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2013	357.3810631095741
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2014	346.1509193583439
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2015	336.6942559694276
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2016	320.6685222927654
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2017	324.70885600426584
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2018	330.2537526323303
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2019	320.39622084512604
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2020	166.6818978845872
+SOCADMIN	Servicios culturales y deportivos. Otras actividades	2021	234.92388948907742
+SOCADMIN	Servicio doméstico	2004	75.26984034780536
+SOCADMIN	Servicio doméstico	2005	81.33339520269845
+SOCADMIN	Servicio doméstico	2006	88.56699430712044
+SOCADMIN	Servicio doméstico	2007	90.38576865987618
+SOCADMIN	Servicio doméstico	2008	93.36022512166629
+SOCADMIN	Servicio doméstico	2009	95.1556370568119
+SOCADMIN	Servicio doméstico	2010	95.21972005128568
+SOCADMIN	Servicio doméstico	2011	96.49509536937458
+SOCADMIN	Servicio doméstico	2012	100.96422147766711
+SOCADMIN	Servicio doméstico	2013	103.3501364841577
+SOCADMIN	Servicio doméstico	2014	103.76578653211685
+SOCADMIN	Servicio doméstico	2015	104.31383669875703
+SOCADMIN	Servicio doméstico	2016	103.68459695721778
+SOCADMIN	Servicio doméstico	2017	100.96888162916271
+SOCADMIN	Servicio doméstico	2018	101.94393782255578
+SOCADMIN	Servicio doméstico	2019	107.02501903127428
+SOCADMIN	Servicio doméstico	2020	87.1149600609069
+SOCADMIN	Servicio doméstico	2021	90.16705146350716

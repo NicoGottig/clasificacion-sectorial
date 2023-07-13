@@ -312,11 +312,6 @@ shapeData <- sf::st_as_sf(shapeData, wkt = 'polygons', crs = st_crs(4326)) # mak
 shapeData <- rmapshaper::ms_simplify(shapeData, keep = 0.01, keep_shapes = TRUE) %>% 
   filter(provincia == "Entre Ríos")
 
-dftp$depto <- depto
-
-shapeData <-
-
-
 
 
 # PCA - Categorizo casos ########

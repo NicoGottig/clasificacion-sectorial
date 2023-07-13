@@ -1,0 +1,18 @@
+depto	produccion	servicios
+Colón	4816	4509
+Concordia	8853	11311
+Diamante	2354	4340
+Federación	3276	3737
+Federal	1077	946
+Feliciano	585	381
+Gualeguay	3287	3009
+Gualeguaychú	5968	9153
+Islas del Ibicuy	346	447
+La Paz	3243	3276
+Nogoyá	1690	2290
+Paraná	14849	32499
+San Salvador	1253	764
+Tala	867	1015
+Uruguay	5904	7828
+Victoria	1332	2638
+Villaguay	1905	2122
