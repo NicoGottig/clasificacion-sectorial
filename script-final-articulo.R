@@ -1,6 +1,14 @@
 
-# Evolución de la productividad y sector manufacturero y servicios
+# Cambiar tipografía de los gráficos 
 library(tidyverse)
+library(ggtext)
+library(showtext)
+showtext_auto()
+font_add_google(name="Noto Sans", family = "noto")
+theme_set(theme_bw(base_family = "noto"))
+
+
+# Evolución de la productividad y sector manufacturero y servicios -------<<<<<<<
 
 vab <- read_delim("datalimpia/vab_xrama.txt")
 l <- read_delim("datalimpia/trab_xanio.txt")
@@ -26,17 +34,30 @@ df <- df %>%
   mutate(product = VAB/puestos)
 
 # Gráfico de evolución
+
+df$clae1 <- case_when(
+  df$clae1 == "PRIM" ~ "Sec. Primario",
+  df$clae1 == "MANUF" ~ "Ind. Manuf.", 
+  df$clae1 == "CONST" ~ "Cons. y Sumin.",
+  df$clae1 == "COMHOTREST" ~ "Com., Hot. y Rest.",
+  df$clae1 == "SERVEMP" ~ "Serv. Emp",
+  df$clae1 == "ENSESALUD" ~ "Salud y educación",
+  df$clae1 == "SOCADMIN"~ "Serv. Soc., y Adm. Púb."
+)
+
 df %>% 
-  filter(clae1 %in% c("MANUF", "SERVEMP")) %>% 
+  filter(clae1 %in% c("Ind. Manuf.", "Serv. Emp")) %>%
+  select(Productividad = product, Cant.Puestos = puestos, V.A.B = VAB, clae1, anio) %>% 
   pivot_longer(-all_of(c("clae1","anio")), names_to = "var", values_to = "val") %>% 
   ggplot() +
   aes(x = anio, y = val, group = clae1) +
-  geom_line() +
-  geom_point(aes(x = anio, y = val, shape = clae1), size = 3) +
+  geom_line(col = "#898989") +
+  geom_point(aes(x = anio, y = val, shape = clae1), size = 2, col= "#C84630") +
   theme_bw() +
-  facet_wrap(~var, scales = "free", nrow = 3) +
+  facet_wrap(~factor(var,levels = c("Productividad", "V.A.B", "Cant.Puestos")), scales = "free", nrow = 3) +
   xlab("") +
-  ylab("")
+  ylab("") +
+  theme(legend.position = "bottom", text = element_text(size=8))
 
 # UNO CHETO
 # ggplot(cant_partos) +
@@ -66,15 +87,25 @@ df2021 <- df %>%
 
 var <- cbind(clae1 = df2021$clae1, var = (df2021[2:5] - df2014[2:5]) /df2014[2:5])
 
+var$clae1 <- case_when(
+  var$clae1 == "PRIM" ~ "Sec. Primario",
+  var$clae1 == "MANUF" ~ "Ind. Manuf.", 
+  var$clae1 == "CONST" ~ "Cons. y Sumin.",
+  var$clae1 == "COMHOTREST" ~ "Com., Hot. y Rest.",
+  var$clae1 == "SERVEMP" ~ "Serv. Emp",
+  var$clae1 == "ENSESALUD" ~ "Salud y educación",
+  var$clae1 == "SOCADMIN"~ "Serv. Soc., y Adm. Púb."
+)
+
 var %>% 
   ggplot() + 
   aes(y = forcats::fct_reorder(clae1, var.product), x = var.product) +
-  geom_col(fill = if_else(var$var.product > 0,"red", "darkred")) +
-  theme_bw() +
+  geom_col(fill = if_else(var$var.product > 0,"#898989", "#C84630")) +
+  theme_light() +
   theme(axis.text.x = element_text(angle = 0)) + 
-  xlab("Variación de la productividad") +
-  ylab("Sector")
-
+  xlab("Variación de la productividad estimada") +
+  ylab("Sector") +
+  theme(legend.position = "bottom", text = element_text(size=8))
 
 # Analisis de la variacion del empleo de ambos sectores
 df2014 <- read_delim("datalimpia/df_puestos.txt", delim = "\t") %>% 
@@ -99,8 +130,8 @@ var$depto <- df2021$departamento
 var %>% 
   ggplot() +
   aes(x = MANUF, y = SERVEMP, label = depto) +
-  geom_point(col = "red") +
-  geom_smooth(method = "lm", se = FALSE)+
+  geom_point(col = "#C84630") +
+  geom_smooth(method = "lm", se = FALSE, col = "#C84630")+
   theme_bw() +
   ggrepel::geom_text_repel() +
   xlab("Variación en manufactura") +
@@ -111,15 +142,16 @@ var %>%
   filter(depto != "Feliciano") %>% 
   ggplot() +
   aes(x = MANUF, y = SERVEMP, label = depto) +
-  geom_point(col = "red") +
-  geom_smooth(method = "lm", se = FALSE)+
+  geom_point(col = "#C84630") +
+  geom_smooth(method = "lm", se = FALSE, col = "#C84630")+
   theme_bw() +
   ggrepel::geom_text_repel() +
   xlab("Variación en manufactura") +
   ylab("variación en serv. Empresariales") 
 
 
-# Matriz de especialización relativa 2014
+# Matriz de especialización relativa 2014  -------------------------------<<<<<<<
+
 df <- read_delim("datalimpia/df_puestos.txt", delim = "\t") %>% 
   filter(anio == 2014) %>% 
   select(-anio)
@@ -158,6 +190,28 @@ rownames(mat) <- rownames(df)
 # trasposición
 esp2014 <- t(mat) %>% data.frame()
 
+
+var$clae1 <- case_when(
+  var$clae1 == "PRIM" ~ "Sec. Primario",
+  var$clae1 == "MANUF" ~ "Ind. Manuf.", 
+  var$clae1 == "CONST" ~ "Cons. y Sumin.",
+  var$clae1 == "COMHOTREST" ~ "Com., Hot. y Rest.",
+  var$clae1 == "SERVEMP" ~ "Serv. Emp",
+  var$clae1 == "ENSESALUD" ~ "Salud y educación",
+  var$clae1 == "SOCADMIN"~ "Serv. Soc., y Adm. Púb."
+)
+
+esp2014 <- esp2014 %>% 
+  rename(
+     "Sec. Primario"="PRIM",
+      "Ind. Manuf."="MANUF", 
+      "Cons. y Sumin."="CONST",
+     "Com., Hot. y Rest."="COMHOTREST",
+     "Serv. Emp"="SERVEMP",
+      "Salud y educación"="ENSESALUD",
+     "Serv. Soc., y Adm. Púb."="SOCADMIN" 
+  )
+
 # Gráfico de especialización relativa por region
 esp2014 %>%
   mutate(depto = rownames(.)) %>% 
@@ -165,11 +219,11 @@ esp2014 %>%
   ggplot() +
   aes(x = depto, y = variab, fill = valor) +
   geom_tile(colour = "white") + 
-  scale_fill_viridis_c()+
-  theme(axis.text.x = element_text(angle = 90)) +
+  scale_fill_gradient(low="#14213d", high="#C84630")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(fill = "Índice" ) +
   xlab("") +
-  ylab("") + 
-  ggtitle("Especialización relativa 2014")
+  ylab("")
 
 # Calculo de especialización relativa para 2021
 df <- read_delim("datalimpia/df_puestos.txt", delim = "\t") %>% 
@@ -210,6 +264,17 @@ rownames(mat) <- rownames(df)
 # trasposición
 esp2021 <- t(mat) %>% data.frame()
 
+esp2021 <- esp2021 %>% 
+  rename(
+    "Sec. Primario"="PRIM",
+    "Ind. Manuf."="MANUF", 
+    "Cons. y Sumin."="CONST",
+    "Com., Hot. y Rest."="COMHOTREST",
+    "Serv. Emp"="SERVEMP",
+    "Salud y educación"="ENSESALUD",
+    "Serv. Soc., y Adm. Púb."="SOCADMIN" 
+  )
+
 # Gráfico de especialización relativa por region
 esp2021 %>%
   mutate(depto = rownames(.)) %>% 
@@ -217,11 +282,34 @@ esp2021 %>%
   ggplot() +
   aes(x = depto, y = variab, fill = valor) +
   geom_tile(colour = "white") + 
-  scale_fill_viridis_c()+
-  theme(axis.text.x = element_text(angle = 90)) +
+  scale_fill_gradient(low="#14213d", high="#C84630")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        plot.title = element_text(size = 10),
+        plot.subtitle = element_text(size = 8),
+        legend.title = element_text(size = 8)) +
+  labs(fill = "Índice" ) +
   xlab("") +
   ylab("") +
-  ggtitle("Especialización relativa 2021")
+  labs(title = "Especialización Relativa del Trabajo por Departamento",
+       subtitle = "Año 2021",
+       caption = "Fuente: Elaboración propia en base al Ministerio de Desarrollo Productivo")
+
+# Gráfico de variacion especialización relativa por region
+varesp <- esp2021/esp2014 - 1
+
+varesp %>%
+  mutate(depto = rownames(.)) %>% 
+  pivot_longer(-depto, names_to = "variab", values_to = "valor") %>% 
+  ggplot() +
+  aes(x = depto, y = variab, fill = valor) +
+  geom_tile(colour = "white") + 
+  scale_fill_gradient(low="#14213d", high="#C84630")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title=element_text(size=8)) +
+  labs(fill = "Var. del Índice" ) +
+  xlab("") +
+  ylab("")
+
 
 esp2021$depto <- rownames(esp2021)
 write_delim(esp2021, "datalimpia/esp2021.txt", delim = "\t")
@@ -259,28 +347,57 @@ esp %>%
   ylab("") +
   ggtitle("Especialización relativa de manufactura")
 
-# Analisis de componentes principales a tres niveles
+# Analisis de componentes principales a tres niveles <------------------------<<<<<
 esp <- esp %>% 
-  mutate(unid = paste0(depto, "-", anio))
+  mutate(unid = paste0(substr(esp$depto, 0, 3), substr(esp$depto, nchar(esp$depto), nchar(esp$depto)),".", substr(esp$anio, 3, 4)))
 
 rownames(esp) <- esp$uni
-dfpca <- esp
-rownames(dfpca) <- dfpca$unid
-dfpca <- dfpca %>% 
-  select(-c(depto, anio, unid))
 
-pca <- FactoMineR::PCA(dfpca, scale.unit = "TRUE")
+esp <- esp %>% 
+  select_if(is.numeric) %>% 
+  select(-anio)
+
+# Correlacion
+
+col <- colorRampPalette(c("#C84630", "#EE9988", "#FFFFFF", "#77AADD", "#14213d"))
+
+corrplot::corrplot(cor(esp), 
+                   method = "color", 
+                   order="hclust",
+                   col=col(200),
+                   tl.col="black", 
+                   tl.srt=45, 
+                   tl.cex = 0.8)  
+
+pca <- FactoMineR::PCA(esp, scale.unit = "TRUE")
 
 pca$eig
 
-factoextra::fviz_screeplot(pca) +
-  ggtitle("Contribución de las dimensiones")
+factoextra::fviz_screeplot(pca, barfill ="#C84630", linecolor = "#14213d", barcolor = "#C84630") +
+  ggtitle("Contribución de las dimensiones") +
+  theme_light() +
+  xlab("Componentes a retener") +
+  ylab("% de varianza explicada") +
+  labs(title = "") 
 
 pca$var$cor
 
-factoextra::fviz_pca_ind(pca, geom = c("point", "text"), repel = TRUE, axes = c(1,2))
-factoextra::fviz_pca_ind(pca, geom = c("point", "text"), repel = TRUE, axes = c(1,3))
-factoextra::fviz_pca_ind(pca, geom = c("point", "text"), repel = TRUE, axes = c(1,4))
+factoextra::fviz_pca_ind(pca, 
+                         geom = c("point", "text"),
+                         repel = TRUE, 
+                         axes = c(1,2),
+                         col.ind = "#C84630") +
+  labs(title ="") +
+  theme_light() +
+  theme_set(theme_bw(base_family = "noto"))
+
+factoextra::fviz_pca_ind(pca, 
+                         geom = c("point", "text"), 
+                         repel = TRUE, 
+                         axes = c(1,3),
+                         fill = "#C84630") +
+  labs(title ="") +
+  theme_light()
 
 # Analisis de autocorrelacion espacial
 library(sf)
