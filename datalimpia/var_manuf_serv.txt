@@ -1,0 +1,18 @@
+departamento	variacion.manufactura	variacion.servicios
+Colón	0.067	-0.92
+Concordia	0.108	-0.748
+Diamante	0.205	-0.878
+Federación	0.068	-0.901
+Federal	-0.077	-0.557
+Feliciano	0.668	-0.459
+Gualeguay	0.075	-0.908
+Gualeguaychú	-0.024	-0.84
+Islas del Ibicuy	-0.007	-0.689
+La Paz	0.084	-0.835
+Nogoyá	0.205	-0.839
+Paraná	0.033	-0.765
+San Salvador	0.209	-0.871
+Tala	-0.129	-0.789
+Uruguay	0.05	-0.859
+Victoria	0.138	-0.819
+Villaguay	0.047	-0.761

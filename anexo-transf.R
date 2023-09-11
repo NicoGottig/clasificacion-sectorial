@@ -91,3 +91,22 @@ df2014$anio <- 2014
 df <- bind_rows(df2014, df2021)
 
 write_delim(df, "datalimpia/df_puestos.txt", delim = "\t")
+
+# Variacion de trabajo en servicios y produccion
+
+df2014 <- df2014 %>% 
+  pivot_wider(names_from = "caes_1", values_from = "puestos") %>% 
+  select(departamento, MANUF2014 = MANUF, SERVEMP2014 = SERVEMP)
+
+df2021 <- df2021 %>% 
+  pivot_wider(names_from = "caes_1", values_from = "puestos") %>% 
+  select(departamento, MANUF2021 = MANUF, SERVEMP2021 = SERVEMP)
+
+dfvar <- merge(df2014, df2021, by = "departamento")
+
+dfvar <- dfvar %>% 
+  mutate(variacion.manufactura = round(MANUF2021/MANUF2014-1, 3),
+         variacion.servicios = round(SERVEMP2021/MANUF2014-1, 3)) %>% 
+  select(departamento, variacion.manufactura, variacion.servicios)
+
+write_delim(dfvar, "datalimpia/var_manuf_serv.txt", delim = "\t")

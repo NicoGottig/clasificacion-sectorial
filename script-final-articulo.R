@@ -59,24 +59,6 @@ df %>%
   ylab("") +
   theme(legend.position = "bottom", text = element_text(size=8))
 
-# UNO CHETO
-# ggplot(cant_partos) +
-#   aes(x = año_mes, y = n, color = efector) +
-#   geom_line(lwd = 1.5) +
-#   geom_point(size = 3, pch = 1) +
-#   scale_y_continuous(
-#     name = "Número de nacimientos",
-#     limits = c(0, 600), expand = c(0, 0),
-#     sec.axis = dup_axis(breaks = ultimos$n, labels = ultimos$efector, name = NULL)
-#   ) +
-#   scale_x_date(name = "Meses", date_labels = "%b-%y", date_breaks = "5 months") +
-#   theme(legend.position = "none",
-#         axis.line.y.right = element_blank(),
-#         axis.ticks.y.right = element_blank(),
-#         axis.text.y.right = element_text(margin = margin(0, 0, 0, 0)),
-#         plot.margin = margin(14, 7, 3, 1.5),
-#   )
-
 
 # Grafico de barras de variación de la productividad por sector
 df2014 <- df %>% 
@@ -84,6 +66,14 @@ df2014 <- df %>%
 
 df2021 <- df %>% 
   filter(anio == 2021)
+
+
+df2021 %>% 
+  ggplot() +
+  aes(x = product, y = forcats::fct_reorder(clae1, product)) +
+  geom_col(fill = "darkred") +
+  theme_light()
+
 
 var <- cbind(clae1 = df2021$clae1, var = (df2021[2:5] - df2014[2:5]) /df2014[2:5])
 
@@ -107,51 +97,7 @@ var %>%
   ylab("Sector") +
   theme(legend.position = "bottom", text = element_text(size=8))
 
-# Analisis de la variacion del empleo de ambos sectores
-df2014 <- read_delim("datalimpia/df_puestos.txt", delim = "\t") %>% 
-  filter(anio == 2014) %>% 
-  pivot_wider(names_from = caes_1, values_from = puestos) %>% 
-  data.frame() %>% 
-  select(-anio) %>% 
-  select(MANUF, SERVEMP, departamento)
-
-df2021 <- read_delim("datalimpia/df_puestos.txt", delim = "\t") %>% 
-  filter(anio == 2021) %>% 
-  pivot_wider(names_from = caes_1, values_from = puestos) %>% 
-  data.frame() %>% 
-  select(-anio) %>% 
-  select(MANUF, SERVEMP, departamento)
-
-
-var <- (df2021[1:2] - df2014[1:2]) / df2014[1:2]
-
-var$depto <- df2021$departamento
-
-var %>% 
-  ggplot() +
-  aes(x = MANUF, y = SERVEMP, label = depto) +
-  geom_point(col = "#C84630") +
-  geom_smooth(method = "lm", se = FALSE, col = "#C84630")+
-  theme_bw() +
-  ggrepel::geom_text_repel() +
-  xlab("Variación en manufactura") +
-  ylab("variación en serv. Empresariales") 
-
-# sin atipico
-var %>% 
-  filter(depto != "Feliciano") %>% 
-  ggplot() +
-  aes(x = MANUF, y = SERVEMP, label = depto) +
-  geom_point(col = "#C84630") +
-  geom_smooth(method = "lm", se = FALSE, col = "#C84630")+
-  theme_bw() +
-  ggrepel::geom_text_repel() +
-  xlab("Variación en manufactura") +
-  ylab("variación en serv. Empresariales") 
-
-
 # Matriz de especialización relativa 2014  -------------------------------<<<<<<<
-
 df <- read_delim("datalimpia/df_puestos.txt", delim = "\t") %>% 
   filter(anio == 2014) %>% 
   select(-anio)
@@ -191,14 +137,14 @@ rownames(mat) <- rownames(df)
 esp2014 <- t(mat) %>% data.frame()
 
 
-var$clae1 <- case_when(
-  var$clae1 == "PRIM" ~ "Sec. Primario",
-  var$clae1 == "MANUF" ~ "Ind. Manuf.", 
-  var$clae1 == "CONST" ~ "Cons. y Sumin.",
-  var$clae1 == "COMHOTREST" ~ "Com., Hot. y Rest.",
-  var$clae1 == "SERVEMP" ~ "Serv. Emp",
-  var$clae1 == "ENSESALUD" ~ "Salud y educación",
-  var$clae1 == "SOCADMIN"~ "Serv. Soc., y Adm. Púb."
+esp2014$clae1 <- case_when(
+  esp2014$clae1 == "PRIM" ~ "Sec. Primario",
+  esp2014$clae1 == "MANUF" ~ "Ind. Manuf.", 
+  esp2014$clae1 == "CONST" ~ "Cons. y Sumin.",
+  esp2014$clae1 == "COMHOTREST" ~ "Com., Hot. y Rest.",
+  esp2014$clae1 == "SERVEMP" ~ "Serv. Emp",
+  esp2014$clae1 == "ENSESALUD" ~ "Salud y educación",
+  esp2014$clae1 == "SOCADMIN"~ "Serv. Soc., y Adm. Púb."
 )
 
 esp2014 <- esp2014 %>% 
@@ -289,10 +235,10 @@ esp2021 %>%
         legend.title = element_text(size = 8)) +
   labs(fill = "Índice" ) +
   xlab("") +
-  ylab("") +
-  labs(title = "Especialización Relativa del Trabajo por Departamento",
-       subtitle = "Año 2021",
-       caption = "Fuente: Elaboración propia en base al Ministerio de Desarrollo Productivo")
+  ylab("")
+  # labs(title = "Especialización Relativa del Trabajo por Departamento",
+  #      subtitle = "Año 2021",
+  #      caption = "Fuente: Elaboración propia en base al Ministerio de Desarrollo Productivo")
 
 # Gráfico de variacion especialización relativa por region
 varesp <- esp2021/esp2014 - 1
@@ -323,29 +269,6 @@ esp2021$anio <- 2021
 
 esp <- bind_rows(esp2014, esp2021)
 
-esp %>% 
-  select(c("depto", "anio", "SERVEMP")) %>% 
-  ggplot() +
-  aes(y = forcats::fct_reorder(depto, -SERVEMP), x = SERVEMP, fill = as.factor(anio)) +
-  geom_col(position = "dodge") +
-  geom_vline(xintercept = 1, size = 0.2) +
-  scale_fill_discrete(name = "Año") + 
-  theme_bw() +
-  xlab("") +
-  ylab("") +
-  ggtitle("Especialización relativa de servicios empresariales")
-
-esp %>% 
-  select(c("depto", "anio", "MANUF")) %>% 
-  ggplot() +
-  aes(y = forcats::fct_reorder(depto, -MANUF), x = MANUF, fill = as.factor(anio)) +
-  geom_col(position = "dodge") +
-  geom_vline(xintercept = 1, size = 0.2) +
-  scale_fill_discrete(name = "Año") + 
-  theme_bw() +
-  xlab("") +
-  ylab("") +
-  ggtitle("Especialización relativa de manufactura")
 
 # Analisis de componentes principales a tres niveles <------------------------<<<<<
 esp <- esp %>% 
@@ -361,7 +284,7 @@ esp <- esp %>%
 
 col <- colorRampPalette(c("#C84630", "#EE9988", "#FFFFFF", "#77AADD", "#14213d"))
 
-corrplot::corrplot(cor(esp), 
+corrplot::corrplot(cor(esp2021), 
                    method = "color", 
                    order="hclust",
                    col=col(200),
@@ -369,6 +292,23 @@ corrplot::corrplot(cor(esp),
                    tl.srt=45, 
                    tl.cex = 0.8)  
 
+
+
+my_fn <- function(data, mapping, ...){
+  p <- ggplot(data = data, mapping = mapping) + 
+    geom_point() + 
+    geom_smooth(method=lm, fill="#EE9988", color="#EE9988", ...)
+  p
+}
+
+
+dftmp <- esp2021 %>% 
+  filter(depto != "Islas.del.Ibicuy")
+
+GGally::ggpairs(dftmp,columns = 1:7, lower = list(continuous = my_fn)) + theme_bw()
+
+
+# PCA
 pca <- FactoMineR::PCA(esp, scale.unit = "TRUE")
 
 pca$eig
@@ -395,9 +335,88 @@ factoextra::fviz_pca_ind(pca,
                          geom = c("point", "text"), 
                          repel = TRUE, 
                          axes = c(1,3),
-                         fill = "#C84630") +
+                         col.ind = "#C84630") +
   labs(title ="") +
-  theme_light()
+  theme_light() +
+  theme_set(theme_bw(base_family = "noto"))
+
+
+# Servicios empresariales y prod. manufacturera
+
+ggplot(dftmp) +
+  aes(x = SERVEMP, y = MANUF, label = depto) +
+  geom_point(col = "#C84630") + 
+  theme_bw() + 
+  geom_smooth(method = "lm", col = "darkred") + 
+  ggrepel::geom_label_repel()
+
+
+dfvar <- read_delim("datalimpia/var_manuf_serv.txt", delim = "\t")
+
+ggplot(dfvar) +
+  aes(x = variacion.manufactura, y = variacion.servicios, label = departamento) +
+  geom_point(col = "#C84630") + 
+  theme_bw() + 
+  geom_smooth(method = "lm", col = "darkred") + 
+  ggrepel::geom_label_repel()
+
+
+varesp$depto <- rownames(varesp)
+
+varesp %>% 
+  ggplot() +
+  aes(x = `Ind. Manuf.`, y = `Serv. Emp`, label = as.factor(depto)) +
+  geom_point(col = "#C84630") + 
+  theme_bw() + 
+  geom_smooth(method = "lm", col = "darkred", se = FALSE) + 
+  ggrepel::geom_label_repel() + 
+  geom_hline(yintercept = 0, size = 0.15) +
+  geom_vline(xintercept = 0, size = 0.15) +
+  xlab("Variación del IER del sector manufacturero") +
+  ylab("Variación del IER del sector de serv. Empresariales")
+
+varesp <- varesp %>% 
+  select(manuf = `Ind. Manuf.`,
+         serv = `Serv. Emp`)
+
+# 2021
+esp2021$depto <- rownames(esp2021)
+esp2021 %>% 
+  ggplot() +
+  aes(x = `Serv. Emp`, y = forcats::fct_reorder(depto,`Serv. Emp`)) +
+  geom_col(fill = "Orange") +
+  geom_vline(xintercept = 1)
+  
+esp2021 %>% 
+  ggplot() +
+  aes(x = `Ind. Manuf.`, y = forcats::fct_reorder(depto,`Ind. Manuf.`)) +
+  geom_col(fill = "Orange") +
+  geom_vline(xintercept = 1)
+
+gesp2021 %>% 
+  select(c("depto", "SERVEMP")) %>% 
+  ggplot() +
+  aes(y = forcats::fct_reorder(depto, -SERVEMP), x = SERVEMP) +
+  geom_col(position = "dodge") +
+  geom_vline(xintercept = 1, size = 0.2) +
+  scale_fill_discrete(name = "Año") + 
+  theme_bw() +
+  xlab("") +
+  ylab("") +
+  ggtitle("Especialización relativa de servicios empresariales")
+
+esp %>% 
+  select(c("depto", "anio", "MANUF")) %>% 
+  ggplot() +
+  aes(y = forcats::fct_reorder(depto, -MANUF), x = MANUF, fill = as.factor(anio)) +
+  geom_col(position = "dodge") +
+  geom_vline(xintercept = 1, size = 0.2) +
+  scale_fill_discrete(name = "Año") + 
+  theme_bw() +
+  xlab("") +
+  ylab("") +
+  ggtitle("Especialización relativa de manufactura")
+
 
 # Analisis de autocorrelacion espacial
 library(sf)
@@ -414,19 +433,25 @@ shapeData <- sf::st_as_sf(shapeData, wkt = 'polygons', crs = st_crs(4326)) # mak
 shapeData <- rmapshaper::ms_simplify(shapeData, keep = 0.01, keep_shapes = TRUE) %>% 
   filter(provincia == "Entre Ríos")
 
-df$depto <- gsub("\\.", " ", df$depto)
+# df$depto <- gsub("\\.", " ", df$depto)
 
-mapdata <- sp::merge(x = shapeData, y = df, by.x = "departamen", by.y = "depto") 
-
+# mapdata <- sp::merge(x = shapeData, y = df, by.x = "departamen", by.y = "depto") 
+varesp$departamen <- rownames(varesp)
+varesp$departamen <- gsub("\\.", " ", varesp$departamen)
+mapdata <- sp::merge(x = shapeData, y = varesp, by = "departamen")
+  
+  
 # Análisis univariado del sector manufacturero
-boxplot(mapdata$MANUF)
+boxplot(mapdata$manuf)
 
 # Mapa
-tm_shape(mapdata) + tm_fill(col="MANUF",
+tm_shape(mapdata) + tm_fill(col="serv",
                             style="quantile",
                             n=4,
-                            palette="Greens") +
-  tm_legend(outside=TRUE)
+                            palette="YlGnBu", 
+                            title = "Esp. en Manufactura") +
+  tm_legend(outside=TRUE) +
+  tm_text("departamen", size = 2/3, col = "black")
 
 # Definición de vecinos
 nb <- poly2nb(mapdata, queen=TRUE)
@@ -435,17 +460,17 @@ nb <- poly2nb(mapdata, queen=TRUE)
 lw <- nb2listw(nb, style="W", zero.policy=TRUE)
 
 # Analisis con pesos rezagados
-per.lag <- lag.listw(lw, mapdata$MANUF)
+per.lag <- lag.listw(lw, mapdata$serv)
 per.lag
 
-plot(per.lag ~ mapdata$MANUF, pch=16, asp=1)
+plot(per.lag ~ mapdata$serv, pch=16, asp=1)
 text(df$MANUF, (per.lag-0.02), labels=df$depto, cex =0.75)
-M1 <- lm(per.lag ~ df$MANUF)
+M1 <- lm(per.lag ~ df$serv)
 abline(M1, col="blue")
 coef(M1)[2]
 
 # Inferencia
-moran.test(mapdata$MANUF,lw, alternative="greater")
+moran.test(mapdata$serv, lw, alternative="greater")
 
 # Analisis univariado del sector de servicios empresariales (esta sin islas)
 boxplot(mapdata$SERVEMP)
