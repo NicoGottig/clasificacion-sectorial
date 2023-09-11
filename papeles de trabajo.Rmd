@@ -1,0 +1,334 @@
+---
+title: "Papeles de Trabajo: Concentración y evolución de los sectores productivos en la provincia de Entre Ríos según datos de empleo registrado"
+output: pdf_document
+date: "2023-09-10"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r carga y procesamiento de datos}
+library(tidyverse)
+library(ggtext)
+library(showtext)
+showtext_auto()
+font_add_google(name="Noto Sans", family = "noto")
+theme_set(theme_bw(base_family = "noto"))
+
+
+```
+```{r}
+
+vab <- read_delim("datalimpia/vab_xrama.txt")
+l <- read_delim("datalimpia/trab_xanio.txt")
+
+vab <- vab %>% 
+  group_by(clae1, anio) %>% 
+  summarise(VAB = sum(VAB)) %>% 
+  filter(anio >= 2014 & anio <= 2021) %>% 
+  data.frame()
+
+l <- l %>% 
+  group_by(anio, clae1 = caes_1) %>% 
+  summarise(puestos = sum(puestos)) %>% 
+  filter(anio < 2022) %>% 
+  data.frame()
+
+head(vab)
+
+df <- vab %>% 
+  left_join(l, by = c("anio", "clae1"))
+
+df <- df %>% 
+  mutate(product = VAB/puestos)
+
+# Gráfico de evolución
+
+df$clae1 <- case_when(
+  df$clae1 == "PRIM" ~ "Sec. Primario",
+  df$clae1 == "MANUF" ~ "Ind. Manuf.", 
+  df$clae1 == "CONST" ~ "Cons. y Sumin.",
+  df$clae1 == "COMHOTREST" ~ "Com., Hot. y Rest.",
+  df$clae1 == "SERVEMP" ~ "Serv. Emp",
+  df$clae1 == "ENSESALUD" ~ "Salud y educación",
+  df$clae1 == "SOCADMIN"~ "Serv. Soc., y Adm. Púb."
+)
+
+df2014 <- df %>% 
+  filter(anio == 2014)
+
+df2021 <- df %>% 
+  filter(anio == 2021)
+
+var <- cbind(clae1 = df2021$clae1, var = (df2021[2:5] - df2014[2:5]) /df2014[2:5])
+
+var$clae1 <- case_when(
+  var$clae1 == "PRIM" ~ "Sec. Primario",
+  var$clae1 == "MANUF" ~ "Ind. Manuf.", 
+  var$clae1 == "CONST" ~ "Cons. y Sumin.",
+  var$clae1 == "COMHOTREST" ~ "Com., Hot. y Rest.",
+  var$clae1 == "SERVEMP" ~ "Serv. Emp",
+  var$clae1 == "ENSESALUD" ~ "Salud y educación",
+  var$clae1 == "SOCADMIN"~ "Serv. Soc., y Adm. Púb."
+)
+# Analisis de la variacion del empleo de ambos sectores
+df2014 <- read_delim("datalimpia/df_puestos.txt", delim = "\t") %>% 
+  filter(anio == 2014) %>% 
+  pivot_wider(names_from = caes_1, values_from = puestos) %>% 
+  data.frame() %>% 
+  select(-anio) %>% 
+  select(MANUF, SERVEMP, departamento)
+
+df2021 <- read_delim("datalimpia/df_puestos.txt", delim = "\t") %>% 
+  filter(anio == 2021) %>% 
+  pivot_wider(names_from = caes_1, values_from = puestos) %>% 
+  data.frame() %>% 
+  select(-anio) %>% 
+  select(MANUF, SERVEMP, departamento)
+
+
+var <- (df2021[1:2] - df2014[1:2]) / df2014[1:2]
+
+var$depto <- df2021$departamento
+
+```
+
+## Matriz de especialización relativa sin Islas del Ibicuy (atipico)
+
+```{r}
+# Matriz de especialización relativa 2014  -------------------------------<<<<<<<
+
+df <- read_delim("datalimpia/df_puestos.txt", delim = "\t") %>% 
+  filter(anio == 2014) %>% 
+  select(-anio) %>% 
+  filter(departamento != "Islas del Ibicuy")
+
+df <- df %>% 
+  pivot_wider(names_from = departamento, values_from = puestos) %>% 
+  data.frame()
+
+rownames(df) <- df$caes_1
+
+df <- df[2:17] %>% 
+  data.frame()
+
+sum_sect <- colSums(df[1:16])
+sum_reg <- rowSums(df[1:16])
+tot <- sum(sum_reg)
+
+# Pruebas
+# EjVij
+# sum(colSums(dfw[dfw$caes_1 == "COMHOTREST", 2:18]))
+# EiVij
+# sum(dfw$Gualeguaychú)
+
+# Calculo de la matriz
+mat <- matrix(nrow = 7, ncol= 16)
+for (i in 1:7) {
+  for(j in 1:16){
+    mat[i, j] <- (df[i, j] / sum_sect[j]) / (sum_reg[i] / tot)
+  }
+}
+
+mat <- data.frame(mat)
+colnames(mat) <- colnames(df)
+rownames(mat) <- rownames(df)
+
+# trasposición
+esp2014 <- t(mat) %>% data.frame()
+
+esp2014 <- esp2014 %>% 
+  rename(
+     "Sec. Primario"="PRIM",
+      "Ind. Manuf."="MANUF", 
+      "Cons. y Sumin."="CONST",
+     "Com., Hot. y Rest."="COMHOTREST",
+     "Serv. Emp"="SERVEMP",
+      "Salud y educación"="ENSESALUD",
+     "Serv. Soc., y Adm. Púb."="SOCADMIN" 
+  )
+
+# Calculo de especialización relativa para 2021 --------------------------------
+df2 <- read_delim("datalimpia/df_puestos.txt", delim = "\t") %>% 
+  filter(anio == 2021) %>% 
+  select(-anio) %>% 
+  filter(departamento != "Islas del Ibicuy")
+
+df2 <- df2 %>% 
+  pivot_wider(names_from = departamento, values_from = puestos) %>% 
+  data.frame()
+
+rownames(df2) <- df2$caes_1
+
+df2 <- df2[2:17] %>% 
+  data.frame()
+
+sum_sect <- colSums(df2[1:16])
+sum_reg <- rowSums(df2[1:16])
+tot <- sum(sum_reg)
+
+
+# Calculo de la matriz
+mat <- matrix(nrow = 7, ncol= 16)
+for (i in 1:7) {
+  for(j in 1:16){
+    mat[i, j] <- (df2[i, j] / sum_sect[j]) / (sum_reg[i] / tot)
+  }
+}
+
+mat <- data.frame(mat)
+colnames(mat) <- colnames(df2)
+rownames(mat) <- rownames(df2)
+
+# trasposición
+esp2021 <- t(mat) %>%
+  data.frame()
+
+esp2021 <- esp2021 %>% 
+  rename(
+    "Sec. Primario"="PRIM",
+    "Ind. Manuf."="MANUF", 
+    "Cons. y Sumin."="CONST",
+    "Com., Hot. y Rest."="COMHOTREST",
+    "Serv. Emp"="SERVEMP",
+    "Salud y educación"="ENSESALUD",
+    "Serv. Soc., y Adm. Púb."="SOCADMIN" 
+  )
+
+
+# Gráfico de variacion especialización relativa por region
+varesp <- esp2021/esp2014 - 1
+
+
+
+```
+
+
+# Especialización relativa 2021
+
+```{r}
+# trasposición
+esp2021 <- t(mat) %>% data.frame()
+
+esp2021 <- esp2021 %>% 
+  rename(
+    "Sec. Primario"="PRIM",
+    "Ind. Manuf."="MANUF", 
+    "Cons. y Sumin."="CONST",
+    "Com., Hot. y Rest."="COMHOTREST",
+    "Serv. Emp"="SERVEMP",
+    "Salud y educación"="ENSESALUD",
+    "Serv. Soc., y Adm. Púb."="SOCADMIN" 
+  )
+
+# Gráfico de especialización relativa por region
+esp2021 %>%
+  mutate(depto = rownames(.)) %>% 
+  pivot_longer(-depto, names_to = "variab", values_to = "valor") %>% 
+  ggplot() +
+  aes(x = depto, y = variab, fill = valor) +
+  geom_tile(colour = "white") + 
+  scale_fill_gradient(low="#14213d", high="#C84630")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        plot.title = element_text(size = 10),
+        plot.subtitle = element_text(size = 8),
+        legend.title = element_text(size = 8)) +
+  labs(fill = "Índice" ) +
+  xlab("") +
+  ylab("") +
+  labs(title = "Especialización Relativa del Trabajo por Departamento",
+       subtitle = "Año 2021",
+       caption = "Fuente: Elaboración propia en base al Ministerio de Desarrollo Productivo")
+
+```
+
+
+
+## Caracterización de los perfiles productivos en las provincias según especialización relativa
+
+Se realiza una representación gráfica de la evolución del indicador de  especialización relativa por departamento, en el periodo 2014-2021.
+
+```{r cars}
+varesp %>%
+  mutate(depto = rownames(.)) %>% 
+  pivot_longer(-depto, names_to = "variab", values_to = "valor") %>% 
+  ggplot() +
+  aes(x = depto, y = variab, fill = valor) +
+  geom_tile(colour = "white") + 
+  scale_fill_gradient(low="#14213d", high="#C84630")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title=element_text(size=8)) +
+  labs(fill = "Var. del Índice" ) +
+  xlab("") +
+  ylab("")
+
+
+```
+
+## Correlación entre los sectores
+
+```{r}
+# Analisis de componentes principales a tres niveles <------------------------<<<<<
+
+# Departamentos ordenados según especialización relativa en ambos periodos
+esp2014$depto <- rownames(esp2014)
+esp2014$anio <- 2014
+esp2021$depto <- rownames(esp2021)
+esp2021$anio <- 2021
+
+esp <- bind_rows(esp2014, esp2021)
+
+esp <- esp %>% 
+  mutate(unid = paste0(substr(esp$depto, 0, 3), substr(esp$depto, nchar(esp$depto), nchar(esp$depto)),".", substr(esp$anio, 3, 4)))
+
+rownames(esp) <- esp$uni
+
+esp <- esp %>% 
+  select_if(is.numeric) %>% 
+  select(-anio)
+
+# Correlacion
+
+col <- colorRampPalette(c("#C84630", "#EE9988", "#FFFFFF", "#77AADD", "#14213d"))
+
+corrplot::corrplot(cor(esp), 
+                   method = "color", 
+                   order="hclust",
+                   col=col(200),
+                   tl.col="black", 
+                   tl.srt=45, 
+                   tl.cex = 0.8)  
+
+pca <- FactoMineR::PCA(esp, scale.unit = "TRUE")
+
+pca$eig
+
+factoextra::fviz_screeplot(pca, barfill ="#C84630", linecolor = "#14213d", barcolor = "#C84630") +
+  ggtitle("Contribución de las dimensiones") +
+  theme_light() +
+  xlab("Componentes a retener") +
+  ylab("% de varianza explicada") +
+  labs(title = "") 
+
+pca$var$cor
+
+factoextra::fviz_pca_ind(pca, 
+                         geom = c("point", "text"),
+                         repel = TRUE, 
+                         axes = c(1,2),
+                         col.ind = "#C84630") +
+  labs(title ="") +
+  theme_light() +
+  theme_set(theme_bw(base_family = "noto"))
+
+factoextra::fviz_pca_ind(pca, 
+                         geom = c("point", "text"), 
+                         repel = TRUE, 
+                         axes = c(1,3),
+                         col.ind = "#C84630") +
+  labs(title ="") +
+  theme_light()
+
+```
+
