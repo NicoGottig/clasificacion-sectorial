@@ -1,0 +1,373 @@
+---
+title: "Índice Global y Local de Moran en Variación de la Especialización Relativa en Servicios Empresariales e Industria (Papeles de trabajo)"
+author: "Nicolás Gottig"
+date: "2023-09-22"
+output:
+  pdf_document:
+    latex_engine: xelatex
+    keep_tex: true
+    pandoc_args: [
+      "--pdf-engine-opt=-output-directory=."
+    ]
+header-includes:
+  - \usepackage{ragged2e}
+  - \justifying
+  - \usepackage{titling}
+  - \pretitle{\begin{flushleft}}
+  - \posttitle{\end{flushleft}}
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+```{r carga y procesamiento de datos}
+
+library(ggtext)
+library(showtext)
+library(ggplot2)
+showtext_auto()
+font_add_google(name="Noto Sans", family = "noto")
+theme_set(theme_bw(base_family = "noto"))
+
+
+```
+
+## Análisis de matriz de especialización relativa
+Los datos para el cálculo de la matriz se encuentran en el archivo "matriz-especializacion-complleta.txt". Dicho archivo contiene, para cada año, el cálculo de la especialización relativa por departamento y rama agregada según criterio del MOP. A partir de esto, se desea estudiar la evolución de la especialización relativa en el sector manufacturero y en el sector de servicios empresariales por año:
+
+```{r, fig.width=6, fig.height=4, fig.cap="Evolución de la Especialización Relativa por Departamento y Sector"}
+
+library(tidyverse)
+especializacion <- read_delim("matriz-especializacion-completa.txt", delim = "\t")
+
+especializacion %>% 
+  select(Manufactura = MANUF, `Servicios Empresariales` = SERVEMP, anio, depto) %>% 
+  pivot_longer(-c(anio, depto), values_to = "val", names_to = "name") %>% 
+  ggplot() +
+  aes(x = anio, y = val, col = depto) +
+  geom_line() + 
+  theme_bw() +
+  facet_wrap(~name, nrow = 2) +
+  theme_set(theme_bw(base_family = "noto")) +
+  xlab("") +
+  ylab("Esp. Relativa")
+
+
+```
+
+Se observa que Islas del Ibicuy presenta un comportamiento estable en la especialización de la industria manufacturera, pero presenta grandes oscilaciones en la industria de servicios empresariales; casi duplicando, en ciertos años, su participación relativa en el sector. Por lo tanto, se decide excluirla del análisis posterior y estudiarla de forma individual. Sin este departamento, la evolución de los sectores en cada departamento se da de la siguiente forma:
+
+```{r, fig.width=6, fig.height=4, fig.cap= "Esp. Relativa por departamento y serctor sin Islas del Ibicuy"}
+especializacion  <- read_delim("matriz-especializacion-sinIslas.txt", delim = "\t")
+
+
+especializacion %>% 
+  pivot_longer(-c(anio, depto), names_to = "variable", values_to = "x") %>% 
+  ggplot() +
+  aes(x = anio, y = x, col = variable) +
+  geom_line() +
+  facet_wrap(~depto) +
+  theme_minimal() +
+  theme_set(theme_bw(base_family = "noto")) +
+    theme(axis.text.x = element_text(angle = 90)) +
+  ylab("Esp. Relativa") +
+  xlab("")
+
+```
+Se distingue una disminución de la especialización relativa en el sector primario en Concordia desde el 2019, en contraposición a un aumento en la esp. Relativa del sector de construcción. En el caso de Federal y Feliciano, sobresalen en términos de especialización relativa en el sector primario, y de servicios sociales y administración pública frente al resto.  
+También se identifican comportamientos sobresalientes en algunos sectores en La Paz, Rosario del Tala y Villaguay. ASí como un cambio de tendencia en el sector de construcción en victoria, con una tendencia creciente desde 2020.  
+
+Sin Islas del ibicuy, la tasa de variación entre el 2022 y el 2014 de la especialización relativa en la provincia queda de la siguiente manera:  
+
+```{r, fig.width=8, fig.height=4, fig.cap= "Variación en la Especialización Relativa"}
+especializacion  <- read_delim("matriz-especializacion-sinIslas.txt", delim = "\t")
+esp2014 <- especializacion %>% 
+  filter(anio == 2014) %>% 
+  select(-anio)
+
+esp2022 <- especializacion %>% 
+  filter(anio == 2022) %>% 
+  select(-anio)
+
+varesp <- (esp2022[2:8] - esp2014[2:8]) / esp2014[2:8]
+
+rownames(varesp) <- esp2014$depto
+Sys.setlocale("LC_CTYPE", "en_US.UTF-8")
+colnames(varesp) <- c("Com. Hot. y Rest.", "Construcción",
+                      "Ens. y Salud", "Manufactura", "Mat. Prima", 
+                      "Serv. Emp.", "Serv. Soc. y Admin")
+varesp %>%
+  mutate(depto = rownames(.)) %>% 
+  pivot_longer(-depto, names_to = "variab", values_to = "valor") %>% 
+  ggplot() +
+  aes(x = depto, y = variab, fill = valor) +
+  geom_tile(colour = "white") + 
+  scale_fill_gradient(low="#14213d", high="#C84630")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        legend.title=element_text(size=8)) +
+  labs(fill = "Var. del Índice" ) +
+  xlab("") +
+  ylab("")
+
+```
+## Caracterización de los perfiles productivos en las provincias según especialización relativa
+
+Para la caracterización de las unidades bajo estudio se utilizan proyecciones multivariadas en las variables que recogen la especialización de un sector en cada unidad. Las dos primeras proyecciones explican casi el 80 % de la variabilidad total, por lo que se utilizarán sólo esos para el análisis.
+
+### Correlación entre los sectores
+
+```{r, fig.width=6, fig.height=4, fig.cap= "Correlación en la variación de la especialización relativa de los  sectores"}
+# Analisis de componentes principales a tres niveles <------------------------<<<<<
+
+# Departamentos ordenados según especialización relativa en ambos periodos
+esp2014$depto <- rownames(varesp)
+esp2014$anio <- 2014
+esp2022$depto <- rownames(varesp)
+esp2022$anio <- 2022
+
+esp <- bind_rows(esp2014, esp2022)
+
+esp <- esp %>% 
+  mutate(unid = paste0(substr(esp$depto, 0, 3), substr(esp$depto, nchar(esp$depto), nchar(esp$depto)),".",
+                       substr(esp$anio, 3, 4))) %>% 
+  data.frame()
+
+rownames(esp) <- esp$unid
+
+esp <- esp %>% 
+  select_if(is.numeric) %>% 
+  select(-anio)
+
+# Correlacion
+
+col <- colorRampPalette(c("#C84630", "#EE9988", "#FFFFFF", "#77AADD", "#14213d"))
+colnames(esp) <- c("Com. Hot. y Rest.", "Construcción",
+                      "Ens. y Salud", "Manufactura", "Mat. Prima", 
+                      "Serv. Emp.", "Serv. Soc. y Admin")
+corrplot::corrplot(cor(esp), 
+                   method = "color", 
+                   order="hclust",
+                   col=col(200),
+                   tl.col="black", 
+                   tl.srt=45, 
+                   tl.cex = 0.8) +
+  theme_set(theme_bw(base_family = "noto"))
+```
+
+### Análisis de componentes
+
+```{r}
+pca <- FactoMineR::PCA(esp, scale.unit = "TRUE")
+
+pca$eig
+
+factoextra::fviz_screeplot(pca, barfill ="#C84630", linecolor = "#14213d", barcolor = "#C84630") +
+  ggtitle("Contribución de las dimensiones") +
+  theme_light() +
+  xlab("Componentes a retener") +
+  ylab("% de varianza explicada") +
+  labs(title = "") 
+
+pca$var$cor
+
+```
+        eigenvalue percentage of variance cumulative percentage of variance
+comp 1 4.451424307            63.59177582                          63.59178
+comp 2 1.116454585            15.94935122                          79.54113
+comp 3 0.691674922             9.88107032                          89.42220
+comp 4 0.431817947             6.16882782                          95.59103
+comp 5 0.163282000             2.33260000                          97.92363
+comp 6 0.143040750             2.04343929                          99.96706
+comp 7 0.002305488             0.03293554                         100.00000
+
+El gráfico de cargas representa la asociación de variables; en este sentido, se puede observar que un crecimiento (variación) en la especialización relativa de la manufactura está asociada a una reducción de la especialización en el resto de los sectores. Por otro lado, los aumentos en la especialización en enseñanza y salud están asociados a incrementos en la especialización del agregado "servicios empresariales". Lo mismo, pero en menor medida, sucede con la especialización del sector primario, el agregado de servicios sociales y administración pública y construcción. 
+
+Como se informó en párrafos anteriores, las dos primeras proyecciones conservan el 79.5 % de la variabilidad orignal del conjunto de datos. Por lo que se realizará la proyección sobre estos dos ejes:
+
++ Valores altos del **primer eje** muestra a los departamentos que tienen alta especialización relativa en el agregado de servicios sociales y administración pública, construcción y materia prima. A su vez, estos departamentos tienen los menores índices de especialización en manufactura.  
++ Valores altos del **segundo eje** expone a los departamentos con una fuerte especialización relativa en el agregado de enseñanza y salud y que, a su vez, presentan una menor especialización relativa en, principalmente, producción de materia prima.  
+
+A su vez, el análisis a 3 vías permite comparar el estado inicial y final del índice de especialización relativa. Pudiendo observar como evolucionó dicho indicador en el tiempo sobre los sectores nombrados previamente. Así, en el gráfico de scores se observa que Paraná tuvo un incremento en la especialización relativa de servicios de salud y educación, sin diferencias importantes en su especialización en servicios sociales, administración o construcción. 
+
+Otra interpretación puede hacerse en los departamento Colón o Gualeguaychú, los cuales poseen mayores índices de especialización relativa en manufactura; estos departamentos tuvieron un decrecimiento en su índice de especialización relativa en servicios de enseñanza y salud durante el periodo bajo análisis, a costa de un incremento en su especialización relativa de producción primaria. 
+
+Los departamentos y su posición en estos ejes pueden observarse en el siguiente gráfico:
+
+```{r}
+
+factoextra::fviz_pca_ind(pca, 
+                         geom = c("point", "text"), 
+                         repel = TRUE, 
+                         axes = c(1,3),
+                         col.ind = "#C84630") +
+  labs(title ="") +
+  theme_light()
+
+```
+
+# Autocorrelación espacial del crecimiento en servicios y manufactura
+
+El último objetivo del artículo es evaluar la presencia de correlación espacial en el crecimiento de los sectores de interés. Es decir, si el crecimiento en estos sectores fue de forma aleatoria en el espacio o si existen aglomeraciones de crecimiento. Para esto, se calcula el Indice Global y Local de Moran, y se traducen los resultados en un *box-map*, con el objetivo de identificar *hot-spots* o puntos de concentración en el crecimiento.
+
+## Indice global y local
+En primer lugar, se seleccionan las variables y se georeferencian en la provincia:
+
+```{r}
+library(sf)
+library(spdep)
+library(tmap)
+
+shape <- rgdal::readOGR(dsn = "mapa/pxdptodatosok.shp", verbose = FALSE)
+shapeData <- sp::spTransform(shape, sp::CRS("+proj=longlat +datum=WGS84 +no_defs"))
+shapeData <- sf::st_as_sf(shapeData, wkt = 'polygons', crs = st_crs(4326)) # make sf
+shapeData <- rmapshaper::ms_simplify(shapeData, keep = 0.01, keep_shapes = TRUE) %>%
+  filter(provincia == "Entre Ríos")
+
+varesp$departamen <- rownames(varesp[2])
+varesp$departamen <- gsub("\\.", " ", varesp$departamen)
+mapdata <- sp::merge(x = shapeData, y = varesp, by = "departamen")
+  
+
+```
+
+Se estudia la distribución de las variaciones para ambos sectores: 
+
+```{r}
+mapdata %>% 
+  data.frame() %>% 
+  select(MANUF, SERVEMP, departamen) %>% 
+  pivot_longer(-departamen, names_to = "variable", values_to = "val") %>% 
+  ggplot() +
+  aes(y = val, x = variable, fill = variable) +
+  geom_boxplot() +
+  ggrepel::geom_text_repel(aes(y = val, x = variable, label = departamen)) + 
+  theme_minimal()
+
+```
+En este caso, se puede detectar que Tala tuvo un incremento atípico en los servicios empresariales y, en el mismo periodo, redujo fuertemente su especialización relativa en relación al resto de los departamentos. Por otro lado, Feliciano tuvo una variación positiva de casi el 40 % en el sector manufacturero. Sin embargo, no sufrió modificaiciones en su especialización en servicios empresariales.  
+
+Ahora, se calcula el Indice global de moran considerando a los vecinos aquellos que poseen contiguedad geográfica alrededor de cada departamento. En la literatura esto se conoce como *queen* en relación a los posibles movimientos de la reina en el ajedréz. 
+ 
+## Indicadores para el Índice global y local de servicios
+
+```{r}
+# Definición de vecinos
+nb <- poly2nb(mapdata, queen=TRUE)
+
+# Asignar peso a los vecinos
+lw <- nb2listw(nb, style="W", zero.policy=TRUE)
+
+# Analisis con pesos rezagados
+per.lag <- lag.listw(lw, mapdata$SERVEMP)
+per.lag
+
+plot(per.lag ~ mapdata$SERVEMP, pch=16, asp=1)
+text(varesp$SERVEMP, (per.lag-0.02), labels=varesp$departamen, cex =0.75)
+M1 <- lm(per.lag ~ varesp$SERVEMP)
+abline(M1, col="blue")
+coef(M1)[2]
+
+# Analisis univariado del sector de servicios empresariales (esta sin islas)
+boxplot(mapdata$SERVEMP)
+
+# Mapa
+tm_shape(mapdata) + tm_fill(col="SERVEMP",
+                            style="quantile",
+                            n=4,
+                            palette="Greens") +
+  tm_legend(outside=TRUE)
+
+# Definición de vecinos
+nb <- poly2nb(mapdata, queen=TRUE)
+
+# Asignar peso a los vecinos
+lw <- nb2listw(nb, style="W", zero.policy=TRUE)
+
+# Analisis con pesos rezagados
+per.lag <- lag.listw(lw, mapdata$SERVEMP)
+per.lag
+
+plot(per.lag ~ mapdata$SERVEMP, pch=16, asp=1)
+text(varesp$SERVEMP, (per.lag-0.02), labels=mapdata$departamen, cex =0.75)
+M1 <- lm(per.lag ~ varesp$SERVEMP)
+abline(M1, col="blue")
+coef(M1)[2]
+
+# Indice global y local
+moran.test(mapdata$SERVEMP,lw, alternative="greater")
+moranlocal <- localmoran(mapdata$SERVEMP, lw) %>% 
+  data.frame()
+
+# Almaceno en un objeto y grafico box map
+mapdata$localmoran <- moranlocal$Ii
+
+# Grafico
+tm_shape(mapdata) +
+  tm_borders() +  # Agregar bordes de las áreas
+  tm_fill(col = "localmoran", style = "jenks", palette = "-RdYlBu", title = "Índice local de Moran") +  # Colorear por índices locales de Moran
+  tm_layout(legend.outside = TRUE)  # Mostrar leyenda fuera del mapa
+
+```
+
+## Indicadores para el Índice global y local de industria
+
+```{r}
+# Definición de vecinos
+nb <- poly2nb(mapdata, queen=TRUE)
+
+# Asignar peso a los vecinos
+lw <- nb2listw(nb, style="W", zero.policy=TRUE)
+
+# Analisis con pesos rezagados
+per.lag <- lag.listw(lw, mapdata$MANUF)
+per.lag
+
+plot(per.lag ~ mapdata$MANUF, pch=16, asp=1)
+text(varesp$MANUF, (per.lag-0.02), labels=varesp$departamen, cex =0.75)
+M1 <- lm(per.lag ~ varesp$MANUF)
+abline(M1, col="blue")
+coef(M1)[2]
+
+# Analisis univariado del sector de servicios empresariales (esta sin islas)
+boxplot(mapdata$MANUF)
+
+# Mapa
+tm_shape(mapdata) + tm_fill(col="MANUF",
+                            style="quantile",
+                            n=4,
+                            palette="Greens") +
+  tm_legend(outside=TRUE)
+
+# Definición de vecinos
+nb <- poly2nb(mapdata, queen=TRUE)
+
+# Asignar peso a los vecinos
+lw <- nb2listw(nb, style="W", zero.policy=TRUE)
+
+# Analisis con pesos rezagados
+per.lag <- lag.listw(lw, mapdata$MANUF)
+per.lag
+
+plot(per.lag ~ mapdata$MANUF, pch=16, asp=1)
+text(varesp$MANUF, (per.lag-0.02), labels=mapdata$departamen, cex =0.75)
+M1 <- lm(per.lag ~ varesp$MANUF)
+abline(M1, col="blue")
+coef(M1)[2]
+
+# Indice global y local
+moran.test(mapdata$MANUF,lw, alternative="greater")
+moranlocal <- localmoran(mapdata$MANUF, lw) %>% 
+  data.frame()
+
+# Almaceno en un objeto y grafico box map
+mapdata$localmoran <- moranlocal$Ii
+
+# Grafico
+tm_shape(mapdata) +
+  tm_borders() +  # Agregar bordes de las áreas
+  tm_fill(col = "localmoran", style = "jenks", palette = "-RdYlBu", title = "Índice local de Moran") +  # Colorear por índices locales de Moran
+  tm_layout(legend.outside = TRUE)  # Mostrar leyenda fuera del mapa
+
+```
