@@ -37,46 +37,6 @@
 \makeatother
 \usepackage{xcolor}
 \usepackage[margin=1in]{geometry}
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -119,16 +79,27 @@ Relativa en Servicios Empresariales e Industria (Papeles de trabajo)}
 \begin{document}
 \maketitle
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{library}\NormalTok{(ggtext)}
-\FunctionTok{library}\NormalTok{(showtext)}
-\FunctionTok{library}\NormalTok{(ggplot2)}
-\FunctionTok{showtext\_auto}\NormalTok{()}
-\FunctionTok{font\_add\_google}\NormalTok{(}\AttributeTok{name=}\StringTok{"Noto Sans"}\NormalTok{, }\AttributeTok{family =} \StringTok{"noto"}\NormalTok{)}
-\FunctionTok{theme\_set}\NormalTok{(}\FunctionTok{theme\_bw}\NormalTok{(}\AttributeTok{base\_family =} \StringTok{"noto"}\NormalTok{))}
-\end{Highlighting}
-\end{Shaded}
+\hypertarget{resumen}{%
+\subsection{Resumen}\label{resumen}}
+
+El objetivo es estudiar la especialización relativa relativa en el
+sector manufacturero y en el sector de servicios empresariales desde un
+enfoque espacial, considerando como unidades los 17 departamentos. Para
+esto se calcula la matriz de especialización relativa en 8 ramas
+agregadas según el Ministerio de Obras Públicas, se estudia su evolución
+y se identifica que Islas del Ibicuy presenta valores atípicos en la
+especialización relativa del sector servicios, así como un marcado
+comportamiento a priori, cíclico y estacionario. Por lo tanto, se
+excluye del análisis final. Por otro lado, se estudia la asociación
+entre la especialización relativa, permitiendo clasificar a los
+departamentos en especializados en manufactura, especializados en el
+sector primario o especializados en enseñanza y salud. Por último, se
+estudia la autocorrelación espacial a través del Índice Global de Morán,
+y se analiza la presencia de aglomerados de especialización a través del
+Índice Local de Moran, concluyendo en que la especialización relativa de
+los sectores industriales y de servicios empresariales se distribuyen de
+forma azarosa en la provincia, y no existe una tendencia al agrupamiento
+espacial ni un ``derrame'' entre vecinos.
 
 \hypertarget{anuxe1lisis-de-matriz-de-especializaciuxf3n-relativa}{%
 \subsection{Análisis de matriz de especialización
@@ -140,5 +111,48 @@ cada año, el cálculo de la especialización relativa por departamento y
 rama agregada según criterio del MOP. A partir de esto, se desea
 estudiar la evolución de la especialización relativa en el sector
 manufacturero y en el sector de servicios empresariales por año:
+
+\includegraphics{documento-final_files/figure-latex/unnamed-chunk-1-1.pdf}
+Se observa que Islas del Ibicuy presenta un comportamiento estable en la
+especialización de la industria manufacturera, pero presenta grandes
+oscilaciones en la industria de servicios empresariales; casi
+duplicando, en ciertos años, su participación relativa en el sector. Por
+lo tanto, se decide excluirla del análisis posterior y estudiarla de
+forma individual. Sin este departamento, la evolución de los sectores en
+cada departamento se da de la siguiente forma:
+
+\begin{figure}
+\centering
+\includegraphics{documento-final_files/figure-latex/unnamed-chunk-2-1.pdf}
+\caption{Esp. Relativa por departamento y serctor sin Islas del Ibicuy}
+\end{figure}
+
+Se destaca una disminución de la especialización relativa en el sector
+primario en Concordia desde el 2019, en contraposición a un aumento en
+la esp.~Relativa del sector de construcción. En el caso de Federal y
+Feliciano, sobresalen en términos de especialización relativa en el
+sector primario, y de servicios sociales y administración pública frente
+al resto.\\
+También se identifican comportamientos sobresalientes en algunos
+sectores en La Paz, Rosario del Tala y Villaguay. ASí como un cambio de
+tendencia en el sector de construcción en victoria, con una tendencia
+creciente desde 2020.
+
+Sin Islas del ibicuy, la tasa de variación entre el 2022 y el 2014 de la
+especialización relativa en la provincia queda de la siguiente manera:
+
+\begin{verbatim}
+## [1] "en_US.UTF-8"
+\end{verbatim}
+
+\includegraphics{documento-final_files/figure-latex/unnamed-chunk-3-1.pdf}
+\#\# Caracterización de los perfiles productivos en las provincias según
+especialización relativa
+
+Para la caracterización de las unidades bajo estudio se utilizan
+proyecciones multivariadas en las variables que recogen la
+especialización de un sector en cada unidad. Las dos primeras
+proyecciones explican casi el 80 \% de la variabilidad total, por lo que
+se utilizarán sólo esos para el análisis.
 
 \end{document}
